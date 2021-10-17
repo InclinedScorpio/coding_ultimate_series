@@ -1,0 +1,6 @@
+* [Ashutosh Tiwari](https://github.com/InclinedScorpio)
+* [Sashank Agarwal](https://github.com/sasagarw)
+* [Prathmesh Chandwade](https://github.com/pcc2k00)
+* [Deril Raju](https://github.com/deril2605)
+* [Artemis](https://github.com/the-artemis)
+* [Shyamal Jadav](https://github.com/shyamal-jadav)
