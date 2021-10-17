@@ -3,7 +3,7 @@
 
 Hacktoberfest
 
-<img alt="HF2021" src="https://github.com/InclinedScorpio/coding_ultimate_series/blob/main/hacktoberfest-2021.png">
+<img alt="HF2021" src="https://github.com/InclinedScorpio/coding_ultimate_series/blob/master/hacktoberfest-2021.png">
 
 [![](https://img.shields.io/github/forks/InclinedScorpio/coding_ultimate_series?style=for-the-badge)](#forks)
 
