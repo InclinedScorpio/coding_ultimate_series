@@ -4,3 +4,4 @@
 * [Deril Raju](https://github.com/deril2605)
 * [Artemis](https://github.com/the-artemis)
 * [Shyamal Jadav](https://github.com/shyamal-jadav)
+* [Pranshu Jain](https://github.com/pranshujain22)
