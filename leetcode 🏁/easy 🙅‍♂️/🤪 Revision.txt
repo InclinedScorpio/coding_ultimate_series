@@ -1,0 +1,29 @@
+1. c++ doesn't support string in switch as only primitive type are supported as 
+    switch creates a lookup and optimises the operations.
+    " Use Javascript as last resort "
+
+2. No issues even if O(n^3) - sometimes that's the only possible way to do!
+
+3. Iterating through a map
+   > Initialize an iterator
+        map<int,int>::iterator it;
+        for(it=store.begin();it!=store.end();it++) {
+            cout<< "Key1" << it->first;
+            cout << "key2 << it->second;
+        }
+    
+    // c++11 onwards
+    for (auto x : symbolTable)
+    {
+            std::cout << x.first  // string (key)
+              << ':' 
+              << x.second // string's value 
+              << std::endl;
+    }
+    
+    // new way - c++17 !!
+    for(auto [key,value]: store) {
+        cout<< "key" << key << "value" << value;
+    }
+
+4. use unordered_map, as it's faster (sometimes, map is faster!)
