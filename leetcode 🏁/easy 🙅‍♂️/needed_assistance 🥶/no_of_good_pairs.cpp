@@ -2,7 +2,7 @@
 
 /**
  * 1. Formula or math to calculate, no of similar pairs.
- * it's Sum of (N*N-1)/2, N is no of times a a no repeated.
+ * it's Sum of (N*N-1)/2, N is no of times a no is repeated.
  *
  * 2. Iterating through a map.
  *

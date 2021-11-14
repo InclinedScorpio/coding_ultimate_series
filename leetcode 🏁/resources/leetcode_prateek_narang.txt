@@ -1,0 +1,270 @@
+ 
+
+Course Link : http://bit.ly/dsalevelup Instructor : Prateek Narang
+Coding Minutes IDE : http://ide.codingminutes.com
+
+Practice Problems on Other Platforms
+(Note : All course problems are not available outside)
+
+Section 2 : Array and Vectors
+(i)	Pair Sum ->
+https://leetcode.com/problems/two-sum/
+
+(ii)	Triplets ->
+https://leetcode.com/problems/3sum/
+
+(iii)	Mountain ->
+https://leetcode.com/problems/longest-mountain-in-array/
+
+(iv)	Longest Band->
+https://leetcode.com/problems/longest-consecutive-sequence/
+
+(v)	Rains ->
+ https://leetcode.com/problems/trapping-rain-water/
+
+(vi)	Subarray sort-> 
+https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+
+(vii)	Min Swaps ->
+https://practice.geeksforgeeks.org/problems/minimum-swaps/1
+
+(viii)	Max Subarray->
+https://leetcode.com/problems/maximum-subarray/
+
+(ix)	Activity Selection Problem ->
+ https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+
+(X) Product Array -> 
+  https://leetcode.com/problems/product-of-array-except-self/
+
+
+
+
+
+Section 3 : String Problems
+(i)	String Key Sort ->
+https://leetcode.com/problems/largest-number/
+
+(ii)	Check Subsets ->
+ https://leetcode.com/problems/is-subsequence/
+
+
+(iii)	Sort Subsequences ->
+ https://leetcode.com/problems/subsets/
+
+(iv)	Run Length Encoding -> 
+https://leetcode.com/problems/string-compression/
+
+(v)	Palindrome Break ->
+ https://leetcode.com/problems/break-a-palindrome/
+
+(vi)	String Normalisation->
+ https://leetcode.com/problems/detect-capital/
+
+
+
+Section 4 : Sliding Window:
+
+(i)	Unique Substring->
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+(ii)	String Window ->
+ https://leetcode.com/problems/minimum-window-substring/
+
+(iii)	Sliding Window Max ->
+https://leetcode.com/problems/sliding-window-maximum/
+
+(iv)	Count subarrays with Target sum ->
+ https://leetcode.com/problems/subarray-sum-equals-k/
+
+
+
+
+Section 5 : Sorting and Searching:
+(i)	Merge Sort-> 
+https://leetcode.com/problems/sort-an-array/
+
+(ii)	Quick Sort -> 
+https://leetcode.com/problems/sort-an-array/
+
+(iii)	Quick Select -> 
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+(iv)	Count Inversion ->
+https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
+
+
+
+(v)	Smallest String ->
+https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/
+
+
+
+(vi)	Staircase search ->
+https://leetcode.com/problems/search-a-2d-matrix/
+
+(vii)	ICPC Standings ->
+ https://www.spoj.com/problems/BAISED/
+
+(viii)	Juggling Balls ->
+ https://leetcode.com/problems/sort-colors/
+
+(ix)	Sorting subarray ->
+https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+
+
+
+
+
+Section 6 : Binary Search:
+
+(i)Search in Rotated sorted array-> https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+ (ii)Square root ->
+ https://leetcode.com/problems/sqrtx/
+
+(iii) Angry Birds->
+ https://leetcode.com/problems/magnetic-force-between-two-balls/
+
+
+Section 7 : Recursion:
+
+Permutations(similar)
+https://leetcode.com/problems/permutations/
+
+Sudoku 
+https://leetcode.com/problems/sudoku-solver/
+
+Modulo Exponentiation /Power
+https://leetcode.com/problems/powx-n/
+
+N-Queens 
+https://leetcode.com/problems/n-queens/
+
+Game of coins/ Predict the winner 
+https://leetcode.com/problems/predict-the-winner/
+
+Rat in a maze
+https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+
+Longest Path
+https://practice.geeksforgeeks.org/problems/longest-path-in-a-matrix3019/1
+
+
+
+Section 8 : Linked list
+
+Create/design 
+https://leetcode.com/problems/design-linked-list/
+
+
+
+Middle Element
+https://leetcode.com/problems/middle-of-the-linked-list/
+
+Kth last element
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+Detect cycle in Linked list 
+https://leetcode.com/problems/linked-list-cycle/
+
+
+Section 9 : Stacks and Queue
+
+First non repeating character
+https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1
+
+Simplify Path
+ https://leetcode.com/problems/simplify-path/
+
+Stock Span
+https://leetcode.com/problems/online-stock-span/
+
+
+
+Section 10 : Binary Trees:
+
+Nodes at distance k (similar)
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+
+Left View
+https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+
+Siblings Swap/flip
+https://leetcode.com/problems/flip-equivalent-binary-trees/
+
+
+
+
+Section 11 : BST
+
+Search element 
+https://practice.geeksforgeeks.org/problems/search-a-node-in-bst/1
+
+Is BST
+https://leetcode.com/problems/validate-binary-search-tree/
+
+Lowest common ancestor
+https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1
+
+
+Section 12 Priority Queue
+
+Running Median
+https://leetcode.com/problems/find-median-from-data-stream/
+
+Merge k sorted arrays 
+https://leetcode.com/problems/merge-k-sorted-lists/
+  
+Section 13 : Hashing
+
+Minimum Bars : (similar ques)
+https://leetcode.com/problems/word-break-ii/  
+
+Group Anagrams :
+https://leetcode.com/problems/group-anagrams/
+
+Longest K sum subarray :
+https://leetcode.com/problems/subarray-sum-equals-k/
+
+Section 14 : Tries :
+https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+
+
+Section 15 : Graphs
+
+Snake and ladder game : 
+https://leetcode.com/problems/snakes-and-ladders/ 
+
+
+Largest island : 
+https://leetcode.com/problems/max-area-of-island/
+
+Astronaut Pairs : 
+https://www.hackerrank.com/challenges/journey-to-the-moon/problem
+
+
+Section 16 :  1D DP
+
+Frog jump : 
+https://leetcode.com/problems/jump-game-ii/
+
+
+Section 17 :  2D DP
+
+Coin change 2 : 
+https://leetcode.com/problems/coin-change-2/
+ 
+Mixtures Spoj : 
+https://www.spoj.com/problems/MIXTURES/
+
+ Edit Distance : 
+https://leetcode.com/problems/edit-distance/
+
+Wildcard Pattern : 
+https://leetcode.com/problems/wildcard-matching/
+
+Palindrom Partitioning : 
+https://leetcode.com/problems/palindrome-partitioning-ii 
+
+

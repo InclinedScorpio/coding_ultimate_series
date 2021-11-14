@@ -7,7 +7,7 @@
 3. Iterating through a map
    > Initialize an iterator
         map<int,int>::iterator it;
-        for(it=store.begin();it!=store.end();it++) {
+        for(auto it=store.begin();it!=store.end();it++) {
             cout<< "Key1" << it->first;
             cout << "key2 << it->second;
         }
@@ -27,3 +27,9 @@
     }
 
 4. use unordered_map, as it's faster (sometimes, map is faster!)
+
+5. | x | ==> modulus of a num
+    Use below methods...
+ * abs() for int
+ * fabs() for double
+ * fabsf() for float
