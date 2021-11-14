@@ -3,6 +3,9 @@
         "string": "cpp",
         "__locale": "cpp",
         "__string": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "queue": "cpp",
+        "array": "cpp",
+        "vector": "cpp"
     }
 }

@@ -27,6 +27,7 @@ Node* createTree(int *arr) {
     return node;
 }
 
+// traversal
 void preOrderTraversal(Node* node) {
     if(node==NULL) {
         return;
@@ -37,33 +38,10 @@ void preOrderTraversal(Node* node) {
     preOrderTraversal(node->right);
 }
 
-queue<Node*> storeData;
-
-// level order traversal
-void bfsTraversal(Node* node) {
-    if(!node) {
-        return;
-    }
-    if(storeData.empty()) {
-        storeData.push(node);
-    }
-    if(node->left) {
-        storeData.push(node->left);
-    }
-    if(node->right) {
-        storeData.push(node->right);
-    }
-    cout<<storeData.front()->data<<" ";
-    storeData.pop();
-
-    bfsTraversal(storeData.front());
-}
-
 int main() {
     int treeData[] = {1, 2, 4, -1, -1, 5, 7, -1, -1, -1, 3, -1, 6, -1, -1};
     Node* root = createTree(treeData);
 
-    // preOrderTraversal(root);
-
-    bfsTraversal(root);
+    // traversal
+    preOrderTraversal(root);
 }
