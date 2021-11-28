@@ -1,0 +1,28 @@
+Check notebook in evernote for theory.
+
+Theoritical
+1) BFS(breadth first search) & LOT(level order traversal) are same thing
+> "search" and "traversal" can be used interchangeably.
+
+=========================================================
+
+1. Using QUEUE (push, pop)
+> queue<type> q;
+> q.push("hello");
+> q.pop(); -> DOESN't RETURN ANY DATA !
+> q.front(); -> RETURNS DATA AT FRONT !
+> q.size(); -> RETURNS CURRENT SIZE/LENGTH OF QUEUE !
+push is Last, pop is First - "LIFO"
+
+
+2. Similar to level order traversal with endl, it maybe asked 
+Q) "On which level in Tree is 3 present?"
+A) Just keep counting (NULL_count-1) <- answer!
+
+
+3. Segmentation Fault May come during
+  > Index out of bounds
+  > queue.pop() - there is nothing in queue
+  > If can't figure out, comment out code and check
+
+

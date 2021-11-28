@@ -17,7 +17,7 @@ class Node {
 int globalIndex=-1;
 Node* createTree(int *arr) {
     globalIndex++;
-    if(arr[globalIndex]<0) {
+    if(arr[globalIndex]<0) { // -1
         return NULL;
     }
     Node* node = new Node(arr[globalIndex]);
@@ -26,7 +26,7 @@ Node* createTree(int *arr) {
     return node;
 }
 
-// bfs traversal
+// bfs traversal (horizontal printing)
 queue<Node*> storeData;
 void bfsTraversal(Node* node) {
     if(!node) {

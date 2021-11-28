@@ -5,65 +5,93 @@ using namespace std;
 
 class Node {
     public:
-        int data;
         Node* left;
         Node* right;
+        int data;
 
-    Node(int data) {
-        this->data = data;
-    }
+        Node(int data, Node* left, Node* right) {
+            this->data = data;
+            this->left = left;
+            this->right = right;
+        }
 };
 
-int globalIndex=-1;
+Node* createTree(int arr[], int sizeOfArr) {
+    // create root and push in queue
+    Node* root = new Node(arr[0], NULL, NULL);
+    queue<Node*> queue;
+    queue.push(root);
 
-Node* createTree(int *arr) {
-    globalIndex++;
-    if(arr[globalIndex]<0) {
-        return NULL;
+    int index=0;
+    while(index<sizeOfArr) {
+        
+        Node* curr = queue.front();
+       
+        if(!queue.empty()) {
+            queue.pop();
+        }//had to do as queue.pop() in case any iter q is empty
+
+        if(!curr) {
+            index++;
+            continue;
+        } 
+
+        // create left & right and link to current node
+        if( ((2*index+1) < sizeOfArr) ) {
+            if(arr[2*index+1]!=-1) {
+                Node* left = new Node(arr[2*index+1], NULL, NULL);
+                curr->left = left;
+                queue.push(left);
+            }
+        }
+        if( ((2*index+1) < sizeOfArr) && arr[2*index+1]==-1) {
+            queue.push(NULL);
+        }
+
+        if( ((2*index+2) < sizeOfArr) && arr[2*index+2]!=-1 ) {
+            Node* right = new Node(arr[2*index+2], NULL, NULL);
+            curr->right = right;
+            queue.push(right);
+        }
+        if( ((2*index+2) < sizeOfArr) && arr[2*index+2]==-1) {
+            queue.push(NULL);
+        }
+        index++;
     }
-    Node* node = new Node(arr[globalIndex]);
-    node->left = createTree(arr);
-    node->right = createTree(arr);
-    return node;
-}
+    return root;
+}   
 
-void preOrderTraversal(Node* node) {
-    if(node==NULL) {
-        return;
-    } 
+void bfsTraversalWithNIter(Node* root) {
+    queue<Node*> queueIter;
+    queueIter.push(root);
+    queueIter.push(NULL);
 
-    cout<<node->data<<" ";
-    preOrderTraversal(node->left);
-    preOrderTraversal(node->right);
-}
+    while(!queueIter.empty()) {
+        Node* temp = queueIter.front();
+        if(temp && temp->left) {
+            queueIter.push(temp->left);
+        }
+        if(temp && temp->right) {
+            queueIter.push(temp->right);
+        }
 
-queue<Node*> storeData;
-
-// level order traversal
-void bfsTraversal(Node* node) {
-    if(!node) {
-        return;
+        if(temp==NULL) {
+            cout<<endl;
+            if(queueIter.size()==1){
+                break;
+            }
+            queueIter.push(NULL);
+        }else {
+            cout<<temp->data<<" ";
+        }
+            queueIter.pop();
     }
-    if(storeData.empty()) {
-        storeData.push(node);
-    }
-    if(node->left) {
-        storeData.push(node->left);
-    }
-    if(node->right) {
-        storeData.push(node->right);
-    }
-    cout<<storeData.front()->data<<" ";
-    storeData.pop();
-
-    bfsTraversal(storeData.front());
 }
 
 int main() {
-    int treeData[] = {1, 2, 4, -1, -1, 5, 7, -1, -1, -1, 3, -1, 6, -1, -1};
-    Node* root = createTree(treeData);
+    int levelOrder[] = {1, 2, 3, 4, 5, -1, 6, -1, -1, 7, -1, -1, -1, -1, -1};
+    int sizeOfArr = sizeof(levelOrder)/sizeof(levelOrder[0]);
+    Node* root = createTree(levelOrder, sizeOfArr);
 
-    // preOrderTraversal(root);
-
-    bfsTraversal(root);
+    bfsTraversalWithNIter(root);
 }

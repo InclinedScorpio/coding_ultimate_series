@@ -16,6 +16,12 @@ class Node {
         }
 };
 
+/**
+ * Recursive is better as it's clean
+ * This can also be done
+ * 
+ * LOGIC: 2i+1, 2i+2 are the left and right child 
+ */ 
 Node* createTree(int arr[], int sizeOfArr) {
     // create root and push in queue
     Node* root = new Node(arr[0], NULL, NULL);
@@ -26,20 +32,23 @@ Node* createTree(int arr[], int sizeOfArr) {
     while(index<sizeOfArr) {
         
         Node* curr = queue.front();
-        queue.pop();
+       
+        if(!queue.empty()) {
+            queue.pop();
+        } // had to do as queue.pop() in case any iter q is empty
 
         if(!curr) {
             index++;
             continue;
         } 
 
-        // cout<<curr->data<<" ";
-
         // create left & right and link to current node
-        if( ((2*index+1) < sizeOfArr) && arr[2*index+1]!=-1 ) {
-            Node* left = new Node(arr[2*index+1], NULL, NULL);
-            curr->left = left;
-            queue.push(left);
+        if( ((2*index+1) < sizeOfArr) ) {
+            if(arr[2*index+1]!=-1) {
+                Node* left = new Node(arr[2*index+1], NULL, NULL);
+                curr->left = left;
+                queue.push(left);
+            }
         }
         if( ((2*index+1) < sizeOfArr) && arr[2*index+1]==-1) {
             queue.push(NULL);

@@ -6,6 +6,17 @@
         "string_view": "cpp",
         "queue": "cpp",
         "array": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "__node_handle": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "iterator": "cpp",
+        "unordered_map": "cpp",
+        "ios": "cpp",
+        "__hash_table": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "ostream": "cpp"
     }
 }
