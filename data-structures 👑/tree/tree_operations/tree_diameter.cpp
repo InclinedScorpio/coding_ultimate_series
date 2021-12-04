@@ -38,6 +38,8 @@ int maxHeight(Node* node, int ind) {
 }
 
 /**
+ * TC: O(N^2)- because on each node we are calculating the maxHeight: O(N)
+ * 
  * LOGIC: Think of top Node... max dia will pass through this top node right ?
  * Nope, it may bypass through node->left...or ummm left->right or node->left->left
  *
