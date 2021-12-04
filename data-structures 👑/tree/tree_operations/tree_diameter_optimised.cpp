@@ -66,8 +66,8 @@ MaxDetails* maxDiameter(Node* node) {
     }
 
     /**
-     *  USE "+1" as returning node data must mention the incremented depth
-     *  This logic depends upon us
+     *  USE "+1" as returning node data must have the incremented depth
+     *  "This logic depends upon us"
      */ 
     return new MaxDetails(max(leftSubtree->depth, rightSubtree->depth)+1, currMaxDia);
 }
