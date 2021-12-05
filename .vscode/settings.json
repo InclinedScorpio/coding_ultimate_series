@@ -19,6 +19,7 @@
         "utility": "cpp",
         "ostream": "cpp",
         "algorithm": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "memory": "cpp"
     }
 }

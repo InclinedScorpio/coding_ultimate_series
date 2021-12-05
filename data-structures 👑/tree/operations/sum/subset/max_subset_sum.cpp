@@ -40,6 +40,8 @@ Node* createTree(int *arr) {
  * 3. If it's exlusion- pick whatever is max(inclusion/exclusion) of children...
  * ... as it's not compulsory that alternative has to be picked
  * 
+ * SIMILAR: To Leetcode > easy > array > Stickler Theif Array Question
+ * 
  */ 
 pair<int,int> subsetSum(Node* node) {
     pair<int,int> currPair;
