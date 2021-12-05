@@ -14,15 +14,27 @@ Theoritical
 > q.size(); -> RETURNS CURRENT SIZE/LENGTH OF QUEUE !
 push is Last, pop is First - "LIFO"
 
-
-2. Similar to level order traversal with endl, it maybe asked 
+2. "Similar to level order traversal with endl, it maybe asked"
 Q) "On which level in Tree is 3 present?"
-A) Just keep counting (NULL_count-1) <- answer!
-
+A) Just keep counting (NULL_count-1) <- answer (Because NULL gets added after each level)
 
 3. Segmentation Fault May come during
   > Index out of bounds
   > queue.pop() - there is nothing in queue
   > If can't figure out, comment out code and check
 
+4. Breadth First Search = Level Order Traversal
+  > Search here indicates traversal 
 
+5. Modulues | X | 
+    > abs() for int
+    > fabs() for double
+    > fabsf() for float
+
+6. Traversals Types (Depends upon 'root' position)
+  6.1 InOrder Traversal
+    > left/'root'/right
+  6.2 PreOrder Traversal
+    > 'root'/left/right
+  6.3 PostOrder Traversal
+    > left/right/'root'

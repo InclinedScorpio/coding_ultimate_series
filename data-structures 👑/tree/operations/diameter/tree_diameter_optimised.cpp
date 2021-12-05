@@ -56,7 +56,7 @@ MaxDetails* maxDiameter(Node* node) {
     MaxDetails* leftSubtree = maxDiameter(node->left);
     MaxDetails* rightSubtree = maxDiameter(node->right);
 
-    // calculations for calucalting current depth and height
+    // calculations for calculating current depth and height
     int currMaxDia = leftSubtree->depth+ rightSubtree->depth;
 
     if( currMaxDia < leftSubtree->maxDia ) {
