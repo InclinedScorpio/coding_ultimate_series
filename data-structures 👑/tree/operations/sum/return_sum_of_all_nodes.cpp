@@ -30,7 +30,6 @@ Node* createTree(int arr[]) {
  * LOGIC: Return 0 for null and data on leaf node
  * Rest keep adding and returning them
  * 
- * 
  */ 
 int returnNodeSum(Node* node){
     if(node==NULL) {

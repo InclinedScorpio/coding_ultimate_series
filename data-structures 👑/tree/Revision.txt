@@ -38,3 +38,5 @@ A) Just keep counting (NULL_count-1) <- answer (Because NULL gets added after ea
     > 'root'/left/right
   6.3 PostOrder Traversal
     > left/right/'root'
+
+7. Debugging in recursion: use cout<<

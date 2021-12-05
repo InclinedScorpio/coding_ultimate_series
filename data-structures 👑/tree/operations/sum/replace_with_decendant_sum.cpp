@@ -27,10 +27,10 @@ Node* createTree(int arr[]) {
 }
 
 /**
+ * QUESTION: Find sum of all child nodes for a even node
  * LOGIC: Similar to return_sum_of_all_nodes
  * 1. Just keep returning the total sum
  * 2. And, assign left & right node sum to current node
- * 
  * 
  */ 
 int descendentSum(Node* node){
