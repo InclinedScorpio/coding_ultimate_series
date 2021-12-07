@@ -27,11 +27,11 @@ void find_node_at_level_k(Node* node, int k, int level=0) {
 
 /***
  * TREE:
- * 								 1
+ *                               1
  *                        2              3
- * 					4		    5*			  6
- * 						   7        8
- * 								 9    10
+ *                  4         5*            6
+ *                        7        8
+ *                              9    10
  * 
  * 
  * COMPLEXITY: O(N^2)
