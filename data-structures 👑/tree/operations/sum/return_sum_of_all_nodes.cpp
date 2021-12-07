@@ -40,11 +40,10 @@ int returnNodeSum(Node* node){
     }
     int leftSum = returnNodeSum(node->left);
     int rightSum = returnNodeSum(node->right);
-    return leftSum+rightSum;
+    return node->data+leftSum+rightSum;
 
     // return returnNodeSum(node->left) + returnNodeSum(node->right);
 }
-
 
 int main() {
     int treeData[] = {1, 2, 4, -1, -1, 5, 7, -1, -1, -1, 3, -1, 6, -1, -1};
