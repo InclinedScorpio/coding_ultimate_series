@@ -1,0 +1,2 @@
+1. Sticker Thief (Array, DP) & Max Subset Sum (Tree)
+    > Inclusion/Exclusion principle used in both

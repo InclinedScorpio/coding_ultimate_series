@@ -42,6 +42,8 @@ Node* createTree(int *arr) {
  * 
  * SIMILAR: To Leetcode > easy > array > Stickler Theif Array Question
  * 
+ * NOTE: In place of pair, class can also be used (As Class would be more readable in this case)
+ * 
  */ 
 pair<int,int> subsetSum(Node* node) {
     pair<int,int> currPair;

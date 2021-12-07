@@ -15,8 +15,9 @@ Theoritical
 push is Last, pop is First - "LIFO"
 
 2. "Similar to level order traversal with endl, it maybe asked"
-Q) "On which level in Tree is 3 present?"
+Q) "On which level in Tree is '3' present?"
 A) Just keep counting (NULL_count-1) <- answer (Because NULL gets added after each level)
+  > Other alternative would be to send a flag and keep doing "+ 1"
 
 3. Segmentation Fault May come during
   > Index out of bounds
