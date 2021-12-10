@@ -26,10 +26,40 @@
         cout<< "key" << key << "value" << value;
     }
 
-4. use unordered_map, as it's faster (sometimes, map is faster!)
+4. Use unordered_map, as it's faster (sometimes, map is faster!)
 
 5. | x | ==> modulus of a num
     Use below methods...
  * abs() for int
  * fabs() for double
  * fabsf() for float
+
+6. Check if key exists in map:
+    1)
+            if (m.find(key) != m.end())
+                return "PRESENT";
+    
+    2)
+            if (m.count(key) == 0)
+                return "Not Present";
+
+7. Store keys with multiple values:
+    map<int, vector<int> > map_vector_mapping;
+
+8. Initialize vector from array:
+    vector<int> vect(arr, arr + n);
+
+9. Create vector of size 10:
+    vector<int> vect1(10);
+
+10. Initialize vector in single line:
+    vector<int> vect1 { 10, 20 };
+    OR
+    vector<int> vect1 = { 10, 20 };
+
+
+    // NOTE: () - means size, {} - means values
+
+
+
+
