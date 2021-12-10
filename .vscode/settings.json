@@ -21,6 +21,7 @@
         "algorithm": "cpp",
         "type_traits": "cpp",
         "memory": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "__tree": "cpp"
     }
 }
