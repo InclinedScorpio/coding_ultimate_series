@@ -1,0 +1,13 @@
+Q) What' a BST ?
+A)
+    > It's a Binary Tree ( All node have max 2 children )
+    > Left node must be < Root
+    > Right node must be >= Root
+    > "=" can be on either direction, but not both
+
+=> Binary Search Tree (Notes)
+    > BST problems follow a 'recursive' structure
+    > Mostly all problems are solved by diving problem into subproblems and making recursive calls on subtree
+    > Inorder traversal is always sorted
+    > BST makes 'searching efficient'
+

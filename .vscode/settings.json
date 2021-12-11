@@ -22,6 +22,7 @@
         "type_traits": "cpp",
         "memory": "cpp",
         "map": "cpp",
-        "__tree": "cpp"
+        "__tree": "cpp",
+        "functional": "cpp"
     }
 }
