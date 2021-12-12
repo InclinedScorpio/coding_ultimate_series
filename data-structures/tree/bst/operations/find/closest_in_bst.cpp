@@ -16,19 +16,25 @@ class Node {
 };
 
 int closest = INT_MAX;
+int nearestValue;
 /**
- * COMPLEXITY: O(Height) - in case of recursion we will traverse till the last
- * O(1) - in case of iterative approach
+ * TIME-COMPLEXITY: O(N)
+ * SPACE-COMPLEXITY: O(Height) - recursion | O(1) - iterative
  * LOGIC: Pick the required branch on each step
  * 
  */ 
 int closestInBST(Node* node, int key){
     if(node==NULL) {
-        return closest;
+        return nearestValue;
     }
     int currClosest = abs(node->data - key);
+    if(currClosest == 0) {
+        return node->data;
+    }
+
     if(closest > currClosest) {
-        closest = node->data;
+        nearestValue = node->data;
+        closest = currClosest;
     }
     if (node->data > key) {
         return closestInBST(node->left, key);
@@ -45,8 +51,8 @@ int main() {
     root->left->right = new Node(6);
     root->left->right->left = new Node(4);
     root->left->right->right = new Node(7);
-    root->right->right = new Node(12);
-    root->right->right->right = new Node(23);
+    root->right->right = new Node(15);
+    root->right->right->right = new Node(25);
     root->right->right->left = new Node(13);
     cout<<closestInBST(root, 16);
 }
