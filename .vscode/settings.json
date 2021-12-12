@@ -23,6 +23,7 @@
         "memory": "cpp",
         "map": "cpp",
         "__tree": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "iostream": "cpp"
     }
 }
