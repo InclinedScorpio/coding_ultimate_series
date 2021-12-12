@@ -16,12 +16,15 @@ class Node {
  * Both recursive and iterative approach can be used
  * 
  */ 
-Node* insertAtHead(Node* head, int data) {
-	if(head==NULL) {
-		return new Node(data);
-	}
-	head->next = insertAtHead(head->next, data);
-	return head;
+void insertAtHead(Node* &head, int data) { // head contains address(&) of Node* type
+    if(head == NULL) {
+        head = new Node(data);
+        return;
+    }
+    Node* newHead = new Node(data);
+    newHead->next = head;
+    head = newHead;
+    return;
 }
 
 int main() {
