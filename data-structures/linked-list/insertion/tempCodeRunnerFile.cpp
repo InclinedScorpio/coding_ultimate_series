@@ -1,1 +1,0 @@
-    cout<<" node main: "<< head;

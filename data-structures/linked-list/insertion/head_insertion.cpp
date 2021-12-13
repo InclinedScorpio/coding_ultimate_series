@@ -14,6 +14,8 @@ class Node {
 
 /**
  * Both recursive and iterative approach can be used
+ * NOTE: Pass by ref (&) is more efficient
+ * > In pass by ref, the variable will now have reference to the same heap area
  * 
  */ 
 void insertAtHead(Node* &head, int data) { // head contains address(&) of Node* type
