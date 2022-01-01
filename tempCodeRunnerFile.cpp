@@ -1,0 +1,2 @@
+ore();
+    cin.clear();

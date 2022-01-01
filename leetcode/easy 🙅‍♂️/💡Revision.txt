@@ -1,0 +1,3 @@
+1. to_string(x)
+- Converts everything to string- int, float etc.
+- Even (-) sign is converted to string

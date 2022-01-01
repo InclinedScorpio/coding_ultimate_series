@@ -25,6 +25,9 @@
         "__tree": "cpp",
         "functional": "cpp",
         "iostream": "cpp",
-        "exception": "cpp"
+        "exception": "cpp",
+        "istream": "cpp",
+        "filesystem": "cpp",
+        "iosfwd": "cpp"
     }
 }
