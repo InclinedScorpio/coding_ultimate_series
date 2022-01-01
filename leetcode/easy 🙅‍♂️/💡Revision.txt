@@ -1,3 +1,8 @@
 1. to_string(x)
 - Converts everything to string- int, float etc.
 - Even (-) sign is converted to string
+
+2. stack 
+- stack.push(), stack.pop()
+- stack.top() => return last entered 
+- stack.empty() => stack is empty()
