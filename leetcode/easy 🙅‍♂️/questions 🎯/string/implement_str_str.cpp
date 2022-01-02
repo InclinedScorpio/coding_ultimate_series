@@ -9,16 +9,13 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        
         if(haystack == "" && needle == "") {
             return 0;
-        } 
-        
+        }
         int result = haystack.find(needle);
         if(result == string::npos) {
             return -1;
         }
         return result;
-        
     }
 };
