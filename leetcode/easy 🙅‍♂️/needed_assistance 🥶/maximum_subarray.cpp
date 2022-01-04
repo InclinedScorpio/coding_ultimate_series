@@ -5,28 +5,29 @@
  * 1. Keep a check on current Maximim sum you have encountered
  *
  * 2. 
- * Keep a currentMax which will sum up the max value continuous
+ * Keep a currentSum which will sum up the max value continuous
  * And if it encounters negative - turn it 0 as there is no use of having those values
  * 
+ * CATCH: max(currSum+nums[i], nums[i]) should be done as 'nums[i]' maybe positive and must not be skipped
  */ 
 
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int currMaxSum = nums[0];
-        int currMax = nums[0];
+        int currMaxSum = INT_MIN;
+        int currSum = 0;
         
-        for(int i=1;i<nums.size();i++) {
-            if(currMax + nums[i] > currMaxSum && currMax + nums[i] > nums[i]) {
-                currMaxSum = currMax + nums[i];
-                currMax = currMax + nums[i];
-            }else if(nums[i] > currMaxSum) {
-              currMaxSum = nums[i];
-              currMax = nums[i];  
-            } else if (currMax  + nums[i] < 0) {
-                currMax = 0;
+        for(int i=0;i<nums.size();i++) {
+
+            // use max of both otherwise nums[i] will be skipped in current iteration
+            int additionToDo = max(currSum+nums[i], nums[i]);
+            if(additionToDo > currMaxSum) {
+                currMaxSum = additionToDo;
+                currSum = additionToDo;
+            }else if (additionToDo > 0) {
+                currSum = additionToDo;
             } else {
-                currMax = currMax + nums[i];
+                currSum = 0;
             }
         }
         return currMaxSum;
