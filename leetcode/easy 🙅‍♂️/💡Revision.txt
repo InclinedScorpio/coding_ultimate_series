@@ -16,6 +16,9 @@ char a = 'A';
 string mystring;
 mystring.push_back(a); // string like a vector
 
+5. Sqrt - pow(x, 0.5) OR DO Binary Search for finding (O LogN)
+- NOTE: For doing binary search- numbers must be sorted!
+
 
 
 
