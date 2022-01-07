@@ -11,4 +11,11 @@
 - mystr.find("tiw") => finds the occurance of "tiw" and returns index
 - If couldn't find returns max value of string -> "string:npos"
 
+4. character to string
+char a = 'A';
+string mystring;
+mystring.push_back(a); // string like a vector
+
+
+
 
