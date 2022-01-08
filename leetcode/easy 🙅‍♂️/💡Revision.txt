@@ -16,9 +16,26 @@ char a = 'A';
 string mystring;
 mystring.push_back(a); // string like a vector
 
-5. Sqrt - pow(x, 0.5) OR DO Binary Search for finding (O LogN)
+5. Sqrt - pow(x, 0.5) OR Perform a Binary Search (O LogN)
 - NOTE: For doing binary search- numbers must be sorted!
 
+6. Vector: 
+* sort method
+- sort(myVector.begin(), myVector.end());
+
+* insert at an index
+- myVector.insert(myVector.begin()+0, 5); //insert at 0th index
+- Above command returns ref to first index of vector i.e myVector.begin()...
+- ...hence we can do:
+> auto it = myVector.insert(myVector.begin()+4, 3);
+> myVector.insert(it+4, 8); //as 'it' refers to first index of vector
+
+* erase items from vector
+- myVector.erase(myVector.begin()+4); // remove 4th index
+
+* erase multiple elements
+- myVector.erase(myVector.begin()+3, myVector.begin()+6); //from 3 to 6 erase
+- myVector.erase(myVector.begin()+3, myVector.end()); //erase everything after index 3
 
 
 
