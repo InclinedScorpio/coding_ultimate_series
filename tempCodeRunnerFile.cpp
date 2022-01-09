@@ -1,2 +1,1 @@
-ore();
-    cin.clear();
+reverseLinkedList

@@ -37,6 +37,7 @@ void iterateLinkedList(Node* head) {
  * LOGIC: Keep assigning next of next (Adress in next of next node) to current node
  *  > From last node return the node which will act as head now
  *  > keep assigning current node's next as NULL
+ * - Think in perspective of 2 nodes at first! Then start thinking about multiple nodes
  * 
  */ 
 Node* reverseLinkedList(Node* node) {
