@@ -39,6 +39,8 @@ void iterateLinkedList(Node* head) {
  *  > keep assigning current node's next as NULL
  * - Think in perspective of 2 nodes at first! Then start thinking about multiple nodes
  * 
+ * SPACECOMPLEXITY: More than Iterative approach as multiple stacks will be created
+ * 
  */ 
 Node* reverseLinkedList(Node* node) {
     if(node->next==NULL) {
