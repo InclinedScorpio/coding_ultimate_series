@@ -6,6 +6,7 @@
 - stack.push(), stack.pop()
 - stack.top() => return last entered 
 - stack.empty() => stack is empty()
+- stack.size()
 
 3. string
 - mystr.find("tiw") => finds the occurance of "tiw" and returns index
@@ -38,4 +39,5 @@ mystring.push_back(a); // string like a vector
 - myVector.erase(myVector.begin()+3, myVector.end()); //erase everything after index 3
 
 
-
+7. Queue:
+- Operations: push, pop, front, back, size
