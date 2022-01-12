@@ -38,6 +38,10 @@ mystring.push_back(a); // string like a vector
 - myVector.erase(myVector.begin()+3, myVector.begin()+6); //from 3 to 6 erase
 - myVector.erase(myVector.begin()+3, myVector.end()); //erase everything after index 3
 
-
 7. Queue:
 - Operations: push, pop, front, back, size
+
+8. modf(double_num, &afterdecimal)   
+- Breaks double_num into two parts
+- fraction = modf(double_num, &afterdecimal)
+- if double_num is 2.456 => fraction=2 & afterdecimal=456
