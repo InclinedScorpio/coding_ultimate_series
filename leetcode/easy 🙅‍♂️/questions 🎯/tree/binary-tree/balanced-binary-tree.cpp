@@ -20,7 +20,7 @@
  * - There are generally 3 steps in recursion - base condition, next call, some calculation and return
  * 
  * 
- * /
+ **/
 struct TreeData {
     int height;
     bool isBalanced;
