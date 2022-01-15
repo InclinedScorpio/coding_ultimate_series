@@ -45,3 +45,8 @@ mystring.push_back(a); // string like a vector
 - Breaks double_num into two parts
 - fraction = modf(double_num, &afterdecimal)
 - if double_num is 2.456 => fraction=2 & afterdecimal=456
+
+9. Setting Precision - "fixed", "setprecision"
+- float a = 1.23456;
+- cout<<fixed<<setprecision(4)<<a; // Output: 1.2345
+- cout<<precision(4)<<a; // Output: 1.234
