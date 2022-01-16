@@ -32,6 +32,8 @@
         "chrono": "cpp",
         "limits": "cpp",
         "ratio": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "list": "cpp",
+        "stack": "cpp"
     }
 }
