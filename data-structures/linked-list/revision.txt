@@ -1,0 +1,18 @@
+Using List STL
+
+> LIST INTRODUCTION
+- List is doubly linked list, vector is singly linked list
+- In List, fetching specific index won't be quick as vector... but other fn like add, delete is better
+
+> LIST OPERATIONS
+- push_back(2), pop_back(), front(), back(), reverse(), sort(), empty()
+- insert(pointer, value), erase(list.begin(), advance(ptr, 2))
+
+> USING advance ( To change pointer )
+- advance(ptr, 2); //increase pointer to 2 steps
+
+> ITERATING LIST
+for(list<int>::iterator i=l.begin();i!=l.end();i++){
+    cout<<*i;
+}
+

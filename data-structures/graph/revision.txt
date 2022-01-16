@@ -1,0 +1,59 @@
+> Graph Introduction
+- Graph is made up of vertex, edges!
+- Edges can represent - weight, cost, length etc.
+
+
+> TYPES OF GRAPH (it's basically based on edges)
+1. Weighted Graph - edge has some number respresenting something
+2. Unweighted Graph - edge doesn't have any value given
+3. Undirected Graph - No direction of edge is shown
+4. Directed Graph - Directions of edges are given
+
+    ------------------------------------------------------
+
+> Respresenting Graph in Code
+1. Adjacency Matrix
+2. Adjacency List
+
+1) Adjacency Matrix
+- We take a matrix and respresent vertices from matrix index and value contained is edge value
+
+X   0   1   2   3   
+0   F   F   T   F
+1   F   F   T   T
+2   F   F   F   T
+3   F   F   F   F
+... basically we are showing 0 is connected to 2, 1 is connected to 2,3 and 2 is connected to 3
+- T/F can be replaced by NULL, Weight in case of weiged matrix
+
+2) Adjacency List
+
+0 -> (2)
+1 -> (2,3)
+2 -> (3)
+3 -> ()
+... respresents, 0 is connected to 2, 1 to 2,3 and 2 to 3, 3 is not connected to anything
+
+    ------------------------------------------------------
+
+COMPARING BOTH REPRESENTATION
+- Advantage of List
+    1) Finding Direct Neighbour
+    -   We can get the neighbour of a vertex quickly if present, in case of matrix we have to traverse all the way to the end
+        ... In case of Matrix it will take O(N) time, but for List, it will be less always
+
+- Advantage of Matrix
+    1) Checking if 2 vertex is connected
+    -   Matrix can give result in O(1) as if btw 2,3 we need to check => matrix[2,3] (Result)
+    -   While in case of List, we need to iterate over 2's connected vertices to check
+
+- Disadvantage of Matrix
+    1) Memory
+    -   Matrix takes more memory, if N vertex then memory required - > O(N^2)
+    -   List will take only O(N+Edges)
+
+    ------------------------------------------------------
+
+> Finding Neighbours is done more frequently, hence List is better most times!
+
+
