@@ -30,34 +30,45 @@ class Node {
 
 class Graph {
 
-    public:
+public:
     map<string, Node*> store;
 
-    void addNode(string from, string to) {
-        if(store[from]){
-            store[from]->addWayTo(to);
-        }else {
-            Node *node = new Node(from);
-            node->addWayTo(to);
-            store[from] = node;
+    Graph(vector<string>& counteries) {
+        for(string country: counteries) {
+            store[country] = new Node(country);
         }
     }
 
+    void addNode(string from, string to) {
+        store[from]->addWayTo(to);
+    }
+
     void showGraph() {
-        map<string, Node*>::iterator itr;
-        for(itr=store.begin(); itr!=store.end();itr++) {
-            cout<<"Node: "<<itr->first<<" --> ";
-            for(int i=0;i<itr->second->wayTo.size();i++) {
-                cout<<itr->second->wayTo[i]<<", ";
+        for(auto nodes: this->store) {
+            cout<<"Node: "<<nodes.first<<" --> ";
+            for(string wayTo: nodes.second->wayTo) {
+                cout<<wayTo<<", ";
             }
             cout<<endl;
         }
+
+        // // MY INITIAL APPROACH (BETTER IS TO USE FOR EACH - CLEAN)
+        // map<string, Node*>::iterator itr;
+        // for(itr=store.begin(); itr!=store.end();itr++) {
+        //     cout<<"Node: "<<itr->first<<" --> ";
+        //     for(int i=0;i<itr->second->wayTo.size();i++) {
+        //         cout<<itr->second->wayTo[i]<<", ";
+        //     }
+        //     cout<<endl;
+        // }
     }
 };
 
 int main() {
 
-    Graph *graph = new Graph();
+    vector<string> countries = {"Delhi", "London", "Paris", "New York"};
+    Graph *graph = new Graph(countries);
+    
     graph->addNode("Delhi", "London");
     graph->addNode("Delhi", "Paris");
     graph->addNode("Paris", "New York");
