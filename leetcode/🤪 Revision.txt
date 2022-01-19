@@ -43,7 +43,7 @@
             if (m.count(key) == 0)
                 return "Not Present";
 
-7. Store keys with multiple values:
+7. Store keys with multiple values: (helpful in maps)
     map<int, vector<int> > map_vector_mapping;
 
 8. Initialize vector from array:
@@ -57,9 +57,14 @@
     OR
     vector<int> vect1 = { 10, 20 };
 
-
     // NOTE: () - means size, {} - means values
 
+
+11. Difference btw . and ->
+- foo->bar() is the same as (*foo).bar().
+- The parenthesizes above are necessary because of the binding strength of the * and . operators.
+- *foo.bar() wouldn't work because Dot (.) operator is evaluated first
+- Summary: when it's pointer use ->, when it's directly object given use '.'
 
 
 
