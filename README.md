@@ -1,6 +1,8 @@
 # Coding Ultimate Series
 ![](https://visitor-badge.glitch.me/badge?page_id=coding_ultimate_series)
 
+## NOTE: After forking, please create another branch so your changes are separate. Feel free to raise pull request :)
+
 Hacktoberfest
 
 <img alt="HF2021" src="https://github.com/InclinedScorpio/coding_ultimate_series/blob/master/misc/hacktoberfest-2021.png">
