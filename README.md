@@ -1,7 +1,7 @@
 # Coding Ultimate Series
 ![](https://visitor-badge.glitch.me/badge?page_id=coding_ultimate_series)
 
-## NOTE: After forking, please create another branch so your changes are separate. Feel free to raise pull request :)
+## NOTE: After forking, please create another branch(let me know the name) so your changes are separate. Feel free to raise pull request :)
 
 Hacktoberfest
 
