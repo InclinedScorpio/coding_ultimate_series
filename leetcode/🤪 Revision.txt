@@ -75,3 +75,13 @@ of all cases(searching, inserting, deleting ) in BST is log (n) in the average c
         = s.begin(); // s.begin() returns a pointer to first
                      // element in the set
  advance(itr, k - 1);
+
+13. Size of int, long, signed, unsigned
+4 byte --> unsigned int (0-2^32)....2^32 means 4...(10 digits in total)
+4 byte --> signed int (-2^31 - +2^31)..... means 2....(10 digits in total)
+so if signed -ve are shifted to + then + becomes 2 * 2^31 => 2^32
+
+° long long int	8 byte	-(2^63) to (2^63)-1  (4.....(19 digits in total))
+° unsigned long long int	8 byte	0 to 18,446,744,073,709,551,615  (20 digits in total) 
+- Above unsigned long long int size is -> 2^64 (- double of unsigned int)
+- For signed, one index is used for size hence size becomes - 2^63 (occupies both + and -)
