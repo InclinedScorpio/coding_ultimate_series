@@ -66,5 +66,12 @@
 - *foo.bar() wouldn't work because Dot (.) operator is evaluated first
 - Summary: when it's pointer use ->, when it's directly object given use '.'
 
-
-
+12. Set is Binary Tree - O(N)- insert, delete, find
+- Set in C++ STL is implemented using Binary Search Tree and we also know that the time complexity
+of all cases(searching, inserting, deleting ) in BST is log (n) in the average case and O(n) in the worst case
+- set<int> s(arr, arr + n);
+- To iterate:
+ set<int>::iterator itr
+        = s.begin(); // s.begin() returns a pointer to first
+                     // element in the set
+ advance(itr, k - 1);
