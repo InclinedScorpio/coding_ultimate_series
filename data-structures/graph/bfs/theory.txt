@@ -1,0 +1,8 @@
+What's BFS ?
+
+- Let's get back to Tree...
+- In tree, to print level order, we used to take a queue
+- Tree is also a type of graph and that level order is what is called BFS
+- In Graph cycles can be present so we additionally need to store which nodes are already visited
+- In BFS, those nodes which are near to root will be printed first!
+- Far away node will be printed last!

@@ -1,5 +1,10 @@
 // https://leetcode.com/problems/move-zeroes/
 
+/**
+ * LOGIC: Shift 0 to last and erase current element
+ * NOTOPTIMIZED
+ * 
+ */
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {

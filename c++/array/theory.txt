@@ -1,0 +1,15 @@
+1. An static array can't be initialized during run time;
+- int a = 2;
+- int arr[a] = {0}; ❌
+> arr can't be initialized during run time (Do it by running a loop)
+
+- Note: you can do 'int a; cin>>a; arr[a];' and later run a loop to do operations!
+
+2. Use dynamic array in case you want to initialize array dynamically
+- Create array in heap
+- Assign array to a pointer
+    - int a=12;
+    - int *arr = new int[a]{0}; ✅
+
+3. For static array, to define all items as 0 or -1 use memset
+- memset(arr, 0, sizeof(arr)); "last param is the sizeof complete array"
