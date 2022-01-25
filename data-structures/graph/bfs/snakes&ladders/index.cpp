@@ -3,6 +3,10 @@
 #include<queue>
 using namespace std;
 
+/**
+ * NOTE: Think BFS as level traversal and then proceed.
+ *
+ */ 
 class Graph {
     list<int> *graph;
     int vertices;
@@ -28,6 +32,10 @@ class Graph {
         }
     }
 
+    /**
+     * LOGIC: Already covered in data-structures > graph > traversing-graph > traversal
+     * 
+     */ 
     void bfs(int startingNode) {
         queue<int> store;
         store.push(startingNode);
@@ -47,6 +55,10 @@ class Graph {
         }
     }
 
+    /**
+     * LOGIC: Already covered in data-structures > graph > traversing-graph > distance > min distance to each node
+     * 
+     */ 
     void findShortestDistance(int startingNode) {
         queue<int> store;
         store.push(startingNode);
@@ -70,6 +82,11 @@ class Graph {
         }
     }
 
+    /**
+     * LOGIC: Already covered in data-structures > graph > traversing-graph > distance > min distance to each node
+     * 
+     * HINT: Just run BFS and store the parents so you can backtrack :)
+     */ 
     void findMinimumPathForNode(int startingNode, int endingNode){
         queue<int> store;
         store.push(startingNode);
@@ -93,8 +110,13 @@ class Graph {
         trackPath(startingNode, endingNode, parentNode, minDistance);
     }
 
+    /**
+     * UTILITY method for findMinimumPathForNode
+     * PURPOSE: Backtracks and tells the path
+     * 
+     */ 
     void trackPath(int startingNode, int endingNode, vector<int>& parentNode, vector<int>& minDistance) {
-        cout<<"****** Path Followed ********"<<endl;
+        cout<<"-----Path Followed-----"<<endl;
         while(endingNode!=startingNode) {
             cout<<endingNode<<" <--("<<minDistance[endingNode]<<")-- ";
             endingNode = parentNode[endingNode];
@@ -105,16 +127,23 @@ class Graph {
 
 int main() {
     int sizeOfSnakesAndLadder=36; //enter total number of game blocks in snakes and ladders
-    Graph *graph = new Graph(sizeOfSnakesAndLadder+1);
+    Graph *graph = new Graph(sizeOfSnakesAndLadder+1); // 0th index is not considered here in game so take 1 more index
 
-    vector<pair<int,int>> ladders = {{1,22}, {14, 36}};
-    vector<pair<int,int>> snakes = {{22, 14}};
+    vector<pair<int,int>> ladders = {{1,22}, {14, 36}}; // mention ladders
+    vector<pair<int,int>> snakes = {{22, 14}}; // mention snakes
+
+    // create graph for ladders
     for(pair<int,int>ladderPair: ladders) {
         graph->addEdges(ladderPair.first, ladderPair.second);    
     }
+
+    //create graph for snakes
     for(pair<int,int>snakePair: snakes) {
         graph->addEdges(snakePair.first, snakePair.second);
     }
+
+    //IMPORTANT: Create graph for complete snakes and ladders
+    //NOTE: We are going to run BFS so join every possible blocks in the game!
     for(int node=1;node<sizeOfSnakesAndLadder;node++) {
         for(int face=1;face<=6;face++){
             int newNode = node+face;
@@ -123,5 +152,16 @@ int main() {
             }
         }
     }
+    
+    // OPERATIONS
+    graph->bfs(1);
+
+    cout<<endl<<"***************"<<endl;
+
+    graph->findShortestDistance(1);
+
+    cout<<endl<<"***************"<<endl;
+
+    //finds path btw 2 nodes
     graph->findMinimumPathForNode(1, 36);
 }
