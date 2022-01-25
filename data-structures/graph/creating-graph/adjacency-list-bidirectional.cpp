@@ -17,7 +17,7 @@ class Graph {
     public:
 
     // pointer to array of list of int (did as we require size dynamically)
-    list<int> *graph; // *graph is basically an array which holds list<int> | array can be instantiated in constuctor
+    list<int> *graph; // *graph is basically an array which holds list<int> | array can be instantiated in constructor
     int noOfNodes; // storing nodes is important as this->graph is just a ptr and not an array
 
     Graph(int noOfNodes) {
