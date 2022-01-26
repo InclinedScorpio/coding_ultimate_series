@@ -6,3 +6,7 @@ What's BFS ?
 - In Graph cycles can be present so we additionally need to store which nodes are already visited
 - In BFS, those nodes which are near to root will be printed first!
 - Far away node will be printed last!
+
+COMPLEXITY
+
+- O(No. of Nodes + No. of Edges) - similar to DFS

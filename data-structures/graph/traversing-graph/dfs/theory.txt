@@ -1,0 +1,9 @@
+What's DFS?
+
+- Let's get back to tree...
+- We used to recursively traverse a tree - preOrder, postOrder, inOrder
+- Now that traversal is what called as a DFS!
+- In Graph, only difference is, here multiple bidirectional edges maybe present which can also be in a loop!
+
+COMPLEXITY
+- O(No. of nodes + No. of edges) - similar to BFS
