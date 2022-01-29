@@ -1,3 +1,4 @@
+//https://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1
 #include <iostream>
 using namespace std;
 class Node
