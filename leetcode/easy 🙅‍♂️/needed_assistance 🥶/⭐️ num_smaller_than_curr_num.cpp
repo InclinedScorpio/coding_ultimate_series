@@ -28,11 +28,13 @@ public:
         int arr[500] = {0};
         vector<int> ans;
         map<int,int> mapper;
+
         for(int i=0;i<nums.size();i++) {
             arr[nums[i]]++;
             mapper[nums[i]]++;
         }
         
+        //MAIN LOGIC!!
         for(int i=0;i<499;i++) {
             arr[i+1]+=arr[i];
         }

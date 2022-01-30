@@ -5,7 +5,7 @@
  * Even if it's 1 => that means it's -> 000000000000....<31>...1 
  * 
  * THEORY:
- * unint32_t is a type def of unsigned int
+ * unint32_t is a typedef of unsigned int
  * "typedef" used when alias to a data type is required
  * - typedef unsigned int unint32_t 
  * 
