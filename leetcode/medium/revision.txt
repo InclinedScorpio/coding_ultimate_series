@@ -1,0 +1,1 @@
+Rule#1 for Moderate/Hard Problems: TC can go to O(N^2) or O(N^3) and that maybe the most efficient solution.
