@@ -21,7 +21,8 @@
  * arr[0] < arr[1] < ... < arr[i - 1] < arr[i]
  * arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
  * 
- * 
+ * TIMECOMPLEXITY: O(N)
+ * SPACECOMPLEXITY: O(1)
  */ 
 class Solution {
 public:
