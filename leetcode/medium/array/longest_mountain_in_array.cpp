@@ -55,7 +55,7 @@ public:
                 top = 1; // set the top 
                 counter++;
                 continue;
-            }else if(arr[i-1]>arr[i] && arr[i+1]>=arr[i]) { // BOTTOM use Equal for points equal
+            }else if(arr[i-1]>arr[i] && arr[i+1]>=arr[i]) { // BOTTOM use Equal for the case when points equal (arr[i+1]>=arr[i]) to cover the point where bottom is reached but next of bottom is also equal to bottom :)
                 if(top==1) { // at bottom, check if top came through while reaching at this point
                     counter++;
                     if(counter>maxCounter) {
