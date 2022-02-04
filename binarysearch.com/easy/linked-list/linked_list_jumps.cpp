@@ -26,3 +26,5 @@ LLNode* solve(LLNode* node) {
     
     return saveHead;
 }
+
+// linked list deletion
