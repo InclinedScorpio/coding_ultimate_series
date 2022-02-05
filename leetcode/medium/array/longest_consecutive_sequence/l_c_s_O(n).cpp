@@ -17,24 +17,24 @@ class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
         
-        if(nums.size()==0) {
+        if(nums.size()==0) { //edge case, bad practice :)
             return 0;
         }
         
-        map<int, int> store;
+        map<int, int> store; //store will keep the keys which are present
         
-        for(int i=0;i<nums.size();i++) {
+        for(int i=0;i<nums.size();i++) { //fill up the store
             store[nums[i]]=1;
         }
         
-        int maxCounter=0, counter=0;
-        for(auto i: store) {
-            if(store.find(i.first -1) != store.end()) {
+        int maxCounter=0, counter=0; //will help us to store max counter value and current counter
+        for(auto i: store) { //start iterating over store
+            if(store.find(i.first -1) != store.end()) { // check for previous key in store, if present that means it's part of sequence
                 counter++;
                 if(maxCounter<counter) {
                     maxCounter = counter;
                 }
-            }else {
+            }else { // if chain breaks, i.e previous value is not present in store, just reset the counter
                 counter=0;
             }
         }
