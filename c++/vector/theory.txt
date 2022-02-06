@@ -1,0 +1,4 @@
+Good To know: (vec is vector)
+ * - lower_bound(vec.begin(), vec.end(), value) - returns the first addr of index where val is >= value
+ * - binary_search(vec.begin(), vec.end(), value) - returns boolean based on search result
+ * - vec.insert(indexAddr, value) - insert value at addr 
