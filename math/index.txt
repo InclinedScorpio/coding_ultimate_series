@@ -1,0 +1,10 @@
+PRIME FACTORS
+
+- 1) Every composite number(Non Prime) has atleast one prime factor less than
+  or equal to the root (<=√num)
+- 2) So for any number to be prime, it's important that no prime(which is <=√num) divides it! 
+- NOTE: There can be max 1 prime factor possible for a composite number
+  WHY? Because 1) is true & if >1 factor >√num are there then result > num!
+ 
+-1) '1' is not a prime, 2 is the only even & least prime no (that's why while factorization done first)
+
