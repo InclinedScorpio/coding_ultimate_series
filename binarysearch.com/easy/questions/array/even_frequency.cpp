@@ -1,5 +1,10 @@
 // https://binarysearch.com/problems/Even-Frequency
 
+/**
+ * LOGIC: Use property of array O(1) as no. of items are limited 100,000
+ * - Use map to save size
+ * 
+ */ 
 bool solve(vector<int>& nums) {
     bool isOdd = true;
     int arr[100000] = {0};
