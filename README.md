@@ -28,10 +28,17 @@ Hacktoberfest
                  
 ### Step#7: Pat your self on the back and wait for your pull request to be reviewed and merged.
 
-## What is Hacktoberfest?
-A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and GitHub to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
+## Why follow this repository?
 
-[https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
+- Hacktoberfest Accepted ✅
+
+    A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and GitHub to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
+
+    [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
+
+- Resources ✅
+
+    Coding Ultimate Series will keep you updated with the best resources for DS Algo. Each branch is handled by some other contributor and each have their own set of questions. Be a part of this series and Disseminate your code skill right now!
 
 Enjoy Coding and Keep contributing to open source.
 
