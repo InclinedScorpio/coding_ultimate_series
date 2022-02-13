@@ -7,7 +7,7 @@ Coding Ultimate Series
 
 [![](https://img.shields.io/github/forks/InclinedScorpio/coding_ultimate_series?style=for-the-badge)](#forks)
 
-### :octocat: Open your first pull request for the Hacktoberfest 2021 challenge.
+### :octocat: Open your first pull request on a journey to DS Algo!
 
 
 ## How to make your first pull request?
