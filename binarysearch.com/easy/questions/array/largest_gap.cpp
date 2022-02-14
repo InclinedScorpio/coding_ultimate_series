@@ -1,5 +1,9 @@
 // https://binarysearch.com/problems/Largest-Gap
 
+/**
+ * LOGIC: Basic
+ * 
+ */ 
 int solve(vector<int>& nums) {
     sort(nums.begin(), nums.end());
     int currMax = nums[1]- nums[0];
