@@ -12,4 +12,4 @@
     - int *arr = new int[a]{0}; ✅
 
 3. For static array, to define all items as 0 or -1 use memset
-- memset(arr, 0, sizeof(arr)); "last param is the sizeof complete array"
+- memset(arr, 0, sizeof(arr)); "last param is the sizeof complete array" 
