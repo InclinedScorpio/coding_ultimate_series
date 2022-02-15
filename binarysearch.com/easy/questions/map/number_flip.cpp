@@ -20,3 +20,15 @@ int solve(int n) {
     }
     return num;
 }
+
+// ALTERNATIVE SOLN
+// int solve(int n) {
+//     string strn = to_string(n);
+//     for(int i=0;i<strn.length();i++) {
+//         if(strn[i]!='3') {
+//             strn[i]='3';
+//             return stoi(strn);
+//         }
+//     }
+//     return n;
+// }
