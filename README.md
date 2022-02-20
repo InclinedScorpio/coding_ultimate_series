@@ -1,7 +1,7 @@
 # Coding Ultimate Series
 ![](https://visitor-badge.glitch.me/badge?page_id=coding_ultimate_series)
 
-Coding Ultimate Series
+Coding Ultimate Series. 
 
 <img alt="HF2021" src="https://github.com/InclinedScorpio/coding_ultimate_series/blob/master/z_images/inclinedscorpio.png">
 
