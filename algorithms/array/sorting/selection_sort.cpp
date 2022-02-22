@@ -5,7 +5,7 @@ using namespace std;
 /**
  * @SELECTION_SORT
  * Most Basic Sort
- * - Just like selection on a ground done manually (looking, swapping)
+ * - Just like selection on a ground done manually (looking, swapping minimum)
  * 
  * @LOGIC:
  * - Let's say current is min
@@ -14,10 +14,10 @@ using namespace std;
  * - Once done, same from i+1
  * - At last, all will be sorted
  * 
- * @visualize here
+ * @visualize:
  * https://visualgo.net/en/sorting
  * 
- * @COMPLEXITY: O(N)
+ * @COMPLEXITY: O(N^2)
  */ 
 int* sort(int arr[], int size) {
     for(int i=0;i<size-1;i++) {
