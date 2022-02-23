@@ -16,6 +16,9 @@ using namespace std;
  * @COMPLEXITY:
  * O(N^2)
  * 
+ * @visualize:
+ * https://visualgo.net/en/sorting
+ * 
  */ 
 int* sort(int arr[], int size) {
     for(int i=1;i<size;i++) {

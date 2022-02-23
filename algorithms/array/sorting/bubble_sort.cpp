@@ -13,6 +13,10 @@ using namespace std;
  * - At last everything will be sorted
  * 
  * @COMPLEXITY: O(N^2)
+ * 
+ * @visualize:
+ * https://visualgo.net/en/sorting
+ * 
  */ 
 int* sort(int arr[], int size) {
     int lastSorted=1;
