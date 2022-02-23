@@ -3,6 +3,8 @@
 
 using namespace std;
 
+void merge(int*, int, int, int);
+
 /**
  * @MERGE_SORT:
  * Merge sort works on Divide and Conquer
@@ -16,31 +18,28 @@ using namespace std;
  * Total: O(NLogN)
  * 
  */
-void merge(int *arr, int i, int mid, int n) {
-    int left=i, right=mid+1;
-    vector<int> store;
-
-    while(left<=mid && right<=n) {
-        if(arr[left]<arr[right]) store.push_back(arr[left++]);
-        else store.push_back(arr[right++]);
-    }
-
-    while(left<=mid) store.push_back(arr[left++]);
-    while(right<=n) store.push_back(arr[right++]);
-    int index=0;
-    for(int iter=i;iter<=n;iter++) {
-        arr[iter] = store[index++];
-    }
-}
-
 void mergeSort(int *arr, int i, int n) {
-    if(!(i<n)) {
-        return;
-    }
+    if(!(i<n)) return;
     int mid = (i+n)/2;
     mergeSort(arr, i, mid);
     mergeSort(arr, mid+1, n);
     merge(arr, i, mid, n);
+}
+
+void merge(int *arr, int i, int mid, int n) {
+    int left=i, right=mid+1;
+    vector<int> store;
+
+    while(left<=mid && right<=n)
+        if(arr[left]<arr[right]) store.push_back(arr[left++]);
+        else store.push_back(arr[right++]);
+
+    while(left<=mid) store.push_back(arr[left++]);
+    while(right<=n) store.push_back(arr[right++]);
+
+    int index=0;
+    for(int iter=i;iter<=n;iter++)
+        arr[iter] = store[index++];
 }
 
 int main() {
