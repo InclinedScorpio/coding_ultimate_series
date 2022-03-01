@@ -1,0 +1,4 @@
+MAP
+> How to reverse print elements in map (keys in map are sorted)
+- use rbegin(), rend(), increment ptr
+- for(auto i=store.rbegin(); i!=store.rend(); i++) 
