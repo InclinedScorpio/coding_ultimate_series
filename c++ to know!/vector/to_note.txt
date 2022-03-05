@@ -1,3 +1,5 @@
 1. max_element(vec.begin(), vec.end()) returns pointer to max element
 - to get value use '*'
 - int max = *max_element(vec.begin(), vec.end())
+
+2. map<pair<int, char> > - if you sort it, it will be sorted according to 'int'.

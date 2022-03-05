@@ -1,5 +1,19 @@
 // https://binarysearch.com/problems/Greatest-Common-Divisor
 
+/**
+ * LOGIC: Use __gcd(a, b) - to find gcd of 2 items
+ * 
+ */ 
+int solve(vector<int>& nums) {
+    int num = nums[0];
+    for(int i=1;i<nums.size();i++) num = __gcd(num, nums[i]);
+    return num;
+}
+
+/**
+ * LOGIC: Without using __gcd method
+ * 
+ */ 
 int solve(vector<int>& nums) {
     if(nums.size()==1) {
         return nums[0];
