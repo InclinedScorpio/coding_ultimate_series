@@ -2,7 +2,7 @@
 
 /**
  * @GOODQUESTION
- * LOGIC: Just take the currentMax and see if currentMax could take us to the last! 
+ * LOGIC: Just take the currentMax(Jumps available) and see if currentMax could take us to the last! 
  * COMPLEXITY: O(N)
  * 
  */ 
