@@ -1,0 +1,20 @@
+Load Balancers: Used to distribute load to servers
+
+- Routing Algorithms used in Load Balancer:
+
+1. Round Robin - Sequencially keep going to each server and when all covered, restart from starting again. (good if server are similar)
+2. Least Connections - choose the server which has least no. of connections at that point.
+3. Least System Load - choose the server which currently has least stress (a shell script could tell us) - if 2 system has 20 connections then the one with less stress will get priority (When don't want to overload server)
+4. Least Response Time - keep checking the response time and choose the one which is currently taking the least time, no matters what's the connection or system load. (When fast response needed)
+5. IP HASH - will use some function to choose a server like (%n) - assumed that perfectly distributes to all server.
+
+>  Example: Nginx Server
+
+---
+
+- L4 & L7 Load Balancer:
+
+L4 - TCP/UDP Routing
+L7 - Http Routing, is much smarter than l4
+
+4, 7 are the levels in OSI Model! Important to know OSI Network Model

@@ -1,0 +1,29 @@
+- DP is optimization over plain recursion. How?
+- Let's say you are doing recursion for same input multiple times...
+- We can store the result for that input and can save doing it again, this is DP
+
+Example: Fibonnaci using Recursion is Exponential, while using iterative is Linear (Huge difference!)
+
+## 1. Fibonnaci using recursion:
+
+fibo(n) {
+    if(n<=1) return n; //imp to return n as sometimes 0 is returned and sometimes 1
+    return fibo(n-1) + fibo(n-2);
+}
+
+COMPLEXITY: O(2^N)
+
+- Try for n=5, and check , for (3, 2, 1) multiple times branches are created and recursion happens - this soln could have been saved and used
+- If we save somewhere and use - it's DP!
+
+## 2. Fibonnaci using Iterative:
+
+fibo[0]=1; fibo[1]=1; // this is predefined for fibonnaci so do manually!
+for(i=2 to n) {
+    fibo[i]=fibo[i-1] + fibo[i-2];
+}
+
+COMPLEXITY: O(N)
+
+------
+

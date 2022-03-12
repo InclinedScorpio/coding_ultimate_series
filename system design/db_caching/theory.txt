@@ -1,0 +1,19 @@
+> Caching can be used to provide the data quickly as database are too slow (they are basically hard disk)
+> Redis caching is used mostly in enterprise
+> Redis is basically key value pair and because it persists the data it can be substitute of db as well
+> But db can literally save huge load of data the reason we don't use Redis as a substitute (Redis uses quick memory which is fast! and expensive)
+
+> In DB mostly read/write ratio is 9:1
+> So data could be saved in redis cache server and delivered to users quickly without even going to DB
+> Redis is setup before DB and request to DB is only made if data doesn't exists in cache server
+
+- Problem with Cache Server
+> We need to keep data consistent over cache server and database
+> Timely eviction of data is important
+
+- Cache eviction algorithms (Redis memory is limited can't keep huge data)
+1. Least Recently Used (LRU): Data used least recently (old enough) is deleted 
+2. Least Frequently Used (LFU): Data used least no. of times is deleted
+3. Time To Live (TTL): A time is given to each data after which it's deleted
+
+

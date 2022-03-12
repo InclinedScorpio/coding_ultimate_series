@@ -1,0 +1,6 @@
+CDN's are placed even before request reaches Load Balancers/Server
+
+- It will cache the most popular data near your location and will provide content from there itself
+- If data is not there it will then go to server for getting required data
+
+> Fast because of server located nearby
