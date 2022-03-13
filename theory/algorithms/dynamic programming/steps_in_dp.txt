@@ -1,0 +1,23 @@
+Steps to follow in DP:
+
+1. Think about mathematic formula
+How?
+- Like in fibonacci, we think f(n) = f(n-1) + f(n-2)
+
+2. Create a recusive Tree- in scratch paper
+
+3. Code the recusion with Memoization
+What Memoization?
+- Let's say you are calculating things for input multiple times in recusion
+- Example in fibonacci recusion we find things multiple times for a single input
+- What if we just store the answer for input and check if we already have answer for that input
+- This is called Memoization
+
+4. Observation
+- After coding, check by running with some sample input if it's giving expected answer
+
+5. Memoization --> Tabulation
+- Just change memoization used in recusion to array (it's easy task, until 4. it was important)
+
+6. Optimization
+- Check if further optimization is possible

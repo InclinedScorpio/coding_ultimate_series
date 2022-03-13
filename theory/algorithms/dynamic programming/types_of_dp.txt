@@ -1,0 +1,19 @@
+Types of DP Problems:
+
+1. Two/ three pointer problem (fibonacci)
+2. String Set - Longest Common Subsequence, Longest Common Substring - (LCS)
+3. LIS - Longest Increasing Subsequence
+4. Target Set (inputs given, we need to achieve some target)- like Knapsack problem
+5. Matrix Chain Multiplication
+
+--- For CP below things are also required ---
+
+1. DP + Bit Masking
+2. DP on tree
+3. DP on graph
+4. DP + Convex Hull
+5. DP + Binary Index Tree/ Segment Tree/ Fenwik Tree
+6. DP + Trie
+7. DP + geometry
+8. DP + string optimization
+9. DP + Lexicographical String
