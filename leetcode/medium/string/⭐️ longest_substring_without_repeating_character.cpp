@@ -5,7 +5,7 @@
  * - Try in scratch, figure out different cases 
  * - Dp flow will be from left to right
  * 
- * COMPLEXITY: O(N)
+ * COMPLEXITY: O(N) 
  * 
  */ 
 class Solution {
