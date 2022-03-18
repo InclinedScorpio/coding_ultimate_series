@@ -1,0 +1,3 @@
+Algorithms:
+1. Sorting Techniques | algorithms > sorting
+2. Knuth Morris Pratt String Matching algorithm (How Pi Table works) | algorithm > string > pattern_matching
