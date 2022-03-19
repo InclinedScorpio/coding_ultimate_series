@@ -33,18 +33,15 @@ int main() {
             if(i==j)  {
                 store[i][j]=true;
                 count++;
-                cout<<str.substr(i, (outer+1))<<" "<<i<<" "<<outer+1<<endl;
             } else if(j==i+1) {
                 if(str[i]==str[i+1]) {
                     store[i][j]=true;
                     count++;
-                    cout<<str.substr(i, (outer+1))<<" "<<i<<" "<<outer+1<<endl;
                 }
             } else {
                 if(str[i]==str[j] && store[i+1][j-1]) {
                     store[i][j]=true;
                     count++;
-                    cout<<str.substr(i, (outer+1))<<" "<<i<<" "<<outer+1<<endl;
                 }
             }
         }
