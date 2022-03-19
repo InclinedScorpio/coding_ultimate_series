@@ -1,0 +1,17 @@
+> Chicken McNugget Theorem
+- You have infinite collection of 3, 5 balls and now you have to find 
+all numbers which you can form with those- basically (3x+5y)
+- Remember 3, 5 are both prime and that's what is required for starting this algo
+- Finding all those 2 numbers:
+
+Algo states that:
+Largest N which can't be represented as (Ax + By) where A, B are whole numbers
+is (x*y - x - y)
+
+- So after (x*y - x - y), all numbers can definitely be formed using (Ax+By)
+
+So, (3*5 - 3 - 5) = 7
+- After 7 all numbers can definitely be formed using these 2 Prime num - {3, 5}
+
+NOTE: Before 7 you can find out no. which can be formed manually
+
