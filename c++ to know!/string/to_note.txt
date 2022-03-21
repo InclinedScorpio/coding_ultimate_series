@@ -1,3 +1,26 @@
 1. isalpha() checks if char is in between 48 and 57
 - islower()
 - isupper()
+
+2. To split the string from each ' ' - (empty space)
+
+    2.1 Using stringstream
+
+    stringstream ss;
+    ss<<"hey there this is an example string";
+    string token;
+    while(getline(ss, token, ' ')) {
+        cout<<token<<"-";
+    }
+
+    2.2 Using strtok (string tokenizer)
+
+    char str[100000];
+    cin.getline(str, 100000);
+    char* result = strtok(str, " ");
+    while(result!=NULL) {
+        cout<<result<<" ";
+        result = strtok(NULL, " ");
+    }
+    
+3. 
