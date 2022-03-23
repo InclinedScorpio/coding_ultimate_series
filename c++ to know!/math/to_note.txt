@@ -1,1 +1,8 @@
-Use __gcd(a, b) - to find gcd of 2 items, for lcm it's not there!
+- Use __gcd(a, b) - to find gcd of 2 items, for lcm it's not there!
+
+- % doesn't work sometimes when 10**9+7 is required with result
+ > To do it, there are 2 things:
+ 1. Do that % at every step in loop or recursion
+ 2. Don't do directly use -> fmod();
+ > fmod(num, pow(10, 9)+7) --> success! #include<math.h> required!
+
