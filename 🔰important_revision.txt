@@ -6,3 +6,4 @@ Algorithms:
 
 Questions:
 1. Burglar Thief/Pick max adjacent number
+2. Next Permutation problem (repeated many times)
