@@ -7,3 +7,4 @@ Algorithms:
 Questions:
 1. Burglar Thief/Pick max adjacent number
 2. Next Permutation problem (repeated many times)
+3. One Edit distance/ Levenshtein problem

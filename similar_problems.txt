@@ -1,2 +1,5 @@
 1. Sticker Thief (Array, DP) & Max Subset Sum (Tree)
     > Inclusion/Exclusion principle used in both
+
+2. One Edit distance & Levenshtein problem
+    > Both can be done using Levenshtein but one edit can be optimised
