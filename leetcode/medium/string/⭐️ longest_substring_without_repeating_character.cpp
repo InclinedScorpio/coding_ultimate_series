@@ -5,6 +5,8 @@
  * - Try in scratch, figure out different cases 
  * - Dp flow will be from left to right
  * 
+ * ALTERNATIVE: Use Sliding Window Approach! @see unique_string problem
+ * 
  * COMPLEXITY: O(N) 
  * 
  */ 
