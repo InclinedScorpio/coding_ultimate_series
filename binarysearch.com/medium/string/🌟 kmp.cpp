@@ -1,6 +1,7 @@
 // https://binarysearch.com/problems/Rotation-of-Another-String
 
 /**
+ * NOTE: Not asked in interviews mostly
  * LOGIC: Knuth Morris Pratt Algorithm: Used for matching string inside some text
  * WORKING:
  * - Create a piTable which will store the prefix occurances in pattern string
