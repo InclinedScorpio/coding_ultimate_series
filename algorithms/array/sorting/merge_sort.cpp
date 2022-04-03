@@ -18,13 +18,6 @@ void merge(int*, int, int, int);
  * Total: O(NLogN)
  * 
  */
-void mergeSort(int *arr, int i, int n) {
-    if(!(i<n)) return;
-    int mid = (i+n)/2;
-    mergeSort(arr, i, mid);
-    mergeSort(arr, mid+1, n);
-    merge(arr, i, mid, n);
-}
 
 void merge(int *arr, int i, int mid, int n) {
     int left=i, right=mid+1;
@@ -40,6 +33,14 @@ void merge(int *arr, int i, int mid, int n) {
     int index=0;
     for(int iter=i;iter<=n;iter++)
         arr[iter] = store[index++];
+}
+
+void mergeSort(int *arr, int i, int n) {
+    if(!(i<n)) return;
+    int mid = (i+n)/2;
+    mergeSort(arr, i, mid);
+    mergeSort(arr, mid+1, n);
+    merge(arr, i, mid, n);
 }
 
 int main() {

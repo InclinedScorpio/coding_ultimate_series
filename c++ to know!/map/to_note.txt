@@ -1,3 +1,10 @@
+- map is implementation of 'Red-Black Tree'
+- unordered map is implemented using 'Hashing'.
+
+COMPLEXITY:
+- find/delete => (map) - O(LogN)- as it's redBlack tree
+- find => (unordered_map) - average O(1)- it's hashing, worse case O(N)- when lot's of collision
+
 1. For quick sorting and retreival of max or min
  map<int, int> store;
     store[1]=1;
