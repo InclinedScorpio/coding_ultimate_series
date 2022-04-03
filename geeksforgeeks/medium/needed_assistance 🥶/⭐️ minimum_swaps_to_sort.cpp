@@ -1,4 +1,4 @@
-// https://practice.geeksforgeeks.org/problems/minimum-swaps
+// https://practice.geeksforgeeks.org/problems/minimum-swaps/1/
 
 /**
  * LOGIC: First swap items to atlease know where is the real pos of items

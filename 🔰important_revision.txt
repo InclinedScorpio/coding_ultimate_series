@@ -1,7 +1,8 @@
+NOTE: '>' is path shown in the repo!
+
 Algorithms:
 1. Sorting Techniques | algorithms > sorting
-2. Knuth Morris Pratt String Matching algorithm (How Pi Table works) | algorithm > string > pattern_matching
-
+2. KMP- Knuth Morris Pratt String Matching algorithm (How Pi Table works) | algorithm > string > pattern_matching
 
 
 Questions:
@@ -9,3 +10,9 @@ Questions:
 2. Next Permutation problem (repeated many times)
 3. One Edit distance/ Levenshtein problem
 4. Minimum window substring (many similar questions)
+5. Inversion of array (Similar to Merge sort)
+NOTE: Minimum swaps to sort & count inversions are different question.
+      - Count inversions is completely different thing(it asks to check num[i]>num[j] where i<j)
+      - Whereas, Minimum swaps just asks to count minimum swaps required.
+
+    

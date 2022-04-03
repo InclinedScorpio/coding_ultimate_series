@@ -3,3 +3,6 @@
 
 2. One Edit distance & Levenshtein problem
     > Both can be done using Levenshtein but one edit can be optimised
+
+3. Merge sort & count inversions problem - both uses merge sort algo
+    - important to understand why count inversions uses merge sort for optimization
