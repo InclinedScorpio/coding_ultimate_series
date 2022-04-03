@@ -1,0 +1,13 @@
+1. For quick sorting and retreival of max or min
+ map<int, int> store;
+    store[1]=1;
+    store[2]=1;
+    store[3]=1;
+    cout<<store.rbegin()->first; // 3
+    - Returns maximum value as map keeps sorted using keys
+    cout<<store.begin()->first; // 1
+    - Returns minimum value as map keeps sorted using keys
+
+2. To erase item from map use .erase()
+    store.erase(2) // left over item: 1:1, 3:1
+
