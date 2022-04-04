@@ -7,5 +7,5 @@
 3. Merge sort & count inversions problem - both uses merge sort algo
     - important to understand why count inversions uses merge sort for optimization
 
-4. Quick Sort & kth largest number in array - both uses Quick Sort
+4. Quick Sort & kth largest item in array - both uses Quick Sort
     - important to understand how partitioning algo is reducing the complexity. (by not picking on half)

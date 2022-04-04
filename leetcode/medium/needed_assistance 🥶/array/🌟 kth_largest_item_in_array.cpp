@@ -10,7 +10,16 @@
  * - So if we know which index to find, we can accept one part and reject other part!
  * - This is the logic! We will be using quick sort and after placing pivot, check to pick left or right
  * 
- * COMPLEXITY: O(N) - ?? HOW ??
+ * COMPLEXITY: O(N) - ?? HOW ?? 👇
+ * - focus on partitioning algo - we are calling it only for one half
+ * - In average case /2 will be happening so let's sum all the time
+ * N + N/2 + n/4 + N/8  . . . . . + 4 + 2 + 1 
+ * Let's take N as some power of 2(for ease of operation) - 2^k
+ * 2^k + 2^k-1 + 2^k-2 + .... + 1
+ * - This is geometric series
+ * where a=2^k, r=1/2, n=k+1 -> keep in formula of G.S
+ * replace 2^k with N 
+ * - Complexity - O(2N-1) ~ O(N)
  * WORSE: O(N^2) - when already sorted and we want to find last index
  * BEST: O(N)- in first iteration itself pivot placed to required index(kth)
  */ 
