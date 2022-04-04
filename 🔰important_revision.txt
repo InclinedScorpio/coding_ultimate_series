@@ -1,11 +1,19 @@
 NOTE: '>' is path shown in the repo!
 
-Algorithms:
+📌️ Algorithms:
 1. Sorting Techniques | algorithms > sorting
 2. KMP- Knuth Morris Pratt String Matching algorithm (How Pi Table works) | algorithm > string > pattern_matching
 
+📌️️ Sorting:
+1. Merge sort (divide and conquer) | single items are always sorted | 2 pointer to merge array
+      Questions:
+            - Count inversions
 
-Questions:
+2. Quick Sort (divide and conquer) | pivot (always want to do quickly!)
+
+
+
+📌️️ Questions:
 1. Burglar Thief/Pick max adjacent number
 2. Next Permutation problem (repeated many times)
 3. One Edit distance/ Levenshtein problem
@@ -16,3 +24,5 @@ NOTE: Minimum swaps to sort & count inversions are different question.
       - Whereas, Minimum swaps just asks to count minimum swaps required.
 
     
+
+
