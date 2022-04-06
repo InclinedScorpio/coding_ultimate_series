@@ -8,6 +8,7 @@ NOTE: '>' is path shown in the repo!
 1. Merge sort (divide and conquer) | single items are always sorted | 2 pointer to merge array
       Questions:
             - Count inversions
+            - Smallest string
 
 2. Quick Sort (divide and conquer) | pivot (always want to do quickly!) | left to placed pivot are all less | right items are all >
       Questions:

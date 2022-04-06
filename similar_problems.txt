@@ -6,6 +6,7 @@
 
 3. Merge sort & count inversions problem - both uses merge sort algo
     - important to understand why count inversions uses merge sort for optimization
+    - smallest string: logic to understand is how we used merge sort here & why simple sort didn't work!
 
 4. Quick Sort & kth largest item in array - both uses Quick Sort
     - important to understand how partitioning algo is reducing the complexity. (by not picking on half)
