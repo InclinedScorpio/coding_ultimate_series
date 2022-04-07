@@ -27,7 +27,7 @@ public:
         unordered_map<int, int> checker;
         int result = 0;
         checker[0] = 1;
-        
+         
         for(int i=0;i<nums.size();i++) {
             sum+=nums[i];
             store[i]=sum;
