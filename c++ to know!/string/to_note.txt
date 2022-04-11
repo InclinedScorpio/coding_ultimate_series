@@ -9,7 +9,7 @@
     stringstream ss;
     ss<<"hey there this is an example string";
     string token;
-    while(getline(ss, token, ' ')) {
+    while(getline(ss, token, ' '))  {
         cout<<token<<"-";
     }
 
