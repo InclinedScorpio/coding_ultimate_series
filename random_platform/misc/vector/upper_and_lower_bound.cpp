@@ -42,7 +42,12 @@ int vec_upper_bound(vector<int>& arr, int num) {
 }
 
 int main() {
-    vector<int> arr = {1,1,2,2,2,2,3,5,77,888,999,999,999};
-    cout<<"lower_bound: "<<vec_lower_bound(arr, 1)<<endl;
-    cout<<"upper_bound: "<<vec_upper_bound(arr, 1);
+    vector<int> arr = {1,1,1,1,1,1,2,2,2,2,3,5,77,888,999,999,999};
+    cout<<"lower_bound: "<<vec_lower_bound(arr, 999)<<endl;
+    cout<<"upper_bound: "<<vec_upper_bound(arr, 999)<<endl;
+    cout<<"*********"<<endl;
+  
+    // built in method of cpp
+    cout<<lower_bound(arr.begin(), arr.end(), 999) - arr.begin()<<endl;
+    cout<<upper_bound(arr.begin(), arr.end(), 999) - arr.begin() - 1<<endl;
 }
