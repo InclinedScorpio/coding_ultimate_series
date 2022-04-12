@@ -3,3 +3,13 @@
 - int max = *max_element(vec.begin(), vec.end())
 
 2. map<pair<int, char> > - if you sort it, it will be sorted according to 'int'.
+
+3. lower_bound: returns iterator to first matching item from left
+    - As iterator is returned, to get the exact index Do:
+    - lower_bound(arr.begin(), arr.end(), 10) - arr.begin()
+    - Doing "- arr.begin()"... will return the index
+
+4. upper_bound: returns iterator to +1 of last matching item (Important to note + 1)
+    - As iterator is returned, to get the exact index Do:
+    - upper_bound(arr.begin(), arr.end(), 10) - arr.begin() + 1
+    - Doing "- arr.begin()"... will return the index, !Important to note +1(why? coz upperbound returns iterator to +1 of last match :)
