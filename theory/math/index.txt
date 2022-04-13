@@ -8,3 +8,14 @@ PRIME FACTORS
  
 -1) '1' is not a prime, 2 is the only even & least prime no (that's why while factorization done first)
 
+---
+
+LEFT/RIGHT SHIFT
+
+1. Left shift:
+  - x<<3 means (x * pow(2, 3))
+  - So if we do x<<1 -> means double up x -> why? (x * pow(2, 1))
+
+2. Right shift
+  - x>>3 means (x / pow(2, 3))
+  - So if we do x>>1 -> means half x -> why? (x / pow(2, 1))
