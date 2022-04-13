@@ -24,5 +24,4 @@ NOTE: Minimum swaps to sort & count inversions are different question.
       - Count inversions is completely different thing(it asks to check num[i]>num[j] where i<j)
       - Whereas, Minimum swaps just asks to count minimum swaps required.
 6. kth largest in array (Similar to Quick Sort)
-
-
+7. Angry Birds problem - many problems, similar solution - monotonic Binary Search

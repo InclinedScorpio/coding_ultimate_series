@@ -4,7 +4,7 @@
 
 2. map<pair<int, char> > - if you sort it, it will be sorted according to 'int'.
 
-3. lower_bound: returns iterator to first matching item from left
+3. lower_bound: returns iterator to first matching item from left (or else first greater after that num)
     - As iterator is returned, to get the exact index Do:
     - lower_bound(arr.begin(), arr.end(), 10) - arr.begin()
     - Doing "- arr.begin()"... will return the index
