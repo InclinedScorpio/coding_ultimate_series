@@ -10,3 +10,7 @@
 
 4. Quick Sort & kth largest item in array - both uses Quick Sort
     - important to understand how partitioning algo is reducing the complexity. (by not picking on half)
+
+5. Monotonic Binary Search (Maximize the minimum subarray/distance/something)
+    - Angry Birds
+    - Game of Greed
