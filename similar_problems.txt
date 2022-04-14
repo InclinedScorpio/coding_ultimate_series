@@ -14,3 +14,5 @@
 5. Monotonic Binary Search (Maximize the minimum subarray/distance/something)
     - Angry Birds
     - Game of Greed
+    Minimize the Maximum
+    - Reading Books (*)
