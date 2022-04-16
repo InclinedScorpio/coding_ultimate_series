@@ -29,3 +29,5 @@ NOTE: Minimum swaps to sort & count inversions are different question.
       - (Maximize the minimum something) problem, check if taking values from (1....x) is possible - if yes it's monotonic Binary Search
 9. Minimize the Maximum - Reading Books 🌟 
 10. Min Pairs problem - 2 array find smallest absoulte difference picking one from each
+11. Create all possible subsequences of string, array
+12. Generate valid parenthesis
