@@ -13,3 +13,6 @@
     - As iterator is returned, to get the exact index Do:
     - upper_bound(arr.begin(), arr.end(), 10) - arr.begin() + 1
     - Doing "- arr.begin()"... will return the index, !Important to note +1(why? coz upperbound returns iterator to +1 of last match :)
+
+5. Insert default values in array
+    - memset(arr, -1, sizeof(arr));
