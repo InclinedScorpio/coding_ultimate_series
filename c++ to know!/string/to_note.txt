@@ -23,4 +23,7 @@
         result = strtok(NULL, " ");
     }
     
-3. 
+3. string supports .pop_back() - remove last character, .push_back() - add one ch to last!
+4. string automatically appends \0 at last, if str is "123", then \0 would be at position '3'
+5. To change from char to int do:
+    int charToInt = charMe - '0';
