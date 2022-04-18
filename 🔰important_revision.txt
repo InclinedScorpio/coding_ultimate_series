@@ -31,3 +31,5 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 10. Min Pairs problem - 2 array find smallest absoulte difference picking one from each
 11. Create all possible subsequences of string, array
 12. Generate valid parenthesis
+13. ** Backtracking(Must do) - longest_possible_route, NQueens, rat_maze, sudoku_solver
+14. game_of_coins! (understanding how we are calculating all possible solutions and then deciding)

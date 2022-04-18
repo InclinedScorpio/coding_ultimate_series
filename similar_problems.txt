@@ -16,3 +16,9 @@
     - Game of Greed
     Minimize the Maximum
     - Reading Books (*)
+
+6. Backtracking(Must do)
+    - longest_possible_route
+    - NQueens
+    - rat_maze
+    - sudoku_solver
