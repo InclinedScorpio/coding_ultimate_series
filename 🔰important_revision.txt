@@ -33,3 +33,4 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 12. Generate valid parenthesis
 13. ** Backtracking(Must do) - longest_possible_route, NQueens, rat_maze, sudoku_solver
 14. game_of_coins! (understanding how we are calculating all possible solutions and then deciding)
+15. Reverse LinkedList in group of k! (k-reverse) - scratch/practice specific!
