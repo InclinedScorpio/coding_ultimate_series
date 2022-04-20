@@ -10,6 +10,7 @@
  * POINT TO NOTE:
  * - We need to put NULL after mid, so we have 2 different linked list
  * - Also, receive the updated result before merging further (shown in code)
+ * - Keep fast iter one step ahead initially (mentioned in code) so no infinite recursion on first items
  * 
  * COMPLEXITY:O(NlogN)
  * 
@@ -65,7 +66,7 @@ Node* mergeSort(Node* head) {
     if(!head || !head->next) return head;
     // findingMidpoint, so can be divided, we literally will divide the LL btw mid
     Node* midPoint = head;
-    Node* fastIter = head->next;
+    Node* fastIter = head->next; // keep faster iterator a step ahead initially
     while(fastIter && fastIter->next) {
         midPoint = midPoint->next;
         fastIter = fastIter->next->next;
