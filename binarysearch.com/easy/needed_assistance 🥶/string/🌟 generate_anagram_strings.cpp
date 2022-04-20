@@ -8,6 +8,8 @@
  * - Hence the keys which have more than one index...
  * - ...mean we have the anagram hence can be included in the result!
  * 
+ * - Major part was to understand usage of map<string, vector<string>> and to store sorted strings in it
+ * 
  * COMPLEXITY: O(N^3logN)
  * - Large complexities work when input is small ~100, 1000
  */ 
