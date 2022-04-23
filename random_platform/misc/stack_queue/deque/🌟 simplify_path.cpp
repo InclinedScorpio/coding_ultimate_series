@@ -1,5 +1,34 @@
 // https://leetcode.com/problems/simplify-path/
 
+
+// Better way of doing is to use stringstream as we need data btw / /
+class Solution {
+public:
+    string simplifyPath(string path) {     
+        stringstream ss(path);
+        string str;
+        deque<string> dir;
+
+        while(getline(ss, str, '/')) {
+            if(str.length()==0) continue;
+            if(str=="..") {
+                if(dir.empty()) continue;
+                dir.pop_back();
+            } else if (str==".") {}
+            else {
+                dir.push_back(str);
+            }
+        }
+        string res="";
+        while(!dir.empty()) {
+            res+="/";
+            res+=dir.front();
+            dir.pop_front();
+        }
+        return res=="" ? "/" : res;
+    }
+};
+
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -35,3 +64,4 @@ public:
         return res=="" ? "/" : res;
     }
 };
+

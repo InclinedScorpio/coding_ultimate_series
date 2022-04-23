@@ -34,5 +34,5 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 13. ** Backtracking(Must do) - longest_possible_route, NQueens, rat_maze, sudoku_solver
 14. game_of_coins! (understanding how we are calculating all possible solutions and then deciding)
 15. Reverse LinkedList in group of k! (k-reverse) - scratch/practice specific!
-16. ** Next greater element - important for stack! and when to use it!
+16. ** Next greater element, online stock span - important for stack! and when to use it!
 17. Sliding window max - important to understand how queue helped to keep max present in window!

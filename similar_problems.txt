@@ -22,3 +22,8 @@
     - NQueens
     - rat_maze
     - sudoku_solver
+
+7. Stack Questions (What is first Max on left?)
+    - Next greater element
+    - online stock span 
+    important to understand why we used stack- simple cause we need to pop when it's smaller!
