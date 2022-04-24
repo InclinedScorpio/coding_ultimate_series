@@ -52,3 +52,13 @@
 
 > That's why complete binary tree is required to implement it into array like above
 
+----
+
+> So a heap is basically represented in form of array & operations are also done in the array itself!
+
+#### Heapify (To create Heap recursively)
+- Heapify is used to turn a BST to Heap using recusive checking heap properties.
+- Complexity: O(N)  - as it doesn't do logN for each no, here it only takes N/2-1 and for that do never runs for log N
+
+----
+
