@@ -12,6 +12,7 @@ using namespace std;
  * - If Tree itself is given we can form array in BFS
  * - & then do insertion and again form back tree from it
  * 
+ * COMPLEXITY:O(logN)
  */ 
 vector<int> insertInHeap(vector<int> heap, int num) {
     /// must be inserted at last (as it's a complete binary tree)
