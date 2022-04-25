@@ -27,3 +27,7 @@
     - Next greater element
     - online stock span 
     important to understand why we used stack- simple cause we need to pop when it's smaller!
+
+8. Heap/Priority Queue (k smallest/largest)
+    - k nearest cabs
+    - k largest number/ k smallest number
