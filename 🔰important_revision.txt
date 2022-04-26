@@ -38,3 +38,4 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 17. Sliding window max - important to understand how queue helped to keep max present in window!
 18. K smallest/greatest Questions indicate -> use Priority Q as it's better than sorting!
 19. Finding running median - nice example of heap, priority_queue
+20. **Merge k sorted list - intuition of min Heap is important, Also using comparator!
