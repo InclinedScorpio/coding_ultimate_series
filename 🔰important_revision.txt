@@ -39,3 +39,4 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 18. K smallest/greatest Questions indicate -> use Priority Q as it's better than sorting!
 19. Finding running median - nice example of heap, priority_queue
 20. **Merge k sorted list - intuition of min Heap is important, Also using comparator!
+21. Swap sort - useful when 1 to N numbers given! - O(N)
