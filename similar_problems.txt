@@ -31,3 +31,4 @@
 8. Heap/Priority Queue (k smallest/largest)
     - k nearest cabs
     - k largest number/ k smallest number
+    - min cost to merge rope (uses PQ - reason is it needs min each time)

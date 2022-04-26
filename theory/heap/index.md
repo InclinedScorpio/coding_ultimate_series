@@ -60,5 +60,50 @@
 - Heapify is used to turn a BST to Heap using recusive checking heap properties.
 - Complexity: O(N)  - as it doesn't do logN for each no, here it only takes N/2-1 and for that do never runs for log N
 
+**PROOF OF HEAPIFY TAKES O(N):**
+<!--Do it here -->
+
 ----
+
+#### PRIORITY QUEUE
+- Priority queue can be used from STL
+- It implements both Min-Queue/Max-Queue
+- By default it implements "Max Queue"
+
+**MAX HEAP!**
+```
+#include<queue>
+
+priority_queue<int> maxHeap (arr.begin(), arr.end());
+
+OR
+
+priority_queue<int> maxHeap; // use push to insert!
+```
+
+**MIN HEAP!**
+```
+#include<queue>
+
+priority_queue<int, vector<int>, greater<int>> maxHeap (arr.begin(), arr.end());
+
+OR
+
+class Comparator {
+    public:
+        bool operator()(int a, int b) {
+            return b<a;
+        }
+};
+
+priority_queue<int, vector<int>, Comparator> maxHeap; // use push to insert!
+```
+
+### Operations in Priority Queue
+- push
+- pop
+- size
+- top: to get top item!
+
+
 
