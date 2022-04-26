@@ -37,3 +37,4 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 16. ** Next greater element, online stock span - important for stack! and when to use it!
 17. Sliding window max - important to understand how queue helped to keep max present in window!
 18. K smallest/greatest Questions indicate -> use Priority Q as it's better than sorting!
+19. Finding running median - nice example of heap, priority_queue
