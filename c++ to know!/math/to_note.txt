@@ -5,5 +5,9 @@
  1. Do that % at every step in loop or recursion
  2. Don't do directly use -> fmod();
  > fmod(num, pow(10, 9)+7) --> success! #include<math.h> required!
-3. Why is integer (2^31) - 1 ?? - ^31 is coz, 1 bit is used for sign, and '- 1' is coz counting starting from 0
+
+ 3. Why is integer (2^31) - 1 ?? - ^31 is coz, 1 bit is used for sign, and '- 1' is coz counting starting from 0
 ... usually it should have been ending with even but as counting starts form 0, it would be - 1 (so a odd number)
+
+ 4. V.IMP!! How to convert integer to binary quickly
+    - string inBinary = bitset<8/32>(integer_num).to_string();
