@@ -8,6 +8,6 @@ int solve(int x, int y) {
     int count=0;
     for(int i=0;i<min(first.length(), second.length());i++) {
         if(first[i]!=second[i]) count++;
-    }
+    }  
     return count;
 }
