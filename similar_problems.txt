@@ -32,3 +32,8 @@
     - k nearest cabs
     - k largest number/ k smallest number
     - min cost to merge rope (uses PQ - reason is it needs min each time)
+
+9. Hashing
+    - Find number of rectangles
+    - Find number of triangles
+    
