@@ -5,7 +5,7 @@ How?
 - Like in fibonacci, we think f(n) = f(n-1) + f(n-2)
 
 2. Create a recusive Tree- in scratch paper
-
+  
 3. Code the recusion with Memoization
 What Memoization?
 - Let's say you are calculating things for input multiple times in recusion

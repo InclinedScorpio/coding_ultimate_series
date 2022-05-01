@@ -36,4 +36,3 @@
 9. Hashing
     - Find number of rectangles
     - Find number of triangles
-    

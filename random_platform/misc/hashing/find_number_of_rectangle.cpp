@@ -31,12 +31,6 @@ class Points {
             this->y = y;
         }
 
-        bool operator()(Points a, Points b) {
-            if(a.x==b.x) {
-                return a.y<b.y;
-            }
-            return a.x<b.x;
-        }
 };
 
 // Class is required to compare user defined class objects in set
