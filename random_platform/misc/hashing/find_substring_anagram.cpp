@@ -4,6 +4,16 @@
 
 using namespace std;
 
+/**
+ * QUESTION: Find anagrams in substrings
+ * LOGIC: Find substrings first & then find the anagram
+ * 
+ * - As further optimization as we are finding occurance each time, we can rather form hash
+ * - So no. of similar hash can be counted toward result
+ * 
+ * COMPLEXITY: O(N^3)
+ * 
+ */ 
 vector<string> findSubstrings(string str) {
     vector<string> result;
     for(int i=0;i<str.length();i++) {
