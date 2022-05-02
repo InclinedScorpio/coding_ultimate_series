@@ -85,7 +85,7 @@ priority_queue<int> maxHeap; // use push to insert!
 ```
 #include<queue>
 
-priority_queue<int, vector<int>, greater<int>> maxHeap (arr.begin(), arr.end());
+priority_queue<int, vector<int>, greater<int>> minHeap (arr.begin(), arr.end());
 
 OR
 
@@ -96,7 +96,7 @@ class Comparator {
         }
 };
 
-priority_queue<int, vector<int>, Comparator> maxHeap; // use push to insert!
+priority_queue<int, vector<int>, Comparator> minHeap; // use push to insert!
 ```
 
 ### Operations in Priority Queue
