@@ -42,3 +42,5 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 
 21. Swap sort - useful when 1 to N numbers given! - O(N)
 22. Converting integer to binary quickly using bitset
+
+23. Most frequent number in interval - imp to understand how we are keeping the range in map
