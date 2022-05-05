@@ -46,3 +46,5 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 23. Most frequent number in interval - imp to understand how we are keeping the range in map
 
 24. Understanding Trie Data Structure - 'find string exists in array'
+
+25. Do n-k-ladders dynamic programming all 3) types - imp to understand what we do in top-down(easy) & bottom-up approach
