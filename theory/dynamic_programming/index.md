@@ -27,3 +27,24 @@ For example: Fibonnaci series using recursion
 2. Bottom Up: Iterative (Fib series when we take it from 0, 1... and go all the way to required num)
 
 - In general Bottom Up is faster as it doesn't have that stack overhead, while top down is easier to implement
+
+### How to understand a DP Problem?
+
+1. Think if there are multiple ways by which you are required to check and then from those ways have to get a single solution 
+- Which is basically RECURSION!!
+
+2. Think if there are subproblems which are repeated multiple times in this recursion
+- If yes, then that means it's a DP problem
+- As it satisfies (1) subproblem solve to get bigger problem and (2) repeating subproblem
+
+3. Think of the TOP DOWN APPROACH (recursion) 
+
+4. Think of the TOP DOWN APPROACH (recursion + memoization)
+
+5. Think of the BOTTOM UP APPROACH (iteration)
+- Here, we need to think how we approach recursion
+- Think about the formula F(N)= F(N-1) + F(N-2)... so similar thing we need to do in array as well
+
+> There is nothing in DP more than this
+
+----
