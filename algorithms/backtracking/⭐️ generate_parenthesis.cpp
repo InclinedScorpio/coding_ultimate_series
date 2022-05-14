@@ -20,7 +20,7 @@ public:
         2. (( - left: 1 | right: 3
         3. ((( - left:0 | right: 3
         4. (((( - left:-1 | right: 3
-        5. ((() - left:0 | right: 2
+        5. ((() - left:0 | right: 2  
         6. ((()) - left: 0 | right: 1
         7. ((())) - left: 0 | right: 0
         */
