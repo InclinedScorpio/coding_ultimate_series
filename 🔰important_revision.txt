@@ -48,3 +48,6 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 24. Understanding Trie Data Structure - 'find string exists in array'
 
 25. Do n-k-ladders dynamic programming all 3) types - imp to understand what we do in top-down(easy) & bottom-up approach
+
+26. Longest common subsequence -> important to understand how we do 2D (diagonal movement if char matches)
+- Also important to understand how we are priting the characters! (just backtracking :) )
