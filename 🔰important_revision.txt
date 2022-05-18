@@ -51,3 +51,6 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 
 26. Longest common subsequence -> important to understand how we do 2D (diagonal movement if char matches)
 - Also important to understand how we are priting the characters! (just backtracking :) )
+
+27. Selling wines -> bottom up is important
+- How we are relating recursion to iteration and grid understand is main logic
