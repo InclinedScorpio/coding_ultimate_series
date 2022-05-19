@@ -11,8 +11,14 @@
  * 
  * - While memoization don't take 0 in dp as it will keep reevaluating for mutiple branches as their result would be 0
  * 
- * COMPLEXITY: O(2^N) - exponential
- * SPACE: O(1)
+ * COMPLEXITY:
+ * O(2^N) - recursion without memo
+ * O(N*M) - recursion with memo
+ * 
+ * SPACE:
+ * O(N+M) - without memo
+ * O(N*M) + O(N+M) - with memo 
+ * - N*M is DP, N+M is auxiliary stack useds
  * 
  **/
 

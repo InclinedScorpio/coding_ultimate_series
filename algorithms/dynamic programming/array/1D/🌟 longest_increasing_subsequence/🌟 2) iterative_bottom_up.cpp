@@ -35,6 +35,6 @@ int main() {
                 maxValue = max(maxValue, dp[j]+1);
         }
         dp[i] = maxValue;
-    }
+    } 
     cout<<*max_element(dp.begin(), dp.end());
 }
