@@ -11,6 +11,7 @@
 
 using namespace std;
 
+// method to print the subsequence formed using backtracking
 string findStringForming(string str1, string str2, vector<vector<int>> dp) {
     int i=str1.length()-1, j=str2.length()-1;
     string str = "";

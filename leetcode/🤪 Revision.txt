@@ -85,3 +85,5 @@ so if signed -ve are shifted to + then + becomes 2 * 2^31 => 2^32
 ° unsigned long long int	8 byte	0 to 18,446,744,073,709,551,615  (20 digits in total) 
 - Above unsigned long long int size is -> 2^64 (- double of unsigned int)
 - For signed, one index is used for size hence size becomes - 2^63 (occupies both + and -)
+
+14. ** Always pass string by reference - while recursion it helps to reduce time complexity !
