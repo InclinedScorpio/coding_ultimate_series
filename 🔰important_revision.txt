@@ -54,3 +54,5 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 
 27. Selling wines -> bottom up is important
 - How we are relating recursion to iteration and grid understand is main logic
+
+28. Longest alternative subsequence - O(n) approach (DP Problem)

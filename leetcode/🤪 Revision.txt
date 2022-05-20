@@ -87,3 +87,9 @@ so if signed -ve are shifted to + then + becomes 2 * 2^31 => 2^32
 - For signed, one index is used for size hence size becomes - 2^63 (occupies both + and -)
 
 14. ** Always pass string by reference - while recursion it helps to reduce time complexity !
+
+15. There are 3 things
+    - Subarray: means contiguous subsequence (n^2)
+    - Subsequence: means picked from any index from left to right (2^N - 1) "-1" as {} is not considered
+    - Subset: any possible combination of original array (2^N)
+    ** Subset is same as subsequence, it just has an {} empty set in addition
