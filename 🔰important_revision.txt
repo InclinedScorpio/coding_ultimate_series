@@ -56,3 +56,16 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - How we are relating recursion to iteration and grid understand is main logic
 
 28. Longest alternative subsequence - O(n) approach (DP Problem)
+
+
+
+------- ⭐️REVISE⭐️ --------
+
+1. Longest Increasing Subsequence (optimizing from o(N^2) to O(NlogN))
+      - Intuition- {1, 3, 6} -> 4 comes so {1, 3, 4} -> 4 replaces 6 by binary search! (Intuition)
+      - The fact we have a vector sorted(ans) is reason we could use binary search here
+      - ** If we want LIS array printed, we can't use it, as it will only check length! 
+      - (Logic of replacement) Replacing 4 to 6 won't make any harm as until last of {} is not replaced we won't add more/ last one must be smallest possible
+      - By DP we can print array as well -> O(N^2)
+
+      

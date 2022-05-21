@@ -16,6 +16,8 @@
  * - As at each index, we are iterating later to find...
  * - If curr index can become the start of LIS
  * 
+ * Can we do better? Yes O(NlogN) is possible
+ * 
  */ 
 
 #include<iostream>
