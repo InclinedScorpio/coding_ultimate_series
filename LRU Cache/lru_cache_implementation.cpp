@@ -8,7 +8,7 @@
  * - If data is asked for, we shift it to top
  * - If more data comes, last one in the list gets removed
  * 
- * LOGIC: We used linked list (list in cpp) + Hashing
+ * LOGIC: We used Double ended queue (list in cpp) + Hashing
  * - Hashing is used to carry the key and node address
  * - So that operations can be done in O(1)
  * 
