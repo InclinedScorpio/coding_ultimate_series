@@ -68,4 +68,9 @@ NOTE: Minimum swaps to sort & count inversions are different question.
       - (Logic of replacement) Replacing 4 to 6 won't make any harm as until last of {} is not replaced we won't add more/ last one must be smallest possible
       - By DP we can print array as well -> O(N^2)
 
+2. Longest Alternative Subsequence
+      - Just make a graph going up and down
+      - You just need to keep a check on up/down peaks that's all
+      - Can be done in O(N), but looks like & can be done by DP as well
       
+
