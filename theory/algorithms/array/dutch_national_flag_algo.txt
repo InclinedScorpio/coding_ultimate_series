@@ -1,0 +1,6 @@
+1) Dutch National Flag Algorithm
+- Take 3 ptr: low, mid, high
+- Low's left contains 0, high's right contain 2
+- mid[i] replace with left if 0, and right if 2
+- move ptr accordingly!
+- used in Sorting 0, 1, 2 problem in single pass with constant space

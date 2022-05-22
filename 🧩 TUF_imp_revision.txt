@@ -10,3 +10,9 @@
 - Use Optimised space in tabular
 - 🌟 Use combinations - O(N) -> RRD, RDR...
 
+3. Dutch National Flag Algorithm/ Sort colors/ Sort 0, 1, 2
+- In a single pass it's required to be done, with constant space
+- DNF says take 3 ptr - low, mid, high
+- Low's left contains 0, high's right will contain 2
+- swap mid[i] with left if 0, if 2-swap with high
+- move ptr accordingly!
