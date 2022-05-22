@@ -74,3 +74,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
       - Can be done in O(N), but looks like & can be done by DP as well
       
 
+3. Inversion Count/ Reverse Pair ( both similar question )
+      - Basically we need to reduce complexity from O(N^2) to O(NlogN)
+      - And things could be little better we have have 2 sorted array where we can check the requirement
+      - And merge sort we have these arrays and hence we can easlily check it there
+      - In Reverse Pair, the method where we check is important as that logic is little tricky yet easy!
