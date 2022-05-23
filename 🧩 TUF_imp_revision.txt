@@ -16,3 +16,9 @@
 - Low's left contains 0, high's right will contain 2
 - swap mid[i] with left if 0, if 2-swap with high
 - move ptr accordingly!
+
+4. Linked List Cycle II
+- Important to understand algorithm (If not known cant do the question)
+- Important to understand how the same algo can work for 'Duplicate Element Question'
+- 2 things are stated in algo 1) if there is cycle 2) start point of cycle
+- After finding merger of fast and slow, just take another slow from head & keep moving 1 step (merger will be start of cycle)

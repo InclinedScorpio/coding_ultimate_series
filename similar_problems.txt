@@ -37,3 +37,7 @@
 9. Hashing
     - Find number of rectangles
     - Find number of triangles
+
+10. Floyd Algorithm
+    - Linked List Cycle II
+    - Duplicate element (array but used linked list floyd algo)
