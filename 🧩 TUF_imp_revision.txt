@@ -22,3 +22,9 @@
 - Important to understand how the same algo can work for 'Duplicate Element Question'
 - 2 things are stated in algo 1) if there is cycle 2) start point of cycle
 - After finding merger of fast and slow, just take another slow from head & keep moving 1 step (merger will be start of cycle)
+
+5. Maximum Product Subarray
+- Important to understand that array can have both -ve and 0
+- Logic is to carry smallest and largest number possible everytimes
+- So that if other - comes we can change that lowest to bigest or bigest to lowest(so it can become largest later when - comes again)
+- Understand recursive approach in order to understand iterative(exactly same as recursion)
