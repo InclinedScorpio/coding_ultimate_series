@@ -61,3 +61,10 @@
 - BUT! For large input O(N^2) will give TLE, hence use this trick to solve it
 - Sort the width and now we can apply LIS to the height
 - * Make sure to reverse sort the height when width is same (so we don't pick the same width)
+
+9. Merge without extra space
+- Q) [...],  [....] both are sorted and sort as if both were one
+- ⭐️ Check first of 2nd and last of first ( and swap if 2nd has smaller item that last of 1st )
+- Simple reason because we know 1st array will contain all smaller of both array's
+- Now keep shifting index and keep swapping until not required, then sort both array
+
