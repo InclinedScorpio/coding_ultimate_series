@@ -17,7 +17,7 @@
 - swap mid[i] with left if 0, if 2-swap with high
 - move ptr accordingly!
 
-4. Linked List Cycle II
+4. Linked List Cycle II 
 - Important to understand algorithm (If not known cant do the question)
 - Important to understand how the same algo can work for 'Duplicate Element Question'
 - 2 things are stated in algo 1) if there is cycle 2) start point of cycle
@@ -28,3 +28,36 @@
 - Logic is to carry smallest and largest number possible everytimes
 - So that if other - comes we can change that lowest to bigest or bigest to lowest(so it can become largest later when - comes again)
 - Understand recursive approach in order to understand iterative(exactly same as recursion)
+
+6. Find Duplicate Number in 1+N, numbered from 1-N
+- clearly all items will be pointing inside the array itself
+- Hence we can go for floyds algo to check the starting of cycle
+- The starting of cycle will signify the repeating number as more than 1 will be pointing to it.
+- Same we can't implement in problem (7) as index may be out of array index
+
+7. Find Missing/ Repeating Number (Given num from 1-n, one is missed and one is repeated)
+- Can't use floyd's cycle as obviously one number may be pointing more than (n-1)
+- Better way is to use algebra | Sum of 1 to N - > N* (N+1) / 2 | Find sum of given nums
+- Find sum of sq. N * (N+1) * (2 N + 1) / 6  | Find sq of sum of given num
+ x y z = A
+ x y y = B
+ ----------
+ z - y = A - B
+ ----------
+
+ x2 + y2 + z2 = M
+ x2 + y2 + y2 = N
+ -------------
+ z2 - y2 = M - N 
+ OR
+ (z+y) (z-y) = M-N
+ OR
+ z+y = (M-N)/(z-y)
+ -------------
+- We have both z-y & z+y both repeating(y) and missing(z) which can be found now
+
+8. Russian doll Envelopes
+- Clearly DP problem can be done using memoization - O(N^2)
+- BUT! For large input O(N^2) will give TLE, hence use this trick to solve it
+- Sort the width and now we can apply LIS to the height
+- * Make sure to reverse sort the height when width is same (so we don't pick the same width)
