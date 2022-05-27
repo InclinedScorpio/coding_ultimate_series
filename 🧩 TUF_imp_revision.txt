@@ -68,3 +68,8 @@
 - Simple reason because we know 1st array will contain all smaller of both array's
 - Now keep shifting index and keep swapping until not required, then sort both array
 
+10. Set Matrix Zero (complete row/column turns 0 if item is 0)
+- Q is easy if extra space allowed, as we can 2 vector - row/column representing row/column and turn 0 where required
+- Same thing we can do if we treat first row/column as that extra vector
+- Here it's just that we need to turn complete first row/column to zero at last when everything else is done
+- For that we will need some flags to know if at last we need to convert 1st row/column to 0
