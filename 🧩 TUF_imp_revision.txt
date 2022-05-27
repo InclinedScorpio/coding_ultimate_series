@@ -79,3 +79,9 @@
 - We can make use of " nCr" to find nth row and rth column item in O(1)
 - Also to find nth row complete, we see the simple patter of nCr, nCr+1, nCr+2...
 - Which is basically multiplication to previous item & can be done in O(N)
+
+12. Next Permutation
+- Important to understand that 1,2,4,3 -> next permute is 1,3,2,4 and not 1,3,4,2
+- First we are finding the index where value decreased as compared to it's next one
+- This is the ind which can be replaced with any of the num from right, but which one?
+- The one which is greater but closest to ind, Make sure to sort as values after swapping to the ind may not be ascending!
