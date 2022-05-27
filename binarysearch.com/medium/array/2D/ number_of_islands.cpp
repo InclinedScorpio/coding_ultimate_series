@@ -1,5 +1,9 @@
+// https://binarysearch.com/problems/Number-of-Islands
 
-
+/**
+ * LOGIC: Basic recursion problem, find number of islands
+ * 
+ */ 
 bool helper(vector<vector<int>>& arr, int i, int j) {
     if(j<0 || i>=arr.size() || i<0 || j>=arr[0].size() || arr[i][j]==0 || arr[i][j]==-1) return false;
 
