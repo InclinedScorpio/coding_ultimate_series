@@ -1,7 +1,7 @@
 /**
  * 
  * QUESTION: Find nth row of Pascals Triangle
- * LOGIC: As we see there is a pattern nCr, n+1Cr-1, nCr-2....
+ * LOGIC: As we see there is a pattern nCr, nCr-1, nCr-2....
  * We clearly see that we are multiplying some number at both num/denominator
  * - Hence we can make use of it to find nth row in linear time complexity
  * 

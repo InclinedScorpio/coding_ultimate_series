@@ -73,3 +73,9 @@
 - Same thing we can do if we treat first row/column as that extra vector
 - Here it's just that we need to turn complete first row/column to zero at last when everything else is done
 - For that we will need some flags to know if at last we need to convert 1st row/column to 0
+
+11. Pascals Triangle
+- Along with simple way of finding all rows in Pascals triangle
+- We can make use of " nCr" to find nth row and rth column item in O(1)
+- Also to find nth row complete, we see the simple patter of nCr, nCr+1, nCr+2...
+- Which is basically multiplication to previous item & can be done in O(N)
