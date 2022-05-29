@@ -59,7 +59,7 @@ public:
         // Make sure after finding and swapping, sorting is done
         // Why sorting? The number which is swapped at place of '1' is fine
         //But the rest on the right are not correct as [2,3,1] is not the nextPermute
-        // Rather [2,1,3] is the right one! After this [2,3,1] is the next Permute
+        // Rather [2,1,3] is the right one! After this [2,3,1] is the next Permute 
         int minGreaterElement = INT_MAX;
         int indexOfMinGreaterElement;
         for(int i=nums.size()-1;i>indexOfNextNumToBeSwapped;i--) {
