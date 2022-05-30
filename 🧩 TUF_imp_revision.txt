@@ -85,3 +85,9 @@
 - First we are finding the index where value decreased as compared to it's next one
 - This is the ind which can be replaced with any of the num from right, but which one?
 - The one which is greater but closest to ind, Make sure to sort as values after swapping to the ind may not be ascending!
+
+13. Inversion Counts
+- If [5, 3, 2] -> 2 inversion counts are present -> {5, 3}, {3, 2}
+- O(N^2) is simple, but we will be required to find better... basic comparisons are needed so motive is to reduce comparisons
+- Now as we need to find where left>right, this is same thing we check in merge part of merge sort, and there ...
+- If left>right, we can simply result+=(everything from left to mid) as all of them will form pair with right (Complexity remains same O(NlogN))
