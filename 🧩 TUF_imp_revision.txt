@@ -104,3 +104,8 @@
 - Point to note is as things are sorted, we can go for binary search
 - ... both from top to bottom and from left to right!
 - BUT WE CAN DO IT IN SINGLE LOG N as well ! THAT's IMPORTANT TO UNDERSTAND!
+
+17. Binary Exponentiation
+- Point is that if power is even we can do (x^2)^(n/2) & if odd then x * (x)^ n-1
+- Also point to note is the edge case where power is given negative - use long long int in that case
+- Also for negative power just consider x as 1/x
