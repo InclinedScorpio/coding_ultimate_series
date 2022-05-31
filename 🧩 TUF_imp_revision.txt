@@ -99,3 +99,7 @@
 15. Rotate Image (2d Array)
 - See solution first, it's nothing but transpose with rows reversed
 - Must know how to transponse a matrix (changing rows to columns)
+
+16. Search a 2d matrix
+- Point to note is as things are sorted, we can go for binary search
+- ... both from top to bottom and from left to right!
