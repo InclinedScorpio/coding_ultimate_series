@@ -91,3 +91,11 @@
 - O(N^2) is simple, but we will be required to find better... basic comparisons are needed so motive is to reduce comparisons
 - Now as we need to find where left>right, this is same thing we check in merge part of merge sort, and there ...
 - If left>right, we can simply result+=(everything from left to mid) as all of them will form pair with right (Complexity remains same O(NlogN))
+
+14. EASY(Best Time to buy/sell stocks, wolves of wolf street)
+- Greedily approach this problem
+- Keep minimum found at any point and keep checking with prices to get max
+
+15. Rotate Image (2d Array)
+- See solution first, it's nothing but transpose with rows reversed
+- Must know how to transponse a matrix (changing rows to columns)
