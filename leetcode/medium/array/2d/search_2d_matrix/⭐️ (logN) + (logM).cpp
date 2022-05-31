@@ -5,7 +5,7 @@
  * - One from top to bottom to see in which interval value will lie
  * - And the other to search no. in the row
  * 
- * COMPLEXITY: O(logN)
+ * COMPLEXITY: O(logM + logN)
  * 
  */ 
 class Solution {
