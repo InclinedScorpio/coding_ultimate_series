@@ -120,3 +120,7 @@
 - We will use 2 pointer i, j to iterate and left/right to then move right and left ro remaining items
 - NOTE: guys btw i & j doesn't need to be checked again by left/right (here I was confused) as it would already cover them before itself when i and j were present there
 - Make sure to use lower_bound and upper_bound to skip the same values again (to prevent duplication)
+
+20. Largest Subarray with Sum 0
+- Logic is A1, A2, A3, A4, A5, A6 if (A1 - A4) sum is 5 and (A1-A6) sum is 5 then it's clear that A5-A6 sum is 0
+- Also we need to keep index of first occurance (basic understanding) as to maximize subarray
