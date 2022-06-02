@@ -114,3 +114,9 @@
 - Similar to Majority Element I (Moores Voting Algo)
 - Here rather than 1, 2 params needs to be checked
 - Make sure at last to count manually if it's really > 1/3 (in ME I, it was given that it will exist, so there was no need to check)
+
+19. 4 SUM
+- Technique similar to 2 sum can be used
+- We will use 2 pointer i, j to iterate and left/right to then move right and left ro remaining items
+- NOTE: guys btw i & j doesn't need to be checked again by left/right (here I was confused) as it would already cover them before itself when i and j were present there
+- Make sure to use lower_bound and upper_bound to skip the same values again (to prevent duplication)
