@@ -1,39 +1,37 @@
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 /**
- * LOGIC: Basic DP Problem
- * - Try in scratch, figure out different cases 
- * - Dp flow will be from left to right
+ * LOGIC: It can be done using unordered_set
+ * - But that would give O(2N) as both left and right will traverse
+ * 
+ * 
+ * - To do it in O(N) - you can simply use map and store the index of char where occured
+ * - And if repeated, just bring left forward to that index+1 where already char is there
+ * - This will help it in reducing O(N)
  * 
  * ALTERNATIVE: Use Sliding Window Approach! @see unique_string problem
  * 
  * COMPLEXITY: O(N) 
+ * SPACE: O(256) - As all chars, num, symbol all allowed 
  * 
  */ 
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        if(s.length()==0) return 0;
+        map<char, int> store;
+        int maxRes=s.length()>0?1:0;
         
-        vector<int> store(s.length(), 0);
-        map<char, int> lastInd;
-        store[0]=1; // first element will obviously be length 1 substring
-        lastInd[s[0]]=0; // store first element in map
-    
-        for(int i=1;i<s.length();i++) {
-            if(lastInd.find(s[i])==lastInd.end()) { // if doesn't exists- means existing length + 1 is answer for sure
-                lastInd[s[i]]=i;
-                store[i]=store[i-1]+1;
-            } else { // in map exists hence- 2 conditions are possible
-                int indexDiff = i-lastInd[s[i]];
-                lastInd[s[i]]=i;
-                if(indexDiff>store[i-1]) { // if repeatable character diff is > previous count then means current can be + 1
-                    store[i]=store[i-1]+1;
-                }else { // else we need to have index diff (Try this in Scratch to understand)
-                    store[i]=indexDiff;
-                }
+        int left=0, right=1;
+        store[s[left]]=0;
+        
+        while(right<s.length()) {
+            if(store.count(s[right]) && store[s[right]]>=left) {
+                left = store[s[right]] + 1;
             }
+            store[s[right]] = right;
+            if((right-left+1) > maxRes) maxRes = right - left + 1;
+            right++;
         }
-        return *max_element(store.begin(), store.end());
+        return maxRes;
     }
 };
