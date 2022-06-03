@@ -124,3 +124,8 @@
 20. Largest Subarray with Sum 0
 - Logic is A1, A2, A3, A4, A5, A6 if (A1 - A4) sum is 5 and (A1-A6) sum is 5 then it's clear that A5-A6 sum is 0
 - Also we need to keep index of first occurance (basic understanding) as to maximize subarray
+
+21. Longest Common Subsequence
+- Important to note that we use hashing and iterate over hash
+- We check sequence forward only if previous doesn't exists (As the sequence will definitely contain num which has no preceding num)
+- Also it prevents doing O(N^2) and acheiving O(N)

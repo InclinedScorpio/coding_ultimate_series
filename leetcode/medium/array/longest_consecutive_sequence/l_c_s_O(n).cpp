@@ -2,6 +2,10 @@
 
 
 /**
+ * 
+ * NOTE: BETTER VERSION OF THIS CODE IS BELOW (SCROLL DOWN)
+ * - Issue with this version is it will take O(NlogN)
+ * 
  * LOGIC: We know map gives the keys sorted when asked 
  * - Store the items in map 
  * - Now start iterating and keep checking if earlier number was already there or not in map - O(1)
@@ -10,7 +14,8 @@
  * 
  * - At last return the max counter and do +1 as the first element in longest sequence was not taken into account in above strategy
  * 
- * COMPLEXITY: O(N)
+ * COMPLEXITY: O(NlogN)
+ * - CAN BE BETTER !!!! (Scroll down)
  * 
  */ 
 class Solution {
@@ -40,4 +45,44 @@ public:
         }
         return maxCounter+1;
     }
+};
+
+/**
+ * BETTER VERSION
+ * - As we shouldn't sort it
+ * - We can make use of hashing to keep all numbers
+ * - And then iterate over that hash to check if previous number exists
+ * 
+ * - Important to check if previous exists as if previous exist, then we won't start checking the sequence
+ * - So that we are not checking sequence every time we are iterating over
+ * - This prevents doing O(N^2) rather than O(N) ⭐️
+ * 
+ * COMPLEXITY: O(N)
+ * SPACE: O(N)
+ * 
+ */ 
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        unordered_set<int> storage;
+        for(int num: nums)
+            storage.insert(num);
+        
+        int maxRes = 0;
+        for(int store: storage) {
+            int temp = store-1;
+            int count=1;
+            if(storage.find(temp)==storage.end()) {
+                temp+=2;
+                while(storage.find(temp)!=storage.end()) {
+                    count++;
+                    temp++;
+                }
+                if(count>maxRes) maxRes = count;   
+            }
+        }
+
+        return maxRes;
+    }
+        
 };
