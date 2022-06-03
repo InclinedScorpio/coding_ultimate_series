@@ -40,7 +40,7 @@ bool checkNumPossible(vector<vector<int> > sudoku, int row, int column, int num)
     }
     
     // check grid
-    int i=(row/3)*3, j=(column/3)*3;
+    int i=(row/3)*3, j=(column/3)*3;  // NOTE! Make sure to Multiply by 3 !
     for(int r=i;r<i+3;r++) {
         for(int c=j;c<j+3;c++) {
             if(sudoku[r][c]==num) return false;

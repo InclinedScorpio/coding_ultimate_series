@@ -130,7 +130,7 @@
 - We check sequence forward only if previous doesn't exists (As the sequence will definitely contain num which has no preceding num)
 - Also it prevents doing O(N^2) and acheiving O(N)
 
-22. Number of subarrays with XOR as k
+22. ⭐️ Number of subarrays with XOR as k
 - Similar to count max subarray with sum as 0
 - Here we need to understand that 1-4 ^ 4-8 = XOR of 1-8
 - And we can do 1-4 = 1-8 ^ 4-8 (XORing 4-8 both sides) 
