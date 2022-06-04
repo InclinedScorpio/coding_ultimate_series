@@ -66,3 +66,47 @@ public:
         return head;
     }
 };
+
+
+/**
+ * CLEAN CODED SOLUTION
+ * - Restricts the use of multiple conditions
+ *
+ */ 
+
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        int carry=0;
+        ListNode* head=NULL; 
+        ListNode* iterator=NULL;
+        while(l1 || l2 || carry) {
+            int res=0;
+            if(l1) {
+                res+=l1->val;
+                l1 = l1->next;
+            }
+            if(l2) {
+                res+=l2->val;
+                l2 = l2->next;
+            }
+            if(carry) {
+                res+=carry;
+            }
+            
+            if(res>9) {
+                carry = 1;
+                res = res%10;
+            } else carry=0;
+            if(!head) {
+                head = new ListNode(res);
+                iterator = head;
+            } else {
+                iterator->next = new ListNode(res);
+                iterator = iterator->next;
+            }
+        }
+        iterator->next = NULL;
+        return head;
+    }
+};
