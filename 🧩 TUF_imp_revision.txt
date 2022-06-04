@@ -141,3 +141,8 @@
 - A optimised version can be to use map and store index where char occured
 - So that rather than traversing left all the way to right we can rather do index+1 whenever repetition occurs
 - This will help to do it in O(N)- Important!
+
+24. Remove nth from single pass
+- Point to note is to use 2 ptr - slow and fast and help then create gap of n
+- So that in single pass we can reach nth from last
+- Got stuck in edge case - when it's the head to be removed(point was to check if fast is already NULL means remove head)
