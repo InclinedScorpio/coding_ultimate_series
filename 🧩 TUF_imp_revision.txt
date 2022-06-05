@@ -146,3 +146,9 @@
 - Point to note is to use 2 ptr - slow and fast and help then create gap of n
 - So that in single pass we can reach nth from last
 - Got stuck in edge case - when it's the head to be removed(point was to check if fast is already NULL means remove head)
+
+25. (Forgot) Intersection of 2 linked list
+- We just need to find which is longer one and how much longer
+- And can advance the head in that longer list
+- Later can just start jumping one one step and see where they meet!
+- ALTERNATIVE (I didn't like but should be known): Rather than counting, as seen as smaller one reaches null, we can immediately start from other list so that we don't have to do the counting of both
