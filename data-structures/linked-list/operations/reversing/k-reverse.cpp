@@ -85,3 +85,45 @@ int main()
     head = kReverseList(head, 3);
     printList(head);
 }
+
+https://leetcode.com/problems/reverse-nodes-in-k-group/
+/**
+ * RECURSIVE APPROACH FOR REVERSING
+ * 
+ */ 
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head, ListNode* tail) {
+        if(!head || !head->next || head==tail) {
+            if(head) head->next = NULL;
+            return head;
+        }
+        ListNode* nextNode = reverseList(head->next, tail);
+        cout<<nextNode->val;
+        head->next->next = head;
+        return nextNode;
+    }
+    
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        if(!head) return NULL;
+        int saveK = k-1;    
+        ListNode* saveHead = head;
+        while(saveHead && saveK>0) {
+            saveHead = saveHead->next;
+            saveK--;
+        }
+        cout<<saveK;
+        if(!saveHead) {
+            return head;
+        }
+        
+        ListNode* nextNode=NULL;
+        if(saveHead)
+             nextNode = saveHead->next;
+
+        ListNode* newHead = reverseList(head, saveHead);
+        ListNode* nextNodesHead = reverseKGroup(nextNode, k);
+        head->next = nextNodesHead;
+        return newHead;
+    }
+};

@@ -152,3 +152,11 @@
 - And can advance the head in that longer list
 - Later can just start jumping one one step and see where they meet!
 - ALTERNATIVE (I didn't like but should be known): Rather than counting, as seen as smaller one reaches null, we can immediately start from other list so that we don't have to do the counting of both
+
+26. Linked List Cycle
+- One will jump once, while other will jump twice
+- At some time they will come at same point if cycle is there
+
+27. Reverse linked list in k group
+- First thing to know is how to reverse linked list - iterative/recursive
+- Next is to iterate over the list and do it in group
