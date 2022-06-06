@@ -1,4 +1,10 @@
+// https://binarysearch.com/problems/Search-in-a-Binary-Search-Tree
 
+/**
+ * LOGIC: Basic recursion & logic of BST!
+ * 
+ * COMPLEXITY: O(logN)
+ */ 
 
 bool solve(Tree* root, int val) {
     if(!root) return false;

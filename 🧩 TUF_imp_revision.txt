@@ -166,3 +166,8 @@
 - Now just iterate in first and second half and see if same
 - If same means palindrome
 - If Q asks list shouldn't be changed, then reverse back again
+
+29. Linked List Cycle II (Start point of cycle)
+- Start point is where 2 nodes are pointing at
+- Algo states that first find the meeting point of fast and slow
+- Then take one one step from above point & head and return where they meet (that's start of cycle)
