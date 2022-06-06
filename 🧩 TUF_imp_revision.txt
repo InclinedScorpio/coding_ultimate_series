@@ -160,3 +160,9 @@
 27. Reverse linked list in k group
 - First thing to know is how to reverse linked list - iterative/recursive
 - Next is to iterate over the list and do it in group
+
+28. Palindrome linked list
+- Find middle and reverse the second half part
+- Now just iterate in first and second half and see if same
+- If same means palindrome
+- If Q asks list shouldn't be changed, then reverse back again
