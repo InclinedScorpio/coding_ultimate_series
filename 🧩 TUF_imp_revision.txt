@@ -171,3 +171,8 @@
 - Start point is where 2 nodes are pointing at
 - Algo states that first find the meeting point of fast and slow
 - Then take one one step from above point & head and return where they meet (that's start of cycle)
+- CAN BE USED TO FIND DUPLICAT IN ARRAY ALSO !
+
+30. Flatten Linked List
+- Similar to merge 2 linked list
+- Here we just need to do it recursively
