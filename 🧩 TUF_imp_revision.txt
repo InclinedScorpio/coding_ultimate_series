@@ -176,3 +176,8 @@
 30. Flatten Linked List
 - Similar to merge 2 linked list
 - Here we just need to do it recursively
+
+31. Rotate Linked List (Basic Question, nothing complex)
+- Just find the point from where to rotate
+- Remove connection and join the end to head!
+
