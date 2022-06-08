@@ -181,3 +181,8 @@
 - Just find the point from where to rotate
 - Remove connection and join the end to head!
 
+32. ⭐️ Copy list with random pointer
+- 1) when space is not an issue - we can simply use map for storing <real node | corresponding node> And wire them!
+- 2) when space is issue - we need to wire new list along with existing(using next)
+- And update the random ( as random is nothing but random's next - for new list ) - that's how wiring both list together helps
+- Once random updated, remove the wiring and separate out the new list
