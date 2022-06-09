@@ -186,3 +186,13 @@
 - 2) when space is issue - we need to wire new list along with existing(using next)
 - And update the random ( as random is nothing but random's next - for new list ) - that's how wiring both list together helps
 - Once random updated, remove the wiring and separate out the new list
+
+33. 3 SUM
+- Problem similar to 2 sum, and similar logic is also used in 4 sum
+- We majorly have to implement logic of 2 sum here
+- just take index and use 2 sum for remainging right item to find the required sum
+
+34. Trapping Rain Water (Just looks difficult/Easy)
+- Point is to find left max height and right max height
+- Now each index will find how much water it's going to store
+- Sum those value up and return
