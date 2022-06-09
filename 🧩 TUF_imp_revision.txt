@@ -196,3 +196,8 @@
 - Point is to find left max height and right max height
 - Now each index will find how much water it's going to store
 - Sum those value up and return
+
+35. N Meetings in one room
+- We need to focus on ending time, hence sort using ending time as a pair so first is also sorted if ending is same
+- Now we just need to pick using least ending point
+- After this, pick the next least ending point which has starting pointer after current's ending point
