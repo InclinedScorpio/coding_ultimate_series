@@ -45,3 +45,8 @@
 11. Using Some Math
     - Find max subarrays with sum 0 (property used was that if 1-3 & 1-10 has same sum means 4-10 is 0)
     - Find no of subarrays with xor as k (property used is Y ^ target = currPrefix so, Y = currPrefix ^ target ) and we can count occurance of Y now
+
+12. Range Questions (THESE LOOK SIMILAR & ARE DIFFERNT)
+    - Maximum Number of meetings which could happen (just focus ending time of meeting - sort and do some op)
+    - Minimum number of plaforms (here just increment plaform if arrival is smaller than departure | sort both arrival & departure and do op)
+    

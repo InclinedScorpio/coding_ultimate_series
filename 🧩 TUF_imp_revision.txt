@@ -201,3 +201,9 @@
 - We need to focus on ending time, hence sort using ending time as a pair so first is also sorted if ending is same
 - Now we just need to pick using least ending point
 - After this, pick the next least ending point which has starting pointer after current's ending point
+
+36. ⭐️ Minimum Plaforms
+- Q is different than "find max meetings which can happen"
+- Here Q is simpler, is just asks you how many plaforms should be built so no train should wait
+- We just need to sort both arrival and departure, and keep incrementing platform if arrival is before departure
+- There is no need to keep arr/dep in pair as it's not required
