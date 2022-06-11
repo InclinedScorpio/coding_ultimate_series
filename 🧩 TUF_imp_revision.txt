@@ -207,3 +207,9 @@
 - Here Q is simpler, is just asks you how many plaforms should be built so no train should wait
 - We just need to sort both arrival and departure, and keep incrementing platform if arrival is before departure
 - There is no need to keep arr/dep in pair as it's not required
+
+37. Job Sequencing Problem (Imp, can be asked in multiple ways)
+- Important to understand the problem - if deadline is 5, it can be done it at 5th, 4th, 3rd, 2nd, 1st hour
+- As profit needs to be maximized we need to sort based on profit (use comparator if structure is given)
+- Important is to use a deadline array to store which intervals are taken
+- So, if deadline 4: profit 12 came and 4th was already filled, traverse from 4-1 and see which is remaining, if no remaining skip that work!
