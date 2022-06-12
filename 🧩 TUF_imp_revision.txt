@@ -213,3 +213,7 @@
 - As profit needs to be maximized we need to sort based on profit (use comparator if structure is given)
 - Important is to use a deadline array to store which intervals are taken
 - So, if deadline 4: profit 12 came and 4th was already filled, traverse from 4-1 and see which is remaining, if no remaining skip that work!
+
+38. Minimum number of coins
+- Basic question, as we need to minimize number of coins, we need to take the greater ones first
+- And then move on to the next greater number and see how many of those can be accomodated
