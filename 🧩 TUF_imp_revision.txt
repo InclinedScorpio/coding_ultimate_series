@@ -223,3 +223,7 @@
 - We take all wt till we reach a wt which would exceed the wt range given
 - Hence for that we will take fraction (Hence Fractional Knapsack problem)
 - This is not 0/1 Knapsack, that's different
+
+40. Subset Sum
+- V. Imp to understand how we are generating all the subsets here
+- WE DON'T NEED TO DO 'FOR LOOPS', the two recursive calls takes care of generating all subsets
