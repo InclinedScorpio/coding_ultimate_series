@@ -217,3 +217,9 @@
 38. Minimum number of coins
 - Basic question, as we need to minimize number of coins, we need to take the greater ones first
 - And then move on to the next greater number and see how many of those can be accomodated
+
+39. Fractional Knapsack
+- value/weight is considered as priority for maximizing the values
+- We take all wt till we reach a wt which would exceed the wt range given
+- Hence for that we will take fraction (Hence Fractional Knapsack problem)
+- This is not 0/1 Knapsack, that's different

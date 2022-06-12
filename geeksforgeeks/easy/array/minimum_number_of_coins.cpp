@@ -8,6 +8,7 @@
  * COMPLEXITY: O(N) + O(coinsArray)
  * 
  */ 
+class Solution {
 public:
     vector<int> minPartition(int N)
     {
