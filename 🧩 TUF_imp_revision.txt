@@ -227,3 +227,7 @@
 40. Subset Sum
 - V. Imp to understand how we are generating all the subsets here
 - WE DON'T NEED TO DO 'FOR LOOPS', the two recursive calls takes care of generating all subsets
+
+41. Subset sums 2
+- Sorting + Recursion is major part here, why to sort? - so we can skip already taken data
+- Use scratch for understanding, rest everything is same as subset (2 recursive calls)
