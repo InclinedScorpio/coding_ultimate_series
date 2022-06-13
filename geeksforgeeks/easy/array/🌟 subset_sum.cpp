@@ -9,6 +9,7 @@
  * COMPLEXITY: O(2^N) - either we will consider or won't
  * 
  */ 
+class Solution {
 public:
     void helper(vector<int> arr, int N, int iter, int currSum, vector<int>& res) {
         if(iter>=N) return;
