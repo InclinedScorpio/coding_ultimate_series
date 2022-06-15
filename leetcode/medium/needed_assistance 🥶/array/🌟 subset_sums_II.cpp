@@ -17,7 +17,7 @@ public:
         if(i==nums.size()) {
             result.push_back(store);
             return;
-        } 
+        }  
         
         vector<int> save = store;
         store.push_back(nums[i]);
