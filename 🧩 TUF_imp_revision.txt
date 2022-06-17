@@ -231,3 +231,6 @@
 41. Subset sums 2
 - Sorting + Recursion is major part here, why to sort? - so we can skip already taken data
 - Use scratch for understanding, rest everything is same as subset (2 recursive calls)
+
+42. Permutations
+- Swapping back is the main logic, rest try in scratch to understand. Basic Q.
