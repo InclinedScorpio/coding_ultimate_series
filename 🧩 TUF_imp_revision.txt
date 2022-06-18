@@ -241,3 +241,8 @@
 44. ⭐️ Combination Sum 2
 - TOOK LONG TIME TO SOLVE! (Try your own)
 - using set (extra space) may not work, so we can use sorting and then not recurse with already taken data twice
+
+45. Permutation Sequence (Imp/ Repeating)
+- Steps to find next permutation is important
+- 1)Find i<i+1 then swap it with immediate greatest to right
+- Now just sort all nums from swapped ind to right

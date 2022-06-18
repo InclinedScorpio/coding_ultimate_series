@@ -79,3 +79,7 @@ NOTE: Minimum swaps to sort & count inversions are different question.
       - And things could be little better we have have 2 sorted array where we can check the requirement
       - And merge sort we have these arrays and hence we can easlily check it there
       - In Reverse Pair, the method where we check is important as that logic is little tricky yet easy!
+
+4. (Easy Level) Product of 3 numbers
+- 2 cases, 1st is easy - prod of last 3 (works for both all pos and all neg)
+- 2nd case - if some negative - prod of first 2 (that will give max pos) and third num is last one (last one will be max of positive)
