@@ -246,3 +246,14 @@
 - Steps to find next permutation is important
 - 1)Find i<i+1 then swap it with immediate greatest to right
 - Now just sort all nums from swapped ind to right
+
+46. 🌟 Permutation Sequence (MUST DO)
+- Although we can do next_permutation k times but that won't be efficient solution
+- Hence we make use of math trick i.e if we have 123 then 1 {2, 3} -> this will be total 2 sequence (0-1) and hence if we have k=1 we know it will be 132
+- Hence we pick 1 and recursively take 2 {3} or 3 {2} based on remaining number
+
+47. N Queens (Recursion)
+- Basic recursion
+
+48. Sudoku Solver (Recursion)
+- "Always forgot" to *3 when checking for grid! i.e (i/3) * 3

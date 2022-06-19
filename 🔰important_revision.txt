@@ -83,3 +83,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 4. (Easy Level) Product of 3 numbers
 - 2 cases, 1st is easy - prod of last 3 (works for both all pos and all neg)
 - 2nd case - if some negative - prod of first 2 (that will give max pos) and third num is last one (last one will be max of positive)
+
+5. 🌟 Permutation Sequence (MUST DO)
+- Although we can do next_permutation k times but that won't be efficient solution
+- Hence we make use of math trick i.e if we have 123 then 1 {2, 3} -> this will be total 2 sequence (0-1) and hence if we have k=1 we know it will be 132
+- Hence we pick 1 and recursively take 2 {3} or 3 {2} based on remaining number
