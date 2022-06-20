@@ -267,3 +267,7 @@
 - It's basic recursive problem
 - Make sure to block the way(0) once you are taken it
 - Make sure to unblock the way(1) once you are done with that grid
+
+51. Nth root of a number (It's ok to do binary search even in decimals)
+- Important to understand that logic of 1e-6 (right-left), and complexity because of it gets 10^6 (that many digits we will have)
+- It's monotonic binary search problem
