@@ -271,3 +271,8 @@
 51. Nth root of a number (It's ok to do binary search even in decimals)
 - Important to understand that logic of 1e-6 (right-left), and complexity because of it gets 10^6 (that many digits we will have)
 - It's monotonic binary search problem
+
+52. Single element in sorted array
+- Based on observation only, The alternative is to do XOR of all and find the one whihch occurs only once
+- Here we observed that if even index must have same item to next index
+- And for odd index, similar item should be their in previous index
