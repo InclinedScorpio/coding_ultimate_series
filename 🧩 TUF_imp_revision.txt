@@ -262,3 +262,8 @@
 - It's a 2D Array given as edges, we just need to color each node such that no 2 adjacent node has same color
 - We can take one 1D array to keep a check which node is colored what and then iterate over graph and check with adjacent nodes
 - It's a basic recursion problem
+
+50. Rat in a maze-I
+- It's basic recursive problem
+- Make sure to block the way(0) once you are taken it
+- Make sure to unblock the way(1) once you are done with that grid
