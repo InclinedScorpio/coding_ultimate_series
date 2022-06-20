@@ -257,3 +257,8 @@
 
 48. Sudoku Solver (Recursion)
 - "Always forgot" to *3 when checking for grid! i.e (i/3) * 3
+
+49. M Coloring Problem (Graph Problem)
+- It's a 2D Array given as edges, we just need to color each node such that no 2 adjacent node has same color
+- We can take one 1D array to keep a check which node is colored what and then iterate over graph and check with adjacent nodes
+- It's a basic recursion problem
