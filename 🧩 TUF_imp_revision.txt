@@ -276,3 +276,9 @@
 - Based on observation only, The alternative is to do XOR of all and find the one whihch occurs only once
 - Here we observed that if even index must have same item to next index
 - And for odd index, similar item should be their in previous index
+
+53. ⭐️ Search in Rotated Sorted Array
+- 2 Ways of doing this
+- 1) (logN + logN) Find the shifted pivot (using binary search) and then another binary search to find the num in required section
+- 2)  (logN ) BETTER: after getting mid, either left or right of it must be perfectly sorted, check if target lies in that range
+- If it doesn't then move to other section and start finding there
