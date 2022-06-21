@@ -282,3 +282,9 @@
 - 1) (logN + logN) Find the shifted pivot (using binary search) and then another binary search to find the num in required section
 - 2)  (logN ) BETTER: after getting mid, either left or right of it must be perfectly sorted, check if target lies in that range
 - If it doesn't then move to other section and start finding there
+
+54. 🌟 🌟 (Extremely important) Median in a rowwise sorted matrix (Took too long to understand - how non existing nums are taken care)
+- It's a monotonic BS Question as clearly there is a search space and solution is definitely exists somewhere there
+- We can easily count the nums to the left of the number (& hence we can reach medium like this)
+- Also we will just move right when left part is not enough and left when left part is more
+- hence the left movement takes care of nums which doesn't exists in the range (as we will be stuck with the one which is existing) - IMPORTANT!

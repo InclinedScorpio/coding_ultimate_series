@@ -12,6 +12,8 @@
 4. upper_bound: returns iterator to +1 of last matching item (Important to note + 1)
     - As iterator is returned, to get the exact index Do:
     - upper_bound(arr.begin(), arr.end(), 10) - arr.begin() + 1
+    - upper_bound(arr, arr+n, 10) - 1D Array
+    - upper_bound(arr[i], arr[i]+n, 10) - 2D Array
     - Doing "- arr.begin()"... will return the index, !Important to note +1(why? coz upperbound returns iterator to +1 of last match :)
 
 5. Insert default values in array
