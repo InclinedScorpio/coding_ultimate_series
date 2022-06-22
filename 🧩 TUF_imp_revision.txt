@@ -288,3 +288,5 @@
 - We can easily count the nums to the left of the number (& hence we can reach medium like this)
 - Also we will just move right when left part is not enough and left when left part is more
 - hence the left movement takes care of nums which doesn't exists in the range (as we will be stuck with the one which is existing) - IMPORTANT!
+
+55. 
