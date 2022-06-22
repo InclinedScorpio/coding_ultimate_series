@@ -289,4 +289,9 @@
 - Also we will just move right when left part is not enough and left when left part is more
 - hence the left movement takes care of nums which doesn't exists in the range (as we will be stuck with the one which is existing) - IMPORTANT!
 
-55. 
+55. 🌟 🌟 (Extremely important) Median of 2 sorted Arrays (Took too long to understand - the point that we can pick the n/2 from first Array + second Array)
+- Think about median. Before median there are n/2 items.
+- And we are given 2 SORTED ARRAYS, hence make use of it to get those first n/2 items
+- Take the smaller array and do binary search to place the limit till where you will consider the items (a part of that n/2) and the rest of the part from other array
+- That's how using binary search you will get the items from array 1 and array 2 and at the end you can get simply find the median using items at last
+- HOW TO SEE IF LIMIT IS THE ONE WE WANT? - The last item of both array limit taken must be smallest than the rest of the part!
