@@ -30,6 +30,8 @@ class Solution {
         while(left<=right) {
             int mid = left + (right-left)/2;
             int lgIndex=k-mid;
+            // DO NOT FORGET THESE CONDITIONS! (Took time to debug!)
+            // These are conditions when index for other array gets > n or < 0
             if(lgIndex>n) {
                 left=mid+1;
                 continue;

@@ -50,3 +50,8 @@
     - Maximum Number of meetings which could happen (just focus ending time of meeting - sort and do some op)
     - Minimum number of plaforms (here just increment plaform if arrival is smaller than departure | sort both arrival & departure and do op)
     - Job Sequencing problem
+
+13. ⭐️ (Must try once) Median Questions (Logic is simple- before median there exists n/2 items)
+    - Median of 2 sorted Arrays
+    - Median in a rowwise sorted matrix
+    - kth element of two sorted array

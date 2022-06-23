@@ -295,3 +295,14 @@
 - Take the smaller array and do binary search to place the limit till where you will consider the items (a part of that n/2) and the rest of the part from other array
 - That's how using binary search you will get the items from array 1 and array 2 and at the end you can get simply find the median using items at last
 - HOW TO SEE IF LIMIT IS THE ONE WE WANT? - The last item of both array limit taken must be smallest than the rest of the part!
+
+56. 🌟 🌟 (Similar to 55.) kth element of two sorted array (Done because similar question 55. was done before)
+- Instead of median (n/2 number on the left), here directly k is given
+- We can implement similar logic like 55 here!
+- Make sure to put edge conditions like - what if index to be taken for other array is > n or < 0
+
+57. Power Set (Finding Subsequence using bits)
+- Already know how to find using recursion
+- This way is finding subsequence using bit as 000, 001, 010, 011, 100 ... are subsequnces btw for 3 digits(2^3 - 1)=8 ways in total
+- "abc" -> for each 000, 001, 010, ... we can do & abc.
+- To consider a -> 2^0 (001) & (011) must come 1.... 2^0 is (1<<0)=1 | Similarly for "b" 1<<1=2(010) & (011) = 1 yes take b as well.... that's how find subsequence
