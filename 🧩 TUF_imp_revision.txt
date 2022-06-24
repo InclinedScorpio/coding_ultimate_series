@@ -316,3 +316,8 @@
 - Just pick 1, maxDistancePossible and keep checking if mid is possible
 - If it's possible keep moving to right?Why? -> because we need to maximize it
 - Moving right will automatic maximize the minimum as it will set on that x, y (rest all will just dwell in)
+
+60. Implement Queue using Array
+- Important to note that we move rear while insertion and not the front
+- While removing we remove from front and increment front
+- (IMPORTANT) Make sure to do "%size" so that after reaching end of array, both rear and front can again start picking indices from 0
