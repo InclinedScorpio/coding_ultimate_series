@@ -306,3 +306,7 @@
 - This way is finding subsequence using bit as 000, 001, 010, 011, 100 ... are subsequnces btw for 3 digits(2^3 - 1)=8 ways in total
 - "abc" -> for each 000, 001, 010, ... we can do & abc.
 - To consider a -> 2^0 (001) & (011) must come 1.... 2^0 is (1<<0)=1 | Similarly for "b" 1<<1=2(010) & (011) = 1 yes take b as well.... that's how find subsequence
+
+58. 🌟 Allocate Minimum number of pages (HAS TO BE PRACTICED!!)
+- Minimize maximum number of items type question - binary search has to be used
+- Think of range and picking every number to see if that can be taken as max pages which can be allocated to M number of students

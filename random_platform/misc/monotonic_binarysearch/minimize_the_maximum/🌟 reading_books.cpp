@@ -2,7 +2,10 @@
  * 
  * QUESTION:
 Reading Books:
-Given number of pages inn different books and m students The books are arranged in any order (not necessarily ascending) of number of pages. Every student is assigned to read some consecutive segment of books. The task is to assign books in such a way that the maximum number of pages assigned to a student is minimum.
+Given number of pages inn different books and m students 
+The books are arranged in any order (not necessarily ascending) of number of pages. 
+Every student is assigned to read some consecutive segment of books. 
+....The task is to assign books in such a way that the maximum number of pages assigned to a student is minimum.
 
 Find the maximum number of pages that a student will have to read.
 
