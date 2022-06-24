@@ -310,3 +310,9 @@
 58. 🌟 Allocate Minimum number of pages (HAS TO BE PRACTICED!!)
 - Minimize maximum number of items type question - binary search has to be used
 - Think of range and picking every number to see if that can be taken as max pages which can be allocated to M number of students
+
+59. 🌟 Aggresive Cows (Maximize the minimum -> similar to minimize the maximum)
+- As these kind of questions will introduce a search space, hence we can make use of Binary search!
+- Just pick 1, maxDistancePossible and keep checking if mid is possible
+- If it's possible keep moving to right?Why? -> because we need to maximize it
+- Moving right will automatic maximize the minimum as it will set on that x, y (rest all will just dwell in)
