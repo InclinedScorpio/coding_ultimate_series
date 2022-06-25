@@ -1,5 +1,11 @@
 // https://leetcode.com/problems/implement-stack-using-queues/
 
+
+/**
+ * LOGIC: Other than code below, there is a better way of doing this using only a single queue
+ * - While insertion just reverse the queue and it will act as a stack! (Scroll down for the code!)
+ * 
+ */ 
 class MyStack {
     private:
         queue<int> firstQ;
@@ -50,16 +56,41 @@ public:
     }
     
     bool empty() {
-        cout<<firstQ.size()<<" "<<secondQ.size();
         return firstQ.empty() && secondQ.empty();
     }
 };
 
 /**
- * Your MyStack object will be instantiated and called as such:
- * MyStack* obj = new MyStack();
- * obj->push(x);
- * int param_2 = obj->pop();
- * int param_3 = obj->top();
- * bool param_4 = obj->empty();
- */
+ * 
+ * Better way of doing it!
+ * 
+ */ 
+
+class MyStack {
+public:
+    queue<int> q;
+    
+    MyStack() {}
+    
+    void push(int x) {
+        q.push(x);
+        for(int i=0;i<q.size()-1;i++) {
+            q.push(q.front());
+            q.pop();
+        }
+    }
+    
+    int pop() {
+        int popVal = q.empty() ? -1 : q.front();
+        q.pop();
+        return popVal;
+    }
+    
+    int top() {
+        return q.front();
+    }
+    
+    bool empty() {
+        return q.empty();
+    }
+};
