@@ -325,3 +325,7 @@
 61. Implement stack using queue
 - Can be done using single queue, while insertion just reverse back the queue
 - How reverse? - just push front to back till n-1. Now the queue acts like stack for pop, top operations!
+
+62. Implement Queue using stack O(1)+
+- We can make use of 2 stack! Use input for entering and output for pop and top
+- Shift data from input to output only when pop or front required
