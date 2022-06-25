@@ -329,3 +329,7 @@
 62. Implement Queue using stack O(1)+
 - We can make use of 2 stack! Use input for entering and output for pop and top
 - Shift data from input to output only when pop or front required
+
+63. Next greater element II
+- Using stack to keep track of next greater is the best way of doing it. Pop out if next greater is smaller and insert if found greater one (think of poles)
+- Also as we need  cyclic here, repeat the array of use %N
