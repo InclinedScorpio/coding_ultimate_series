@@ -333,3 +333,7 @@
 63. Next greater element II
 - Using stack to keep track of next greater is the best way of doing it. Pop out if next greater is smaller and insert if found greater one (think of poles)
 - Also as we need  cyclic here, repeat the array of use %N
+
+64. ⭐️ LRU Cache
+- Use Doubly linked list as it will provide access to first, last and in btw data instantly
+- For above to get in between data we can make use of hash map to store the node address to get the data instantly
