@@ -342,3 +342,9 @@
 - We need to see the naive solution first, we basically are checking the next smallest num in left and right for each bar
 - This can be done in O(N^2) but we can optimize it using the problem "NEXT SMALLER" - and doing it for both left and right side
 - Hence complexity becomes O(N)
+
+66. ⭐️ Sliding Window Maximum
+- We need to find the max in the window, this can be done best by deque(as it provides add/remove from both front and back)
+- In dq, we will add the item if current existing in back is larger
+- If it's smaller, just start removing them -- as anyways current will be the max in the k items
+- Don't forget to remove from front when you move forward with k
