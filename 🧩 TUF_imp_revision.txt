@@ -337,3 +337,8 @@
 64. ⭐️ LRU Cache
 - Use Doubly linked list as it will provide access to first, last and in btw data instantly
 - For above to get in between data we can make use of hash map to store the node address to get the data instantly
+
+65. Largest Rectangle in Histogram (HARD yet easy)
+- We need to see the naive solution first, we basically are checking the next smallest num in left and right for each bar
+- This can be done in O(N^2) but we can optimize it using the problem "NEXT SMALLER" - and doing it for both left and right side
+- Hence complexity becomes O(N)
