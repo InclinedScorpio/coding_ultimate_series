@@ -348,3 +348,8 @@
 - In dq, we will add the item if current existing in back is larger
 - If it's smaller, just start removing them -- as anyways current will be the max in the k items
 - Don't forget to remove from front when you move forward with k
+
+67. 🌟 Rotten Oranges (BFS!)
+- We can implement BFS Here! (Use queue) in contrary to DFS and DFS is of no use here
+- While using queue we can pick the rotten oranges and keep pushing more
+- Which helps us to get the number of days to get the complete rotten oranges!
