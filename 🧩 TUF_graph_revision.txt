@@ -1,0 +1,170 @@
+-------------------------------------------
+## Graph Introduction (2 types)
+- Undirected graph (no direction)
+- Directed graph (has direction)
+
+# If cycle present we call it CYCLIC GRAPH
+# If cycle not present ACYCLIC GRAPH
+
+~ if edges has some number mentioned -> it's a weighted graph!
+~ by default consider weight to be 1 if not given and weight is required
+-------------------------------------------
+
+## Representation of Graph can be done in 2 ways
+
+1) Adjacency Matrix
+- If 2,3 | 1,2 | 1, 3 are given we can create a matrix out of it showing the edges as 1 and where i, j are the nodes
+    1  2  3
+    -------
+1 | 0  1  1
+2 | 1  0  1
+3 | 1  1  0
+
+2) Adjacency List
+- Sometimes i, j are too large that we can't use adjacency matrix, hence we use adjacency list!
+- Same thing can be represented in the form of list as well
+- 2,3 | 1,2 | 1, 3
+
+vector<int> adj[3+1]
+adj[0] => {}
+adj[1] => {2, 3}
+adj[2] => {1, 3}
+adj[3] => {1, 2}
+
+- What if weighed given?
+
+vector<pair<int, int>> adj[3+1] -> "WE USE PAIR<int, int> to store <vectex, weight>"
+adj[0] => {}
+adj[1] => { {2, 12}, {3, 43} }
+adj[2] => { {1, 12}, {3, 23} }
+adj[3] => { {1, 43}, {2, 23} }
+-------------------------------------------
+
+## Write code for multiple components whether it is DFS or BFS.
+
+- Take visited array and initialise as 0
+    for(int i = 0; i <= n; i++) {
+        if (!visited [ i ] ) {
+                    write code for either BFS or DFS
+        }
+    }
+
+-------------------------------------------
+
+# Breadth First Search (BFS)
+
+include<iostream>
+include<vector>
+include<queue>
+
+using namespace std;
+
+# BFS! (queue is used!)
+vector<int> getBFS(int vertices, vector<int> adj[]) {
+    vector<int> bfs;
+    queue<int> store;
+    store.push(1);
+    vector<int> visited(vertices, 0);
+    visited[1]=1;
+    while(!store.empty()) {
+        int node = store.front();
+        store.pop();
+        bfs.push_back(node);
+        for(int i: adj[node]) {
+            if(!visited[i]) {
+                visited[i]=1;
+                store.push(i);
+            }
+        }
+    }
+    return bfs;
+}
+
+void addEdges(int u, int v, vector<int> adj[]) {
+    adj[u].push_back(v);
+    adj[v].push_back(u);
+}
+
+void printVec(vector<int>& arr) {
+    for(int i: arr) cout<<i<<" ";
+}
+
+int main() {
+    int vertices = 8;
+    vector<int> adj[vertices];
+    addEdges(1, 2, adj);
+    addEdges(2, 3, adj);
+    addEdges(2, 7, adj);
+    addEdges(7, 5, adj);
+    addEdges(3, 5, adj);
+    vector<int> bfs = getBFS(vertices, adj);
+    printVec(bfs);
+}
+
+/*
+GRAPH:
+
+     1 -->  2 --> 3
+            |     |
+            ˘     ˘
+            7 --> 5
+*/
+
+-------------------------------------------
+
+# Depth First Search (DFS)
+
+include<iostream>
+include<vector>
+include<queue>
+
+using namespace std;
+
+void recurse(int node, vector<int> arr[], vector<int>& visited, vector<int>& dfs) {
+    dfs.push_back(node);
+    visited[node]=1;
+    for(int i: arr[node]) {
+        if(!visited[i])
+            recurse(i, arr, visited, dfs);
+    }
+}
+
+vector<int> getDFS(int vertices, vector<int> arr[]) {
+    vector<int> visited(vertices, 0);
+    vector<int> dfs;
+    for(int i=1;i<=vertices;i++) {
+        if(!visited[i] && arr[i].size())
+            recurse(i, arr, visited, dfs);
+    }
+    return dfs;
+}
+
+void addEdges(int u, int v, vector<int> adj[]) {
+    adj[u].push_back(v);
+    adj[v].push_back(u);
+}
+
+void printVec(vector<int>& res) {
+    for(int i: res) cout<<i<<" ";
+}
+
+int main() {
+    int vertices = 8;
+    vector<int> adj[vertices];
+    addEdges(1, 2, adj);
+    addEdges(2, 3, adj);
+    addEdges(2, 7, adj);
+    addEdges(7, 5, adj);
+    addEdges(3, 5, adj);
+    vector<int> dfs = getDFS(vertices, adj);
+    printVec(dfs);
+}
+
+/*
+GRAPH (Undirected Graph)
+
+     1 ---  2 --- 3     
+            |     |
+            |     |
+            7 --- 5
+*/

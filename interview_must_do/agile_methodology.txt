@@ -3,3 +3,10 @@
 
 - Check agile methodology values and principles
 - Check both frameworks - Scrum and Kanban
+
+-------------------------------------------------
+
+# DBMS & OS Revision
+https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+
+-------------------------------------------------
