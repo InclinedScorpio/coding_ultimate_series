@@ -3,6 +3,8 @@
 /**
  * LOGIC: Quick Select (Similar to Quick Sort) - just that here after finding num at right index we choose to see left or right
  * 
+ * BEST CASE COMPLEXITY: O(N)
+ * WORSE CASE COMPLEXITY: O(N^2)
  */ 
 int helper(int i, int j, vector<int>& nums, int k) {
     if(i==j) return i;
