@@ -1,0 +1,6 @@
+1. How to select UNIQUE records from a table?
+[ Solve using group by and analytic function both ]
+2. How to delete DUPLICATE records from a table?
+3. How to read TOP 5 records from a table?
+4. How to read LAST 5 records from a table?
+5. How to find the employee with second/Third (n) MAX Salary without using analytical function.
