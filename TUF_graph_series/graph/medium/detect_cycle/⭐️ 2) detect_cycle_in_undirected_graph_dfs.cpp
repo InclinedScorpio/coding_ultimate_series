@@ -12,7 +12,7 @@ class Solution {
   public:
 
     bool dfs(int V, int ind, int parent, vector<int>& visited, vector<int> adj[], vector<int>& result) {
-        visited[ind]=1;
+        visited[ind]=1; 
         result.push_back(ind);
         for(int i: adj[ind]) {
             if(visited[i] && i!=parent) return true;
