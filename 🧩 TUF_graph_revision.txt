@@ -171,8 +171,13 @@ GRAPH (Undirected Graph)
 
 
 -------------------------------------------
+# BIPARTITE GRAPH USING BFS/DFS
 
 Q) Check if graph is Bipartite using BFS (queue) OR level order.
 
+Q) Check if graph is Bipartite using DFS (recursion).
+
 -------------------------------------------
+
+
 
