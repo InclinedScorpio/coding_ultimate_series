@@ -92,3 +92,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 6. Postfix Notation
 - We can use stack to cover all conditions in postfix evaluation!
 - Pop two numbers when operators occur and do operation and store result back in
+
+7. Hash Table
+- Creation of hash table. Use array to store keys as index but of limited size
+- Hence collision will occur, so make linkedin list at each index of above array
+- Keep hash function (%1000) optimized -> try/error
