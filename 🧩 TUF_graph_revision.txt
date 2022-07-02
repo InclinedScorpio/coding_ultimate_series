@@ -168,3 +168,11 @@ GRAPH (Undirected Graph)
             |     |
             7 --- 5
 */
+
+
+-------------------------------------------
+
+Q) Check if graph is Bipartite using BFS (queue) OR level order.
+
+-------------------------------------------
+
