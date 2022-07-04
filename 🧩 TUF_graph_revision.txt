@@ -179,5 +179,11 @@ Q) Check if graph is Bipartite using DFS (recursion).
 
 -------------------------------------------
 
+Q) Detect Cycle in a directed Graph!
+* LOGIC: As we will be backtracking at some point if cycle is not there, we can have another array apart from visited
+* So as soon as we will backtrack we will set 0 to the array, but visited will still be 1, as no need coming to there as there is no way after that!
+* Hence these 2 array approach works with DFS for detecting cycle in a directed graph!
+
+-------------------------------------------
 
 
