@@ -97,3 +97,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - Creation of hash table. Use array to store keys as index but of limited size
 - Hence collision will occur, so make linkedin list at each index of above array
 - Keep hash function (%1000) optimized -> try/error
+
+8. Subsequence Sum (BS problem - important to check question)
+- Can be done using DP - gives TLE
+- Greedy approach is difficult to reach!
+- Constraint A[i] - A[j] = i - j, hence we conclude A[i] - i = A[j] - j, hence all same difference must be conslidated together

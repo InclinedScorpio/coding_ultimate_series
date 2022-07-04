@@ -2,3 +2,9 @@
 - O(N^2) is easy as we just need need to keep pos, neg at each index and iterate
 - But if we see clearly at each index we can use previous one. Keeping one same while increasing other if possible
 - UPDATE: Top Down Approach (recursion) is done myself and understood clearly. Better to find recursive with memo way always!
+
+2. Candy Problem ( the more priority child will get more candies than neighbour)
+- First option is definitely Backtracking which gives TLE :( Hence do greedy approach
+- Think of it as a graph problem where point at top will have more candy than neighbour
+- Neighbour are at 2 sides left and right
+- Hence we can first check from left to right and then from right to left, and finally do sum
