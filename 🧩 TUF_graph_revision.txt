@@ -186,4 +186,11 @@ Q) Detect Cycle in a directed Graph!
 
 -------------------------------------------
 
+Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting)
+-> We just need to do DFS and use a stack
+ * - Why stack? In stack at bottom will be the item which has no outgoing edges
+ * - And as we go on top will have nodes which are having more outgoing edges
+ * - Hence, at last we can just pop them out and print it
+ * - So Topological sorting is basically ( DFS + STACK + VISITED_ARRAY)
 
+ -------------------------------------------
