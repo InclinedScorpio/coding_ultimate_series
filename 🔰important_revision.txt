@@ -102,3 +102,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - Can be done using DP - gives TLE
 - Greedy approach is difficult to reach!
 - Constraint A[i] - A[j] = i - j, hence we conclude A[i] - i = A[j] - j, hence all same difference must be conslidated together
+
+9. Perfect Squares (BS Problem, Math, DP)
+- Important to understand how to solve a math problem using DP
+- We can just send num and check if it can be further reduced using a sqauare and recurse!
+- We can do memoization as it's an overlapping subproblems!

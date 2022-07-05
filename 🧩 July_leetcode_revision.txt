@@ -8,3 +8,9 @@
 - Think of it as a graph problem where point at top will have more candy than neighbour
 - Neighbour are at 2 sides left and right
 - Hence we can first check from left to right and then from right to left, and finally do sum
+
+
+3. Longest Consecutive Sequence (find consecutive from anywhere in array)
+- Remember, for unordered_map and unordered_set, complexity on avg is O(1) hence we can make use of it
+- Now to keep it O(1), a simple trick is to start counting consecutive only when previous doesn't exists
+- Eg. for 100, 4, 2, 33, 3, 1 -> after inserting, we will start counting from 1 and not from 2, 3, 4 ->  in those we will just skip!
