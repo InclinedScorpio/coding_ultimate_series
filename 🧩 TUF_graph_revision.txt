@@ -185,7 +185,9 @@ Q) Detect Cycle in a directed Graph!
 * Hence these 2 array approach works with DFS for detecting cycle in a directed graph!
 
 -------------------------------------------
+## IMPORTANT !
 
+#DFS
 Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting)
 -> We just need to do DFS and use a stack
  * - Why stack? In stack at bottom will be the item which has no outgoing edges
@@ -193,4 +195,13 @@ Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting
  * - Hence, at last we can just pop them out and print it
  * - So Topological sorting is basically ( DFS + STACK + VISITED_ARRAY)
 
+#BFS (using Kahn's Algorithm)
+Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting)
+- Idea is: the node with least indegree will be kept first!
+* - First we need to find all the indegrees
+* - Then pick those which have 0 indegrees (will be there as it's DAG)
+* - Now, just do BFS and keep inserting node whose indegree turn to 0...
+* - Hence we will get topological sort in the result
+* 
+* NOTE: During BFS we will keep reducing the indegree of the connected node so we can push the new zero degree node to the queue
  -------------------------------------------
