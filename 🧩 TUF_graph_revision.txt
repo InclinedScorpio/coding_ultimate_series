@@ -178,6 +178,8 @@ Q) Check if graph is Bipartite using BFS (queue) OR level order.
 Q) Check if graph is Bipartite using DFS (recursion).
 
 -------------------------------------------
+## DETECT CYCLE
+
 #DFS (using isVisited and dfs array)
 Q) Detect Cycle in a directed Graph!
 * LOGIC: As we will be backtracking at some point if cycle is not there, we can have another array apart from visited
@@ -194,6 +196,8 @@ Q) Detect Cycle in a directed Graph!
 * - because in scratch try!- for cycle there won't be any more 0 there and hence it will be bfs will stop!
 
 -------------------------------------------
+## TOPOLOGICAL SORT
+
 #DFS
 Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting)
 -> We just need to do DFS and use a stack
@@ -211,4 +215,12 @@ Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting
 * - Hence we will get topological sort in the result
 * 
 * NOTE: During BFS we will keep reducing the indegree of the connected node so we can push the new zero degree node to the queue
- -------------------------------------------
+-------------------------------------------
+## MINIMUM DISTANCE FROM A NODE
+
+ #BFS
+ Q) Minimum distance in a undirected graph from a source (with 1 wt. of each edge)
+ * LOGIC: As we know bfs goes level by level, hence we can make use of it and increment size as we move forward
+ * - We will push the node again in queue if the lentth is updated to any smaller value
+ * - Or else if length is already small, we won't push it in queue
+ * NOTE: Make sure to keep the length initially to INT_MAX so those can be updated
