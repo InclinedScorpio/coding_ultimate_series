@@ -224,3 +224,11 @@ Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting
  * - We will push the node again in queue if the lentth is updated to any smaller value
  * - Or else if length is already small, we won't push it in queue
  * NOTE: Make sure to keep the length initially to INT_MAX so those can be updated
+
+ #BFS
+ Q) Minimum distance in a weighted DAG (here edges will have weight and direction)
+ * ->Similar to 1) undirected_graph_with_1_wight_bfs, with minor change
+ * - Here adjacency list will not have int, rather pair<int, int>
+ * - Why? As the edges are wighted, hence from for edge 1 connected to 0 with edge weight as 12 we will show as [0] = {{1, 12}}
+ * - Hence, while checking the distance and pushing in queue we will check if it's yielding min distance
+ * - If yes then update and insert it in queue (so that other connected nodes to it can also be updated)
