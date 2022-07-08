@@ -232,3 +232,19 @@ Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting
  * - Why? As the edges are wighted, hence from for edge 1 connected to 0 with edge weight as 12 we will show as [0] = {{1, 12}}
  * - Hence, while checking the distance and pushing in queue we will check if it's yielding min distance
  * - If yes then update and insert it in queue (so that other connected nodes to it can also be updated)
+ -------------------------------------------
+
+ ## Dijkstras Algorithm
+ * LOGIC: In BFS we used to push the all nodes in next level to the queue
+ * - But in that case it would push even the node with largest edge weight to the queue
+ * - Whereas in Dikstras, it's similar to BFS, but here we will use priority queue
+ * - WHY? so that we can initially discover those nodes which has shortest length from source 
+ * - From those nodes we can update the shortest length to other nodes (RELAXATION PROCESS)
+ * - Hence, as we keep reaching the new nodes(picking node from priority queue means the length of that node is set to smallest now)
+ -------------------------------------------
+
+ ## Minimum Spanning Tree
+- A spanning tree is a tree where all vertices are connected with minimum number of edges
+- For V vertices, V-1 number are minimum edges required.
+- “MINIMUM“ denotes that those edges must have smallest sum of weight possible
+- Prims & Kruskals are used for finding Minimum Spanning Tree

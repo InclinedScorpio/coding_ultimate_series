@@ -14,3 +14,14 @@
 - Remember, for unordered_map and unordered_set, complexity on avg is O(1) hence we can make use of it
 - Now to keep it O(1), a simple trick is to start counting consecutive only when previous doesn't exists
 - Eg. for 100, 4, 2, 33, 3, 1 -> after inserting, we will start counting from 1 and not from 2, 3, 4 ->  in those we will just skip!
+
+4. Interleaving Strings (was struck to understand how memoization used)
+- LOGIC: There are 2 things to realize in this question
+- * 1) There are many ways possible - hence it's a recursion problem
+- * 2) The recursion problem has overlapping sub problems so it's a DP Problem
+- * Understanding 2)
+- => Let's say we have s1=aaa... and s2=aaa.... 
+- s1(0) and s2(0) are taken!
+- While calculating at index 1 of s1 and index 1 of s2 a false was received
+- Hence now s2(0) and s1(0) are taken! but now again we came to above point s1(1) and s2(1) which is already calculated as false :(
+- Hence use DP with memoization!
