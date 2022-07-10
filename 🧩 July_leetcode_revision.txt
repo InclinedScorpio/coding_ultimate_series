@@ -25,3 +25,11 @@
 - While calculating at index 1 of s1 and index 1 of s2 a false was received
 - Hence now s2(0) and s1(0) are taken! but now again we came to above point s1(1) and s2(1) which is already calculated as false :(
 - Hence use DP with memoization!
+
+5. 🌟 (Took lot of time!) Jump Game VI - TRY THIS AGAIN!
+- Understanding recursion with memo is easy but it gives TLE
+- If we see in detail at each index, we need to require the max value formed in previous k
+- Hence in each index we can find the max value formed in previous k + current
+- BUT, "max value in previous k"- can be done using MAX HEAP! - o(logN)
+- :NOTE: Make sure to remove the indices <i-k as from there you can't reach i (k step max is possible)
+
