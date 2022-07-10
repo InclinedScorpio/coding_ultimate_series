@@ -33,3 +33,7 @@
 - BUT, "max value in previous k"- can be done using MAX HEAP! - o(logN)
 - :NOTE: Make sure to remove the indices <i-k as from there you can't reach i (k step max is possible)
 
+6. Min Cost Climbing Stairs
+- Basic recursion with memoization technique
+- Without memoization as there are 2 ways to climb - complexity O(N^2)
+- With memoization  - O(N) - as ones gone from a ind, won't go again
