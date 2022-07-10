@@ -1,7 +1,9 @@
 # Coding Ultimate Series
 ![](https://visitor-badge.glitch.me/badge?page_id=coding_ultimate_series)
 
-Coding Ultimate Series. 
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&color=2CFF00&size=40&width=750&height=80&lines=Coding+Ultimate_Series+🥳+For+FAANG+💪"/>
+</p>
 
 <img alt="HF2021" src="https://github.com/InclinedScorpio/coding_ultimate_series/blob/master/z_images/inclinedscorpio.png">
 
