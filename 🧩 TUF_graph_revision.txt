@@ -248,3 +248,18 @@ Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting
 - For V vertices, V-1 number are minimum edges required.
 - “MINIMUM“ denotes that those edges must have smallest sum of weight possible
 - Prims & Kruskals are used for finding Minimum Spanning Tree
+
+-------------------------------------------
+
+## PRIMS ALGORITHM (One of the algo to form Minimum spanning Tree, other is Kruskals)
+* LOGIC: First thing to understand is what is Minimum spanning Tree
+* - Second thing is the Prims Algorithm
+* 
+* Prims Algo says that to find a min spanning tree
+* - Pick the min edge and go through it, now at new node, again see what all edges are present
+* - Now among both the nodes, check which is minimum edge wt. and push it (Make sure not to push visited node's edge)
+* - At last all node will be covered. Just by taking minimum edges each time.
+* 
+* NOTE: To keep the bucket of edges, use min Heap! as it will only take O(logN) for all operations
+
+-------------------------------------------
