@@ -107,3 +107,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - Important to understand how to solve a math problem using DP
 - We can just send num and check if it can be further reduced using a sqauare and recurse!
 - We can do memoization as it's an overlapping subproblems!
+
+10. The Accountant
+- Problem asks to convert 27 to AA
+- But the issue is it's given in 1 based indexing
+- In the while loop just do n-- or consider num as (n-1) during each iteration (Crux of problem)

@@ -37,3 +37,9 @@
 - Basic recursion with memoization technique
 - Without memoization as there are 2 ways to climb - complexity O(N^2)
 - With memoization  - O(N) - as ones gone from a ind, won't go again
+
+7. Print Right Side of Binary Tree
+- Dfs is easy, but BFS is something to try
+- In BFS we can simply use a queue and first insert left and right
+- Keep record of number of records and pop and insert each nodes left and right and when record size ends, insert the last one to asnwer vector
+- This way we always keep the last one to the resultant vector
