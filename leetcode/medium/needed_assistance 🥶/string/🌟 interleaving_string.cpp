@@ -5,7 +5,7 @@
  * 1) There are many ways possible - hence it's a recursion problem
  * 2) The recursion problem has overlapping sub problems so it's a DP Problem
  * 
- * Understanding 2)
+ * Understanding 2nd point from above)
  * => Let's say we have s1=aaa... and s2=aaa.... 
  * - s1(0) and s2(0) are taken!
  * - While calculating at index 1 of s1 and index 1 of s2 a false was received

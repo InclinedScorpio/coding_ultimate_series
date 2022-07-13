@@ -43,3 +43,9 @@
 - In BFS we can simply use a queue and first insert left and right
 - Keep record of number of records and pop and insert each nodes left and right and when record size ends, insert the last one to asnwer vector
 - This way we always keep the last one to the resultant vector
+
+8. Matchticks to Square
+- LOGIC -> First thing - it's easy to understand it's a core recursion, backtracking problem (As we need to check multiple things)
+- But we don't need to play with number here, rather think about the ideal scenarion how we would have done in reality
+- Keeping and checking the sticks on 4 sides and then checking and backtracking
+- That's exactly what we are supposed to do here
