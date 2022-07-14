@@ -112,3 +112,6 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - Problem asks to convert 27 to AA
 - But the issue is it's given in 1 based indexing
 - In the while loop just do n-- or consider num as (n-1) during each iteration (Crux of problem)
+
+11. Interval Overlaps
+- Important Question, makes use of just pointers and if else statments

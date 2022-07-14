@@ -49,3 +49,8 @@
 - But we don't need to play with number here, rather think about the ideal scenarion how we would have done in reality
 - Keeping and checking the sticks on 4 sides and then checking and backtracking
 - That's exactly what we are supposed to do here
+
+9. (DO) Construct Binary tree from inorder and preorder traversal
+- LOGIC: Preorder(root, l, r) gives us the root of each subtree. First item is the root of whole subtree
+- Inorder gives us an idea about a root which items will lie on the left and which on right side
+- Hence, we can keep make use of both the array to find the item at each step
