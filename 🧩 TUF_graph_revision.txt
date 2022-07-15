@@ -263,3 +263,14 @@ Q) Topological Sorting (It's not sorting! But u,v where u comes before v sorting
 * NOTE: To keep the bucket of edges, use min Heap! as it will only take O(logN) for all operations
 
 -------------------------------------------
+
+## Kruskals ALGORITHM (Algo to form minimum spanning tree)- (Pre-requisite - disjoint sets (to check cycle))
+* LOGIC: Things to understand
+* 1) Minimum spanning tree - V vertices,V-1 edges, sum of min edges
+* 2) Keep picking minimum edges, but cycle may form
+* 3) To avoid cycle make use of Disjoint sets
+* 4) Rank and compression is optimized way of disjoint set O(4Alpha) ~ O(4)
+
+NOTE: Check disjoint_set to understand Rank and compression 
+
+-------------------------------------------
