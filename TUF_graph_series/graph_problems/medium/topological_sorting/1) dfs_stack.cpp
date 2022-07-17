@@ -25,7 +25,7 @@
  */ 
 class Solution {
 	public:
-	
+	 
 	void helper(vector<int> adj[], int ind, vector<int>& isVisited, stack<int>& store) {
 	    if(isVisited[ind]) return;
 	    isVisited[ind]=1;
