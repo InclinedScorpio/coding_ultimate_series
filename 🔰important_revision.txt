@@ -115,3 +115,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 
 11. Interval Overlaps
 - Important Question, makes use of just pointers and if else statments
+
+12. Direct Clousure (BS Problem)  - if path exists from each vertices to every other vertices
+- 2 different solutions are possible
+- Either do with DFS or with UnionFind
+- View question/ans to understand
