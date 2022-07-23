@@ -24,17 +24,12 @@ public:
         cost[ind] = currentCost;
         int minCost = currentCost;
         for(int i=0;i<adj[ind].size();i++) {
-            if(adj[ind][i]==comingFrom) {
-                continue;
-            }
+            if(adj[ind][i]==comingFrom) continue;
             currentCost++;
             int currCost = findBridges(n, adj[ind][i], adj, bridges, visited, cost, currentCost, ind);
-
-            if(currCost>cost[ind]) {
+            if(currCost>cost[ind])
                 bridges.push_back({ind, adj[ind][i]});
-            } else {
-                minCost = min(minCost, currCost);
-            }
+            else minCost = min(minCost, currCost);
         }
         cost[ind] = minCost;
         return minCost;
@@ -42,6 +37,7 @@ public:
     
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
         vector<int> adj[n];
+        // create adjacency list
         for(int i=0;i<connections.size();i++) {
             adj[connections[i][0]].push_back(connections[i][1]);
             adj[connections[i][1]].push_back(connections[i][0]);
