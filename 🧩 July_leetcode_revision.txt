@@ -54,3 +54,9 @@
 - LOGIC: Preorder(root, l, r) gives us the root of each subtree. First item is the root of whole subtree
 - Inorder gives us an idea about a root which items will lie on the left and which on right side
 - Hence, we can keep make use of both the array to find the item at each step
+
+10. ⭐️ Lowest common ancestor (using DFS/ using stack)
+- LOGIC: Note- all the val's are unique
+- Hence we just need to find the num and return as soon as get
+- If at any instance we see both left and right carrying value we will return back the current node
+- because that's the node which is commong lowest ancestor
