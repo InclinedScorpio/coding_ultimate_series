@@ -290,3 +290,14 @@ NOTE: Check disjoint_set to understand Rank and compression
 * NOTE: Make sure not to go back to node from where you are coming, just return the cost to it so it can compare with it's current value
 
 -------------------------------------------
+
+## Articulation Point, Node which is single point failure (Similar to other problem!)
+* LOGIC: Maintain visited array first to check which nodes are visited
+* - We will do a DFS Traversal here
+* - Keep updating the time at which the node was seen
+* - Also if node encounters another node which has lower time of seen
+* - It will acquire it and return back to the node from where it came
+* - So that previous node can know that even if they are removed, the other graph can still reach the previous nodes hence it's not an articulation point
+* - The point where the next node returns lowerstTime same or more -> that means that node is articulation pt, as next node can reach the prvious part of the graph!
+
+-------------------------------------------
