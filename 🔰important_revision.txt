@@ -120,3 +120,9 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - 2 different solutions are possible
 - Either do with DFS or with UnionFind
 - View question/ans to understand
+
+13. Maximum Non adjacent tree sum (BS Problem) - Good Question * LOGIC: Forgot even 2nd time
+- Don't send data from top to bottom
+- return it from last
+- This way at each node we can check if we are taking current root then .second of both
+- Or else we can merge the max from left and right
