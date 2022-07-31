@@ -125,4 +125,4 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - Don't send data from top to bottom
 - return it from last
 - This way at each node we can check if we are taking current root then .second of both
-- Or else we can merge the max from left and right
+- Or else we can merge the max from left and right 
