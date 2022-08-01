@@ -10,7 +10,7 @@
  * - Hence, first check how many blanks will be there
  * (n-1) + (m-1)
  * 
- * - Now, nC(n-1) or nC(m-1) anyone of them will work
+ * - Now, TotC(n-1) or TotC(m-1) anyone of them will work
  * - This is solution using combination
  * 
  * COMPLEXITY: O(N)
