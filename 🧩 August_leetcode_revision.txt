@@ -1,0 +1,5 @@
+1. Mycalendar (Basic interval question only! sorting and all was not required here)
+- LOGIC: No need of using sorting here, just think the basic thing
+- Don't jump to advance level initially
+- Here, simple checking with all the intervals worked fine
+
