@@ -121,8 +121,13 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - Either do with DFS or with UnionFind
 - View question/ans to understand
 
-13. Maximum Non adjacent tree sum (BS Problem) - Good Question * LOGIC: Forgot even 2nd time
+13. Maximum Non adjacent tree sum (BS Problem) - Good Question * LOGIC: Forgot even 2nd time -_-
 - Don't send data from top to bottom
 - return it from last
 - This way at each node we can check if we are taking current root then .second of both
 - Or else we can merge the max from left and right 
+
+14. Movie Theatre (BS Problem) - Good Interval problem 
+- Was confused about a basic logic of how to proceed
+- here minHeap came to the advantage - didn't thought of this
+- Q must be tried once in order to understand
