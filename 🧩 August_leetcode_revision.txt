@@ -3,3 +3,8 @@
 - Don't jump to advance level initially
 - Here, simple checking with all the intervals worked fine
 
+2. Substring with concatenation of all words (hard problem)
+- LOGIC: Think basic level only. 
+- Not a DP question, just keep a check on all the words
+- And iterate through given string and see if all words are seen or not (NOTE: WORDS ARE SAME LENGTH SO THAT HELPED!)
+
