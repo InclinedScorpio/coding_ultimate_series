@@ -60,3 +60,7 @@
     - As multiple ways possible do recursion
     - Make sure to do top down and return the result all the way up (like return fn() + 1) rather than sending result to next stack fn(x, result+1) XXX
     
+15. Jump Game, Jump Game 2 
+    - Jump Game implements DP, while Jump Game 2(finding min jumps) we can do using greedy
+
+    
