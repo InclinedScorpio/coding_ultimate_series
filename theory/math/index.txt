@@ -19,3 +19,9 @@ LEFT/RIGHT SHIFT
 2. Right shift
   - x>>3 means (x / pow(2, 3))
   - So if we do x>>1 -> means half x -> why? (x / pow(2, 1))
+
+---
+
+DON't USE log(x) while division. Use log10(x)/log10(y)
+
+---
