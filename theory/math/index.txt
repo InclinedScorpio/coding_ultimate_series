@@ -25,3 +25,6 @@ LEFT/RIGHT SHIFT
 DON't USE log(x) while division. Use log10(x)/log10(y)
 
 ---
+
+Q) How To know it's an Integer?
+A) (...) % 1 == 0 
