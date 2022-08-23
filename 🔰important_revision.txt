@@ -135,3 +135,6 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 15. Jump Game and Jump Game II Problem
 - Jump game can be implemented using Dynamic Programming as multiple ways of solving is possible
 - In Jump Game 2 we can also do DP but can be further optimised using Greedy approach by choosing intervals and jumping as far as possible and counting the jumps
+
+15. Course Schedule - graph question
+- Important to realize that it's a graph question, just after creating in scratch it should have been clear!
