@@ -138,3 +138,11 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 
 15. Course Schedule - graph question
 - Important to realize that it's a graph question, just after creating in scratch it should have been clear!
+
+16. 🌟 (must do) Implement Trie
+- LOGIC: Must understand these things!
+- 1) We need a class to implement the node
+- 2) TrieNode* val[123] -> array pointing to complete different array (important)
+- 3) TrieNode* val[123] = {}; use {} else error is thrown
+- 4) node pointed as the end is the next node basically (why? - because it's the exact character which is last)
+⭐️ > previously I had marked the complete node with array[123] as the last and not the character inside it as the last due to which some test cases failed
