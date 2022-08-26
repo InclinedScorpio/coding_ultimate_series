@@ -146,3 +146,9 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - 3) TrieNode* val[123] = {}; use {} else error is thrown
 - 4) node pointed as the end is the next node basically (why? - because it's the exact character which is last)
 ⭐️ > previously I had marked the complete node with array[123] as the last and not the character inside it as the last due to which some test cases failed
+
+17. 🌟 Maximal Square (Tricky!!)
+- LOGIC: Intial intuition for DP part is tricky
+- Instead of reading the '1' on top and left, we can make use of cache array itself top reach top and left index
+- Why we are reading top and left '1's or using cache is important
+
