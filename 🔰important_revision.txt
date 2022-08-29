@@ -152,3 +152,7 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - Instead of reading the '1' on top and left, we can make use of cache array itself top reach top and left index
 - Why we are reading top and left '1's or using cache is important
 
+18. 🌟 Path sum 3
+- Prefix sum knowledge is required
+- It's simple, just keep doing sum and rememer the sum seen so far
+- If currSum - targetNeeded is seen somewhere that means soln exists
