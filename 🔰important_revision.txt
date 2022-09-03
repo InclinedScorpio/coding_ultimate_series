@@ -168,3 +168,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - and now till that ind, we need to check if any in btw char is having even further occurance
 - If yes update last occurance(end)
 - If you reach last occurance(end) - just store the count and start over the counter.
+
+21. 🌟 Decode String 
+- LOGIC: 1) thing is Intuition-  is to use stack
+- 2) thing is to push back the resultant after finding
+- 2) point I couldn't understand
