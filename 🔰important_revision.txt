@@ -173,3 +173,8 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - LOGIC: 1) thing is Intuition-  is to use stack
 - 2) thing is to push back the resultant after finding
 - 2) point I couldn't understand
+
+22. Binary Tree Zig-Zag Order Traversal/ Spiral Traversal of Tree ( Use 2 Stack! )
+- LOGIC: intuition comes from scratch
+- Make tree and use arrows to denote how to pick numbers
+- Also, using more than 1 array, stack, queue should also be checked
