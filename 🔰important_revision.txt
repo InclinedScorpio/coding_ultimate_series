@@ -178,3 +178,11 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - LOGIC: intuition comes from scratch
 - Make tree and use arrows to denote how to pick numbers
 - Also, using more than 1 array, stack, queue should also be checked
+
+23. (MUST CHECK) Gas Station (Optimization part is interesting)
+- LOGIC: Brute force is easy, thinking about optimization is tedious part
+- Yet, it's easy to think about the optimization part.
+- As on reaching each station, we can refill the gas, and the amount of gas required to travel will be substracted
+- Let's say the man travelled from index 3 to 7 and on 7 he had no more gas.
+- So, even if you start from 4-6, still the man won't go beyond 7, let alone the complete cycle...
+- But why? - because at each station we WILL HAVE 0 or more in surplus and if that couldn't help him go over 7 how will individual gas will help
