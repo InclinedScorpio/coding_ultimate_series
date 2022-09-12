@@ -16,13 +16,14 @@ class Solution {
 	
 	int parentOf(vector<int>& parent, int node) {
 	    if(parent[node]==-1) return node;
-	    return parent[node] = parentOf(parent, parent[node]);
+	    return parent[node] = parentOf(parent, parent[node]); //optimizing!
 	}
 	
 	void nodeUnion(vector<int>& parent, vector<int>& rank, int first, int second) {
 	    int parentOfFirst = parentOf(parent, first);
 	    int parentOfSecond = parentOf(parent, second);
 	    if(parentOfFirst == parentOfSecond) return;
+
 	    if(rank[parentOfFirst]<rank[parentOfSecond]) {
 	        parent[parentOfFirst] = parentOfSecond;
 	    } else if(rank[parentOfFirst]>rank[parentOfSecond]) {
