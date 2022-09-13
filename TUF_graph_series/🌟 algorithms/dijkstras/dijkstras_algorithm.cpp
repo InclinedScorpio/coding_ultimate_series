@@ -27,9 +27,12 @@ vector<int> helper(vector<pair<int, int>> adj[], int V, int source, vector<int> 
     minHeap.push({0, source});
 
     while(!minHeap.empty()) {
-        pair<int, int> topItem = minHeap.top();
+        pair<int, int> topItem = minHeap.top(); // o(n)
+
         minHeap.pop();
+
         int distanceTill = topItem.first;
+
         int node = topItem.second;
         for(pair<int, int> i: adj[node]) {
             if(i.second+distanceTill < minDistance[i.first]) {
