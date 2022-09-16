@@ -46,9 +46,9 @@ public:
         
         for(int i=0;i<board.size();i++) {
             for(int j=0;j<board[i].size();j++) {
-                if(board[i][j]==3) {
+                if(board[i][j]==3) { // temporary value in the cell
                     board[i][j]=0;
-                } else if(board[i][j]==-1) {
+                } else if(board[i][j]==-1) { // temporary value in the cell 
                     board[i][j]=1;
                 }
             }
