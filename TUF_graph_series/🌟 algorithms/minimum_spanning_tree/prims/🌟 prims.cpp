@@ -30,7 +30,7 @@ class Solution {
             }
             sum+=front.first;
             visited[front.second]=1;
-            minPq.pop();
+            minPq.pop()
             for(vector<int> nodes: adj[front.second]) {
                 if(visited[nodes[0]]) continue;
                 // not visited

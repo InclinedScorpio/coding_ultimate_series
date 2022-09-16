@@ -186,3 +186,6 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 - Let's say the man travelled from index 3 to 7 and on 7 he had no more gas.
 - So, even if you start from 4-6, still the man won't go beyond 7, let alone the complete cycle...
 - But why? - because at each station we WILL HAVE 0 or more in surplus and if that couldn't help him go over 7 how will individual gas will help
+
+24. 🌟 Sieve of eratosthenes (DO Check once as applied maths)
+- LOGIC: Check solution directly, try once!
