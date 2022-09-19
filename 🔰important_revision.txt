@@ -189,3 +189,11 @@ NOTE: Minimum swaps to sort & count inversions are different question.
 
 24. 🌟 Sieve of eratosthenes (DO Check once as applied maths)
 - LOGIC: Check solution directly, try once!
+
+25. 🌟 Pair of songs divisible by 60 (MUST DO!!!)
+- LOGIC: O(N^2) solution is clearly the first approach
+- Optimized approach is in O(N) where we can pick the remainders! How?
+- First understand that if we have 40, then we need to check 60 - ('40'%60) = 20 so find how many 20's are there
+- As in if we have 80 -> that's a 20! because 40+80 will be 120 which is divisible by 60 and hence a valid pair!
+- We can keep incrementing the remainders we find so that if we have 2 remainders then we can simply add them to result
+- Why add them to result? because that's the number of new pairs we generate when a new number is added to it
