@@ -16,7 +16,6 @@
 // Output: 0
 // Explanation: In this case, no transactions are done and the max profit = 0.
 
-
 /**
  * LOGIC: Keep 2 ptr -> max and min
  * - Decide each time if min or max should be updated and perform operation(checking if got maxProfit)
@@ -48,4 +47,3 @@ public:
         return maxProfit;
     }
 };
-
