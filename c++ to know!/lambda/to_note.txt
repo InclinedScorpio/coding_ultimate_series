@@ -1,0 +1,16 @@
+- Using lambda function makes programming easy! Use it!
+
+    vector<int> store = {43, -22, 666, 23, 3434, 202};
+    
+    // All of returns true if all of the given conditions are true
+    cout<<all_of(store.begin(), store.end(), [](int x) {
+        return x>0;
+    })<<endl;
+
+    // Any of returns true if any of the given condition is true
+    cout<<any_of(store.begin(), store.end(), [](int x) {
+        return x<0;
+    });
+
+---
+

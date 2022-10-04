@@ -1,3 +1,6 @@
 1. Reorder Data in Log Files
 - Logic is basic, question must be clear.
 - understand question in scratch before starting, that's all!
+
+2. Sum of Subarray Ranges
+- Is easy, we just need to form the subarrays and calculate max and min at each step
