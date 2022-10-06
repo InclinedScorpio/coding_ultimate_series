@@ -11,3 +11,6 @@
 - Traversing back is not possible in tree! But with some extra work we can! How?
 - Use map to store parent of each node! So that we can traverse back
 - Also, make sure to use visited array so you don't come back from where traversing path for k
+
+4. 🌟 Search Suggestion System (TRIE)
+- Basic Trie Problem! Must be done before to do it timely :)
