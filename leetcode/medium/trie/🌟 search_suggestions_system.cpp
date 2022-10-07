@@ -8,10 +8,8 @@ class Trie {
     public: 
         Trie() {
             memset(trie, NULL, 127);
-            isEnd=false;
         }
         Trie* trie[127] = {};
-        bool isEnd;
         vector<string> store;
 };
 
@@ -26,7 +24,6 @@ public:
             current = current->trie[i];
             current->store.push_back(str);
         }
-        current->isEnd = true;
     }
     
     vector<string> search(string str, Trie* paramCurrent) {
@@ -42,7 +39,7 @@ public:
     }
     
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
-        Trie* myTrie = new Trie();
+        Trie* myTrie = new Trie(); // base trie
         sort(products.begin(), products.end());
         for(string str: products) {
             insertIntoTrie(str, myTrie);

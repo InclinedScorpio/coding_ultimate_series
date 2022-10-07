@@ -14,3 +14,6 @@
 
 4. 🌟 Search Suggestion System (TRIE)
 - Basic Trie Problem! Must be done before to do it timely :)
+
+5. Find Triangular Sum of Array (Medium/Basic question)
+- Basic array problem
