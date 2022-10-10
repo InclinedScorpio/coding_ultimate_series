@@ -17,3 +17,6 @@
 
 5. Find Triangular Sum of Array (Medium/Basic question)
 - Basic array problem
+
+6. 🌟 Flip String to Monotone increasing (1, 0's problem)
+- Minor maths thinking, but need recursion before
