@@ -20,3 +20,6 @@
 
 6. 🌟 Flip String to Monotone increasing (1, 0's problem)
 - Minor maths thinking, but need recursion before
+
+7. kth factor of n
+- Basic question, nothing complex
