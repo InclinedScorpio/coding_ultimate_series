@@ -23,3 +23,6 @@
 
 7. kth factor of n
 - Basic question, nothing complex
+
+8. Diameter of Binary Tree
+- Basic recursive solution
