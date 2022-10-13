@@ -26,3 +26,8 @@
 
 8. Diameter of Binary Tree
 - Basic recursive solution
+
+9. 🌟 Minimum swaps to group all 1's together (1, 0's problem)
+- We need a group here, hence sliding window comes in picture
+- We just need to maintain window of size = (total number of 1's) and count zeroes inside it
+- Number of zeroes is the number of swaps required 
