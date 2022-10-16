@@ -1,0 +1,10 @@
+1. 🌟(New concept! Must do) Number of ways of cutting a pizza
+- LOGIC: Main logic is just to understand how to create postSum, rest of the problem is basic DP!
+- Postsum means from an index, we are checking the apples to right-lower part of 2d matrix starting from there
+- This we can find by adding total apples from right and lower part
+- But when we take lower part, it will overlap the right part and will give more apples (not correct answer)
+- Hence we need to subtract Union of(lower and right part )- i.e [ind+1][jnd+1]
+- Also we need to do + 1 if at current position we have an apple!
+- .............
+- Once above postSum matrix is done, now just do the question as per given condition and start cutting from each row and col
+- But make sure to memoize as there will be multiple sub problem created
