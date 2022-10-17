@@ -53,3 +53,65 @@ public:
         return result.size()==numCourses?result:empty;
     }
 };
+
+
+/// Another solution.. no need of unordered map, just use 2d vector simply
+
+class Solution {
+public:
+    bool checkCycle(vector<vector<int>>& prerequisites, int ind, int courses, vector<bool>& isVisited, vector<bool>& isChecked) {
+        if(isChecked[ind]==true) return false;
+        if(isVisited[ind]==true) return true;
+        isVisited[ind] = true;
+        for(int adjNode: prerequisites[ind]) {
+            if(checkCycle(prerequisites, adjNode, courses, isVisited, isChecked)) return true;
+        }
+        isChecked[ind] = true;
+        return false;
+    }
+    
+    
+    vector<int> findOrder(int numCourses, vector<vector<int>>& pre) {
+        vector<bool> isChecked(numCourses,false);
+        vector<vector<int>> prerequisites(numCourses);
+        for(int i=0;i<pre.size();i++) {
+            prerequisites[pre[i][1]].push_back(pre[i][0]);
+        }
+        
+        for(int i=0;i<numCourses;i++) {
+            vector<bool> isVisited(numCourses, false);
+            if(checkCycle(prerequisites, i, numCourses, isVisited, isChecked)) {
+                return {};
+            }
+        }
+
+        vector<int> inDegrees(numCourses, 0);
+        // finding Indegree
+        for(int i=0;i<numCourses;i++) {
+            for(int adjNode: prerequisites[i]) {
+                inDegrees[adjNode]++;
+            }
+        }
+        
+        queue<int> store;
+        for(int i=0;i<numCourses;i++) {
+            if(inDegrees[i]==0) {
+                store.push(i);
+            }
+        }
+
+        vector<int> result;
+        while(!store.empty()) {
+            int node = store.front();
+            result.push_back(node);
+            store.pop();
+            for(int adjNode: prerequisites[node]) {
+                inDegrees[adjNode]--;
+                if(inDegrees[adjNode]==0) {
+                    store.push(adjNode);
+                }
+            }
+        }
+        return result;
+    }
+};
