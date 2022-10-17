@@ -8,3 +8,7 @@
 - .............
 - Once above postSum matrix is done, now just do the question as per given condition and start cutting from each row and col
 - But make sure to memoize as there will be multiple sub problem created
+
+2. Umbrella Problem
+- Problem is similar to coin change problem!
+- Basic recursion and memoization
