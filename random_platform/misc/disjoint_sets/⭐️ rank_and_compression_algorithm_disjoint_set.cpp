@@ -13,10 +13,6 @@
  * - While doing find, if we see there are more steps to reach parent from a node, we do compression
  * - Compression will just make sure that all child nodes directly point to parent rather than forming chain
  * 
- * 
- * 
- * 
- * 
  */ 
 
 #include<iostream>
