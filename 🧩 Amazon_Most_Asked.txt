@@ -31,3 +31,8 @@
 - We need a group here, hence sliding window comes in picture
 - We just need to maintain window of size = (total number of 1's) and count zeroes inside it
 - Number of zeroes is the number of swaps required 
+
+10. 🌟 Design and Search design words problem (TRIE PROBLEM)
+- Important to understand to limit arr as per given constraints or else Memory limit will exceed
+- Important to know how to build and search trie, without that can't approach the problem
+- For matching '.' we need to take a recusive approach!
