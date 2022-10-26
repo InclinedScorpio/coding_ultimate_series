@@ -1,3 +1,10 @@
-DS Revision Concepts
+DS Revision Concepts:
 
-
+1. Arrays
+2. Linked list
+3. Stack
+4. Queue
+5. Tree
+6. Graph
+7. Dynamic Programming
+8. Game Theory
