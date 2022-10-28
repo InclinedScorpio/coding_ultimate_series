@@ -1,0 +1,3 @@
+1. Minimum absolute difference
+- Basic problem, just need to sort and check adjacent values to see the difference and store them.
+
