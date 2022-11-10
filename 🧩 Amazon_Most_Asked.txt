@@ -36,3 +36,6 @@
 - Important to understand to limit arr as per given constraints or else Memory limit will exceed
 - Important to know how to build and search trie, without that can't approach the problem
 - For matching '.' we need to take a recusive approach!
+
+11. Make Array Zero by Subtracting Equal Amount
+- Logic is to note that subtracting min number from all each time is not required
