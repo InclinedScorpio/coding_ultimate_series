@@ -56,18 +56,3 @@ public:
         return globalMax;
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
