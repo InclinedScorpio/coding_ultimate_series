@@ -1,3 +1,4 @@
 Day1: Subset sum problems -> [prefix sum]
 Day2: Longest substring without repeating characters -> [sliding window & hashmap]
 Day3: Reverse linked list -> [linked list, pointer manipulation]
+Day4: Merge two sorted lists -> [linked list, pointer manipulation]
