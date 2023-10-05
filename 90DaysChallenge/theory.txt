@@ -4,3 +4,4 @@ Day3: Reverse linked list -> [linked list, pointer manipulation]
 Day4: Merge two sorted lists -> [linked list, pointer manipulation]
 Day5: Remove nth node from end of list -> [2 pointer approach] 🌟
 Day6: Palindrome linked list -> [2 pointer approach, recursion] 🌟
+Day7: Validate BST -> [Recursion]
