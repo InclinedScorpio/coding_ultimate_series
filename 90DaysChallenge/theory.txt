@@ -7,3 +7,4 @@ Day6: Palindrome linked list -> [2 pointer approach, recursion] 🌟
 Day7: Validate BST -> [Recursion]
 Day8: Climbing stairs -> [DP, memoization] - (Good basic level dp problem)
 Day9: Power of 2 -> [Recursion]
+Day10: First unique character in a string -> [Hashmap]
