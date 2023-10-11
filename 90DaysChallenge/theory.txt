@@ -10,3 +10,4 @@ Day9: Power of 2 -> [Recursion]
 Day10: First unique character in a string -> [Hashmap]
 Day11: Longest increasing subsequence -> [DP, memoization] 🌟
 Day12: Maximum subarray -> [Kadanes Algorithm]
+Day13: Coin chanage -> [2D-DP, memoization] 🌟
