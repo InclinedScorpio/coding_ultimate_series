@@ -1,3 +1,5 @@
+// Problem link - https://leetcode.com/problems/greatest-common-divisor-of-strings/?envType=study-plan-v2&envId=leetcode-75
+
 #include <iostream>
 #include <string>
 #include <algorithm>
