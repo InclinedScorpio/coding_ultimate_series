@@ -12,3 +12,6 @@ Day11: Longest increasing subsequence -> [DP, memoization] 🌟
 Day12: Maximum subarray -> [Kadanes Algorithm]
 Day13: Coin chanage -> [2D-DP, memoization] 🌟
 Day14: Binary Search -> [Binary Search]
+Day 15: Two Sum -> [Hashmap]
+------- BREAK (level Medium mode on) -------
+DAY 16: Binary tree level order traversal -> [Queue]
