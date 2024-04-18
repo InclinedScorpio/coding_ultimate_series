@@ -16,3 +16,4 @@ Day 15: Two Sum -> [Hashmap]
 ------- BREAK (level Medium mode on) -------
 DAY 16: Binary tree level order traversal -> [Queue]
 Day 17: Longest substring without repeating character [Sliding window]
+Day 18: Search in rotated search array -> [Binary Search]
