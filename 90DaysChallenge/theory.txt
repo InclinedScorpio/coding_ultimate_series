@@ -19,5 +19,6 @@ Day 17: Longest substring without repeating character [Sliding window]
 Day 18: Search in rotated search array -> [Binary Search]
 Day 19: Word search -> [DFS]
 Day 20: Add two numbers -> [Linked List]
-------- BREAK (starting lc75) ----------
+------- BREAK (starting leetcode75) ----------
 Day 21: Reverse words in a string -> [Pointer, String]
+Day 22: Product of array except self -> [Prefix sum]
