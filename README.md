@@ -1,3 +1,5 @@
+<h1 align="center"><em>Chase that dream baby, 🍷<br>you always gotta start somewhere.....</em></h1>
+
 > ## WANT TO JOIN THE REGULAR LEETCODERS WHATSAPP GROUP?
 >
 > #### Ping me your coding profile or daily submissions below 👇

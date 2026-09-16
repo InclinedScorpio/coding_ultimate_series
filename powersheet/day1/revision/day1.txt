@@ -10,3 +10,6 @@ but when counter becomes more than k...
 then we move the left till "count of any character doesn't become 0"
 
 THIS IS WRONG -> move it until left is different because then bac becomes valid as well but it's not as 'a' is in between.
+-----------------
+
+TERM: Auxilary space is when we don't count the returning output variable/array/set/... in space complexity
