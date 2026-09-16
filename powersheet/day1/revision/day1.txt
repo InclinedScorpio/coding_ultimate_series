@@ -1,0 +1,12 @@
+QUESTION: Longest Substring Without Repeating Characters
+Follow up: Can you explain how you would modify the solution if you needed the longest substring with at most K distinct characters?
+
+abac
+k=2
+
+we still do left and right
+
+but when counter becomes more than k...
+then we move the left till "count of any character doesn't become 0"
+
+THIS IS WRONG -> move it until left is different because then bac becomes valid as well but it's not as 'a' is in between.
