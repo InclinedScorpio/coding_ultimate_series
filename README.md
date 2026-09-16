@@ -4,7 +4,7 @@
 >
 > #### Ping me your coding profile or daily submissions below 👇
 > - [My LINKEDIN 👉 <img src="https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo.png" width="35" height="35" />](https://www.linkedin.com/in/ashutosh3309)
-> - [My INSTAGRAM 👉 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="30" height="30" />](https://www.instagram.com/ashu_tosh_tiwari)
+> - [My INSTAGRAM 👉 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" width="30" height="30" />](https://www.instagram.com/inclinedscorpio)
 
 ---
 
