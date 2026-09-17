@@ -1,0 +1,33 @@
+A sudoku boxes can also be represented like
+int boxId = (row / 3) * 3 + (col / 3);
+
+for ease of comparison - smart way
+
+
+------
+
+map is a TREE - Red black tree
+insert   -> O(log n)
+find     -> O(log n)
+erase    -> O(log n)
+
+items are ordered in a map
+
+--------
+
+there is no order in unordered map
+
+unordered_map is hashing
+
+everything is O1
+
+----------
+
+map<pair<int, int>, unordered_set<int>> box;
+
+map does ordering and pair<int, int> ordering is defined by c++ so it accepts it
+
+however unordered_map has no order - and accepts item to create a hashing
+
+You can put struct to define your own hash fn if you really want to use pair with unoredered_map
+unordered_map<pair<int, int>, unordered_set<int>, struct comparePair> box;
