@@ -1,0 +1,2 @@
+Revise LRU Cache - easy to miss changing capacity and storing or removing items from store
+Make sure to add basic fns for clarity
