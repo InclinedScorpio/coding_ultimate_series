@@ -1,5 +1,5 @@
-Maximum depth binary tree couldn't complete
+Maximum depth binary tree - faced little difficulty
 
-The idea was simple to put condition of in between which can be passed from root
+The idea is simple to put condition of in between which can be passed from root
 For root - 1st iteration, it can be (LONG_MIN, LONG_MAX)
 Do again.
