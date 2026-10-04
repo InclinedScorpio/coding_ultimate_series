@@ -1,0 +1,3 @@
+rotten oranges is just bfs... just keep it raw logic :)
+
+word search is again a bfs - just remember to track visited...
