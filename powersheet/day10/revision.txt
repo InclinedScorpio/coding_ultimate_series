@@ -1,0 +1,4 @@
+1. A rotated sorted arrray is always sorted from one side if you pick any index - this is the core thinking
+Once you understand that - then it's all about checking if target lies in that sorted part or not
+If not discard that sorted part and go opposite direction
+
