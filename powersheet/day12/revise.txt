@@ -1,0 +1,6 @@
+- for recursion
+In 1_permutation (you can't repeat numbers)... it's O(N!)
+
+In 2_combination - reusing indices are allowed -> O(N^N)
+
+O(N^N) > O(N!)
